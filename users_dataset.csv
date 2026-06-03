@@ -1,0 +1,1001 @@
+﻿id,username,email,password,role,points,rank,gender,age,height_cm,weight_kg,bmi,country,occupation,createdAt
+1,Lê Thị Nhung,lenhung1@outlook.com,user123,user,316,iron,Nữ,28,167,63.2,22.7,Việt Nam,Doanh nhân,2025-08-22T20:41:06
+2,Đặng Văn Thiện,dangthien2@hotmail.com,user123,user,534,bronze,Nam,21,179,71.0,22.2,Việt Nam,Luật sư,2025-09-23T20:41:06
+3,Huỳnh Kim Dung,huynhdung3@hotmail.com,user123,user,1781,gold,Nữ,22,152,43.1,18.7,Việt Nam,Kiến trúc sư,2025-06-20T20:41:06
+4,Dương Mỹ Hoa,duonghoa4@outlook.com,user123,user,12889,diamond,Nữ,39,153,51.8,22.1,Hàn Quốc,Nhà báo,2025-11-01T20:41:06
+5,Lý Mỹ Hà,lyha5@hotmail.com,user123,user,2418,gold,Nữ,28,166,52.5,19.1,Pháp,Bác sĩ,2026-01-01T20:41:06
+6,Phạm Đức Sơn,phamson6@gmail.com,user123,user,807,bronze,Nam,25,171,63.5,21.7,Thái Lan,Kỹ sư phần mềm,2026-05-07T20:41:06
+7,Đặng Thu Nga,dangnga7@gmail.com,user123,user,364,iron,Nữ,39,155,42.4,17.6,Việt Nam,Nhà báo,2026-04-08T20:41:06
+8,Hồ Bích Linh,holinh8@hotmail.com,user123,user,1386,bronze,Nữ,41,161,47.3,18.2,Úc,Thiết kế đồ họa,2025-09-22T20:41:06
+9,Phạm Phương Thu,phamthu9@gmail.com,user123,user,15241,master,Nữ,28,155,54.8,22.8,Việt Nam,Nhà báo,2025-11-10T20:41:06
+10,Phan Công Nam,phannam10@hotmail.com,user123,user,4470,platinum,Nam,21,166,54.4,19.7,Hàn Quốc,Freelancer,2025-08-03T20:41:06
+11,Trần Thanh Tâm,trantam11@hotmail.com,user123,user,25559,master,Nữ,34,160,50.0,19.5,Nhật Bản,Doanh nhân,2025-06-16T20:41:06
+12,Nguyễn Văn Lâm,nguyễnlam12@hotmail.com,user123,user,5352,platinum,Nam,31,168,53.5,19.0,Nhật Bản,Thiết kế đồ họa,2025-06-29T20:41:06
+13,Đỗ Mỹ Hà,dỗha13@yahoo.com,user123,user,640,bronze,Nữ,28,160,47.8,18.7,Trung Quốc,Bác sĩ,2026-04-19T20:41:06
+14,Bùi Thị Uyên,bùiuyen14@hotmail.com,user123,user,1067,bronze,Nữ,38,152,49.5,21.4,Việt Nam,Nhà báo,2026-03-23T20:41:06
+15,Đặng Đức Khoa,dangkhoa15@yahoo.com,user123,user,1793,gold,Nam,20,179,66.5,20.8,Đức,Kiến trúc sư,2025-10-28T20:41:06
+16,Vũ Bích Hoa,vũhoa16@gmail.com,user123,user,696,bronze,Nữ,28,163,49.3,18.6,Việt Nam,Quản lý dự án,2025-07-20T20:41:06
+17,Ngô Quốc Khoa,ngokhoa17@yahoo.com,user123,user,710,bronze,Nam,34,168,71.2,25.2,Úc,Kỹ sư phần mềm,2025-08-20T20:41:06
+18,Đặng Thu Hiền,danghien18@gmail.com,user123,user,7159,platinum,Nữ,26,166,56.7,20.6,Úc,Sinh viên,2025-07-18T20:41:06
+19,Nguyễn Ngọc Phương,nguyễnphuong19@outlook.com,user123,user,255,iron,Nữ,40,165,61.8,22.7,Việt Nam,Kiến trúc sư,2025-10-20T20:41:06
+20,Huỳnh Quốc Thiện,huynhthien20@outlook.com,user123,user,1429,bronze,Nam,34,182,76.8,23.2,Singapore,Marketing,2025-06-13T20:41:06
+21,Bùi Mỹ Trinh,bùitrinh21@gmail.com,user123,user,1166,bronze,Nữ,18,162,48.8,18.6,Việt Nam,Luật sư,2026-01-05T20:41:06
+22,Hoàng Hữu Khải,hoangkhai22@outlook.com,user123,user,2046,gold,Nam,32,169,57.7,20.2,Thái Lan,Y tá,2025-10-21T20:41:06
+23,Lý Mỹ Mai,lymai23@gmail.com,user123,user,1180,bronze,Nữ,43,169,52.2,18.3,Singapore,Luật sư,2026-04-13T20:41:06
+24,Võ Phương Trang,võtrang24@gmail.com,user123,user,1279,bronze,Nữ,38,170,64.3,22.2,Nhật Bản,Giáo viên,2026-01-27T20:41:06
+25,Trần Thanh Nam,trannam25@gmail.com,user123,user,297,iron,Nam,45,162,62.1,23.7,Mỹ,Thiết kế đồ họa,2025-11-24T20:41:06
+26,Nguyễn Ngọc Linh,nguyễnlinh26@yahoo.com,user123,user,169,iron,Nữ,29,163,57.8,21.8,Việt Nam,Giáo viên,2025-07-04T20:41:06
+27,Dương Phương My,duongmy27@outlook.com,user123,user,445,iron,Nữ,30,168,53.1,18.8,Trung Quốc,Kế toán,2026-04-07T20:41:06
+28,Ngô Hữu Kiên,ngokien28@gmail.com,user123,user,6910,platinum,Nam,37,173,67.5,22.6,Trung Quốc,Lập trình viên,2026-04-15T20:41:06
+29,Đỗ Quốc Bảo,dỗbao29@yahoo.com,user123,user,372,iron,Nam,43,166,57.2,20.8,Việt Nam,Marketing,2025-08-29T20:41:06
+30,Lý Quốc Lâm,lylam30@outlook.com,user123,user,1257,bronze,Nam,27,179,67.8,21.2,Trung Quốc,Kỹ sư phần mềm,2025-08-19T20:41:06
+31,Phạm Công Anh,phamanh31@gmail.com,user123,user,5114,platinum,Nam,26,167,51.5,18.5,Việt Nam,Nhà báo,2026-01-08T20:41:06
+32,Ngô Hoàng Xuân,ngoxuan32@hotmail.com,user123,user,96,iron,Nam,41,164,53.1,19.7,Đức,Giáo viên,2025-05-30T20:41:06
+33,Võ Phương Hương,võhuong33@gmail.com,user123,user,430,iron,Nữ,31,159,49.0,19.4,Thái Lan,Giáo viên,2025-10-14T20:41:06
+34,Đặng Thanh Nga,dangnga34@yahoo.com,user123,user,1959,gold,Nữ,33,159,47.1,18.6,Úc,Giáo viên,2025-09-12T20:41:06
+35,Phạm Kim Dung,phamdung35@outlook.com,user123,user,6157,platinum,Nữ,29,161,53.5,20.6,Việt Nam,Freelancer,2026-04-14T20:41:06
+36,Đặng Thanh Quang,dangquang36@gmail.com,user123,user,1244,bronze,Nam,20,167,52.0,18.6,Việt Nam,Giáo viên,2025-11-05T20:41:06
+37,Vũ Đức Hùng,vũhùng37@gmail.com,user123,user,2692,gold,Nam,39,182,74.6,22.5,Canada,Lập trình viên,2026-03-25T20:41:06
+38,Trần Mỹ Trinh,trantrinh38@gmail.com,user123,user,325,iron,Nữ,36,160,52.5,20.5,Nhật Bản,Kế toán,2025-10-29T20:41:06
+39,Hoàng Hữu Kiên,hoangkien39@hotmail.com,user123,user,7836,platinum,Nam,35,182,78.0,23.5,Việt Nam,Y tá,2025-07-23T20:41:06
+40,Huỳnh Quốc Nam,huynhnam40@yahoo.com,user123,user,1265,bronze,Nam,18,164,53.3,19.8,Việt Nam,Quản lý dự án,2026-05-13T20:41:06
+41,Đặng Đức Hải,danghai41@outlook.com,user123,user,1057,bronze,Nam,23,163,57.6,21.7,Mỹ,Kế toán,2025-12-15T20:41:06
+42,Bùi Quốc Quang,bùiquang42@gmail.com,user123,user,430,iron,Nam,28,173,58.9,19.7,Canada,Kỹ sư phần mềm,2026-01-14T20:41:06
+43,Huỳnh Văn Quang,huynhquang43@hotmail.com,user123,user,338,iron,Nam,35,162,51.4,19.6,Mỹ,Kế toán,2025-12-21T20:41:06
+44,Đỗ Thanh Nhân,dỗnhan44@outlook.com,user123,user,1492,bronze,Nam,33,168,62.1,22.0,Việt Nam,Marketing,2026-03-01T20:41:06
+45,Hồ Đức Phong,hophong45@hotmail.com,user123,user,143,iron,Nam,28,179,74.8,23.3,Pháp,Doanh nhân,2026-03-18T20:41:06
+46,Trần Phương Thu,tranthu46@gmail.com,user123,user,862,bronze,Nữ,37,165,51.9,19.1,Đức,Nhân viên văn phòng,2025-09-01T20:41:06
+47,Trần Văn Phong,tranphong47@gmail.com,user123,user,1121,bronze,Nam,29,173,70.4,23.5,Việt Nam,Quản lý dự án,2025-08-04T20:41:06
+48,Ngô Phương Trang,ngotrang48@yahoo.com,user123,user,1251,bronze,Nữ,39,158,55.2,22.1,Mỹ,Giáo viên,2025-09-18T20:41:06
+49,Đỗ Minh Vũ,dỗvũ49@gmail.com,user123,user,1294,bronze,Nam,45,170,60.5,20.9,Đức,Kế toán,2026-01-05T20:41:06
+50,Lê Quốc Phúc,lephúc50@yahoo.com,user123,user,227,iron,Nam,41,181,77.5,23.7,Hàn Quốc,Thiết kế đồ họa,2025-09-10T20:41:06
+51,Huỳnh Bích Tuyết,huynhtuyet51@gmail.com,user123,user,4748,platinum,Nữ,28,159,50.4,19.9,Việt Nam,Quản lý dự án,2025-07-17T20:41:06
+52,Dương Thanh Nghĩa,duongnghĩa52@outlook.com,user123,user,2753,gold,Nam,23,181,70.9,21.6,Việt Nam,Thiết kế đồ họa,2025-06-01T20:41:06
+53,Bùi Thị Linh,bùilinh53@outlook.com,user123,user,4437,platinum,Nữ,27,165,54.0,19.8,Việt Nam,Nhà báo,2025-05-27T20:41:06
+54,Huỳnh Thanh Ngân,huynhngan54@yahoo.com,user123,user,65,iron,Nữ,41,159,46.7,18.5,Singapore,Sinh viên,2025-09-27T20:41:06
+55,Hoàng Minh Thiện,hoangthien55@gmail.com,user123,user,607,bronze,Nam,28,165,57.1,21.0,Việt Nam,Doanh nhân,2025-09-13T20:41:06
+56,Bùi Mỹ Tâm,bùitam56@hotmail.com,user123,user,536,bronze,Nữ,45,169,59.2,20.7,Canada,Quản lý dự án,2026-04-05T20:41:06
+57,Hoàng Quốc Khải,hoangkhai57@gmail.com,user123,user,1389,bronze,Nam,25,181,68.2,20.8,Pháp,Bác sĩ,2026-04-18T20:41:06
+58,Lý Văn Vũ,lyvũ58@hotmail.com,user123,user,1367,bronze,Nam,22,176,62.1,20.0,Việt Nam,Marketing,2025-11-05T20:41:06
+59,Đặng Minh Vũ,dangvũ59@yahoo.com,user123,user,600,bronze,Nam,42,179,75.4,23.5,Hàn Quốc,Kế toán,2025-06-18T20:41:06
+60,Bùi Mỹ Linh,bùilinh60@yahoo.com,user123,user,3728,gold,Nữ,26,163,57.4,21.6,Thái Lan,Sinh viên,2026-03-30T20:41:06
+61,Đỗ Kim Xuân,dỗxuan61@yahoo.com,user123,user,1727,gold,Nữ,30,157,52.1,21.1,Hàn Quốc,Kiến trúc sư,2026-03-18T20:41:06
+62,Hoàng Mỹ Dung,hoangdung62@yahoo.com,user123,user,716,bronze,Nữ,32,170,58.6,20.3,Úc,Kiến trúc sư,2026-05-16T20:41:06
+63,Phạm Thị Linh,phamlinh63@yahoo.com,user123,user,377,iron,Nữ,27,163,59.5,22.4,Việt Nam,Kế toán,2025-06-27T20:41:06
+64,Phan Thanh Anh,phananh64@outlook.com,user123,user,3776,gold,Nữ,26,156,46.3,19.0,Mỹ,Kỹ sư phần mềm,2025-08-23T20:41:06
+65,Nguyễn Ngọc Lan,nguyễnlan65@gmail.com,user123,user,1010,bronze,Nữ,30,163,51.0,19.2,Trung Quốc,Doanh nhân,2025-11-27T20:41:06
+66,Phan Công Xuân,phanxuan66@yahoo.com,user123,user,25294,master,Nam,39,176,58.9,19.0,Mỹ,Bác sĩ,2025-10-27T20:41:06
+67,Bùi Thanh Hiếu,bùihieu67@yahoo.com,user123,user,3309,gold,Nam,42,170,56.7,19.6,Việt Nam,Kế toán,2025-10-05T20:41:06
+68,Phan Đức Hiếu,phanhieu68@gmail.com,user123,user,636,bronze,Nam,38,174,71.1,23.5,Việt Nam,Luật sư,2026-05-22T20:41:06
+69,Huỳnh Kim Hiền,huynhhien69@gmail.com,user123,user,3311,gold,Nữ,20,160,58.3,22.8,Việt Nam,Nhà báo,2026-01-16T20:41:06
+70,Bùi Mỹ My,bùimy70@yahoo.com,user123,user,3293,gold,Nữ,25,161,60.4,23.3,Việt Nam,Marketing,2025-12-02T20:41:06
+71,Đặng Kim Lan,danglan71@gmail.com,user123,user,1408,bronze,Nữ,35,160,52.7,20.6,Canada,Marketing,2026-03-11T20:41:06
+72,Võ Thanh Hương,võhuong72@yahoo.com,user123,user,376,iron,Nữ,19,155,42.3,17.6,Việt Nam,Kế toán,2025-08-27T20:41:06
+73,Vũ Bích Vân,vũvan73@outlook.com,user123,user,767,bronze,Nữ,44,166,60.7,22.0,Việt Nam,Sinh viên,2025-07-29T20:41:06
+74,Phạm Thị Anh,phamanh74@hotmail.com,user123,user,72,iron,Nữ,35,167,57.8,20.7,Canada,Freelancer,2025-12-18T20:41:06
+75,Lý Đức Giang,lygiang75@outlook.com,user123,user,688,bronze,Nam,30,172,65.3,22.1,Đức,Freelancer,2026-03-20T20:41:06
+76,Đỗ Minh Phúc,dỗphúc76@outlook.com,user123,user,1403,bronze,Nam,33,173,67.1,22.4,Việt Nam,Y tá,2025-11-11T20:41:06
+77,Lý Minh Phong,lyphong77@outlook.com,user123,user,11087,diamond,Nam,19,178,67.4,21.3,Singapore,Quản lý dự án,2026-02-09T20:41:06
+78,Trần Văn Quang,tranquang78@gmail.com,user123,user,2220,gold,Nam,19,171,67.4,23.0,Việt Nam,Thiết kế đồ họa,2025-12-09T20:41:06
+79,Bùi Đức Trung,bùitrung79@yahoo.com,user123,user,7924,platinum,Nam,35,181,71.3,21.8,Canada,Bác sĩ,2025-08-31T20:41:06
+80,Hồ Hoàng Khoa,hokhoa80@gmail.com,user123,user,1052,bronze,Nam,28,170,58.0,20.1,Singapore,Nhân viên văn phòng,2026-02-20T20:41:06
+81,Ngô Thị Tuyết,ngotuyet81@hotmail.com,user123,user,586,bronze,Nữ,33,163,53.4,20.1,Úc,Kế toán,2025-06-24T20:41:06
+82,Phan Ngọc Nga,phannga82@hotmail.com,user123,user,1352,bronze,Nữ,21,163,61.8,23.3,Trung Quốc,Y tá,2026-04-30T20:41:06
+83,Huỳnh Thị Tâm,huynhtam83@hotmail.com,user123,user,1464,bronze,Nữ,43,168,55.6,19.7,Pháp,Bác sĩ,2026-03-27T20:41:06
+84,Đặng Thanh Sơn,dangson84@gmail.com,user123,user,164,iron,Nam,25,177,75.5,24.1,Việt Nam,Thiết kế đồ họa,2026-03-28T20:41:06
+85,Hồ Thị Linh,holinh85@yahoo.com,user123,user,256,iron,Nữ,33,164,55.5,20.6,Đức,Kiến trúc sư,2025-11-03T20:41:06
+86,Võ Thanh Nga,võnga86@hotmail.com,user123,user,13232,diamond,Nữ,34,170,58.9,20.4,Singapore,Nhân viên văn phòng,2025-11-05T20:41:06
+87,Lê Thanh Quỳnh,lequynh87@outlook.com,user123,user,65,iron,Nữ,29,156,45.1,18.5,Úc,Marketing,2025-08-07T20:41:06
+88,Phạm Đức Nam,phamnam88@outlook.com,user123,user,649,bronze,Nam,27,168,70.3,24.9,Nhật Bản,Thiết kế đồ họa,2026-04-29T20:41:06
+89,Ngô Hoàng Quang,ngoquang89@outlook.com,user123,user,646,bronze,Nam,40,171,70.4,24.1,Nhật Bản,Giáo viên,2026-02-27T20:41:06
+90,Phan Minh Khoa,phankhoa90@hotmail.com,user123,user,7857,platinum,Nam,38,162,53.6,20.4,Việt Nam,Luật sư,2026-04-04T20:41:06
+91,Ngô Văn Phúc,ngophúc91@yahoo.com,user123,user,2731,gold,Nam,35,170,68.3,23.6,Úc,Nhân viên văn phòng,2026-01-22T20:41:06
+92,Nguyễn Ngọc Uyên,nguyễnuyen92@outlook.com,user123,user,226,iron,Nữ,42,155,44.9,18.7,Úc,Freelancer,2025-06-01T20:41:06
+93,Lý Công Xuân,lyxuan93@gmail.com,user123,user,174,iron,Nam,23,169,54.8,19.2,Mỹ,Lập trình viên,2026-05-13T20:41:06
+94,Bùi Thu Quỳnh,bùiquynh94@hotmail.com,user123,user,2698,gold,Nữ,41,152,41.0,17.7,Trung Quốc,Bác sĩ,2025-08-13T20:41:06
+95,Bùi Đức Liêm,bùiliem95@yahoo.com,user123,user,225,iron,Nam,30,164,63.2,23.5,Thái Lan,Freelancer,2026-03-14T20:41:06
+96,Đặng Kim Anh,danganh96@outlook.com,user123,user,5009,platinum,Nữ,40,154,53.5,22.6,Pháp,Freelancer,2026-02-21T20:41:06
+97,Huỳnh Văn Liêm,huynhliem97@gmail.com,user123,user,2310,gold,Nam,28,164,53.5,19.9,Pháp,Lập trình viên,2026-05-05T20:41:06
+98,Đỗ Bích Yến,dỗyen98@hotmail.com,user123,user,773,bronze,Nữ,34,165,59.1,21.7,Đức,Freelancer,2026-04-01T20:41:06
+99,Đỗ Công Nam,dỗnam99@yahoo.com,user123,user,21423,master,Nam,38,170,62.4,21.6,Hàn Quốc,Sinh viên,2026-01-30T20:41:06
+100,Lý Thanh Phúc,lyphúc100@outlook.com,user123,user,1680,gold,Nam,35,182,75.9,22.9,Nhật Bản,Thiết kế đồ họa,2026-02-15T20:41:06
+101,Lý Minh Nghĩa,lynghĩa101@hotmail.com,user123,user,44,iron,Nam,37,179,63.7,19.9,Trung Quốc,Nhà báo,2025-08-06T20:41:06
+102,Dương Mỹ Giang,duonggiang102@yahoo.com,user123,user,2370,gold,Nữ,34,152,41.2,17.8,Úc,Y tá,2026-03-18T20:41:06
+103,Nguyễn Kim Quỳnh,nguyễnquynh103@gmail.com,user123,user,3526,gold,Nữ,19,164,51.8,19.3,Việt Nam,Y tá,2025-06-24T20:41:06
+104,Đỗ Công Khoa,dỗkhoa104@gmail.com,user123,user,1200,bronze,Nam,24,171,72.2,24.7,Pháp,Nhà báo,2026-03-07T20:41:06
+105,Lê Kim Chi,lechi105@gmail.com,user123,user,700,bronze,Nữ,26,170,58.5,20.2,Pháp,Quản lý dự án,2026-05-18T20:41:06
+106,Huỳnh Văn Quân,huynhquan106@outlook.com,user123,user,638,bronze,Nam,23,178,74.1,23.4,Việt Nam,Lập trình viên,2025-06-01T20:41:06
+107,Ngô Kim Yến,ngoyen107@hotmail.com,user123,user,488,iron,Nữ,44,156,45.8,18.8,Trung Quốc,Thiết kế đồ họa,2026-02-14T20:41:06
+108,Bùi Ngọc Giang,bùigiang108@hotmail.com,user123,user,3303,gold,Nữ,41,156,52.8,21.7,Việt Nam,Nhân viên văn phòng,2025-06-29T20:41:06
+109,Phạm Bích Trang,phamtrang109@yahoo.com,user123,user,5356,platinum,Nữ,27,168,51.6,18.3,Việt Nam,Marketing,2025-08-04T20:41:06
+110,Huỳnh Công Hiếu,huynhhieu110@hotmail.com,user123,user,882,bronze,Nam,24,169,65.3,22.9,Việt Nam,Freelancer,2026-01-04T20:41:06
+111,Dương Thanh Trang,duongtrang111@yahoo.com,user123,user,1371,bronze,Nữ,40,163,52.0,19.6,Mỹ,Y tá,2025-09-15T20:41:06
+112,Võ Kim Yến,võyen112@hotmail.com,user123,user,8167,diamond,Nữ,20,155,42.3,17.6,Thái Lan,Lập trình viên,2026-03-07T20:41:06
+113,Hoàng Ngọc Uyên,hoanguyen113@yahoo.com,user123,user,2471,gold,Nữ,45,158,54.0,21.6,Trung Quốc,Lập trình viên,2025-06-14T20:41:06
+114,Hồ Công Nam,honam114@gmail.com,user123,user,240,iron,Nam,25,175,74.3,24.3,Trung Quốc,Kiến trúc sư,2025-07-16T20:41:06
+115,Phạm Bích Loan,phamloan115@yahoo.com,user123,user,6404,platinum,Nữ,21,154,47.3,19.9,Việt Nam,Kỹ sư phần mềm,2026-03-01T20:41:06
+116,Dương Hữu Đức,duongduc116@yahoo.com,user123,user,1478,bronze,Nam,20,168,66.3,23.5,Đức,Lập trình viên,2026-04-29T20:41:06
+117,Nguyễn Văn Hải,nguyễnhai117@yahoo.com,user123,user,186,iron,Nam,18,171,70.3,24.0,Việt Nam,Kế toán,2026-04-30T20:41:06
+118,Lê Quốc Quang,lequang118@gmail.com,user123,user,2590,gold,Nam,36,180,64.4,19.9,Pháp,Bác sĩ,2025-07-31T20:41:06
+119,Lê Thanh Dung,ledung119@hotmail.com,user123,user,2956,gold,Nữ,34,155,53.9,22.4,Hàn Quốc,Bác sĩ,2026-04-03T20:41:06
+120,Hồ Quốc Anh,hoanh120@outlook.com,user123,user,1161,bronze,Nam,36,181,66.5,20.3,Úc,Quản lý dự án,2026-02-04T20:41:06
+121,Nguyễn Mỹ Tuyết,nguyễntuyet121@hotmail.com,user123,user,1657,gold,Nữ,26,153,42.8,18.3,Thái Lan,Lập trình viên,2026-03-13T20:41:06
+122,Hoàng Bích Yến,hoangyen122@yahoo.com,user123,user,2430,gold,Nữ,26,152,44.6,19.3,Việt Nam,Lập trình viên,2025-06-07T20:41:06
+123,Nguyễn Minh Tùng,nguyễntùng123@outlook.com,user123,user,207,iron,Nam,23,171,69.8,23.9,Pháp,Luật sư,2025-08-23T20:41:06
+124,Phạm Hữu Long,phamlong124@gmail.com,user123,user,122,iron,Nam,24,168,66.3,23.5,Nhật Bản,Y tá,2025-12-04T20:41:06
+125,Bùi Hoàng Việt,bùiviet125@hotmail.com,user123,user,239,iron,Nam,31,167,61.0,21.9,Mỹ,Kế toán,2025-12-04T20:41:06
+126,Lý Hoàng Hải,lyhai126@hotmail.com,user123,user,15,iron,Nam,33,180,64.2,19.8,Việt Nam,Y tá,2026-04-05T20:41:06
+127,Nguyễn Hữu Nhân,nguyễnnhan127@outlook.com,user123,user,1096,bronze,Nam,22,163,53.7,20.2,Việt Nam,Kế toán,2025-08-23T20:41:06
+128,Hồ Ngọc Tâm,hotam128@gmail.com,user123,user,1035,bronze,Nữ,38,165,60.3,22.1,Thái Lan,Lập trình viên,2025-11-18T20:41:06
+129,Trần Phương Tâm,trantam129@yahoo.com,user123,user,1,iron,Nữ,21,161,57.8,22.3,Pháp,Kiến trúc sư,2025-07-03T20:41:06
+130,Đỗ Thanh Hùng,dỗhùng130@outlook.com,user123,user,762,bronze,Nam,25,170,58.9,20.4,Việt Nam,Quản lý dự án,2025-12-24T20:41:06
+131,Nguyễn Phương Chi,nguyễnchi131@hotmail.com,user123,user,2150,gold,Nữ,19,169,58.9,20.6,Pháp,Marketing,2025-09-21T20:41:06
+132,Ngô Công Sơn,ngoson132@gmail.com,user123,user,1105,bronze,Nam,28,173,72.0,24.1,Việt Nam,Kế toán,2026-05-14T20:41:06
+133,Đặng Mỹ Xuân,dangxuan133@outlook.com,user123,user,255,iron,Nữ,41,166,63.5,23.0,Việt Nam,Lập trình viên,2025-10-21T20:41:06
+134,Lê Bích Phương,lephuong134@gmail.com,user123,user,2288,gold,Nữ,44,158,51.0,20.4,Việt Nam,Sinh viên,2026-04-23T20:41:06
+135,Võ Minh Xuân,võxuan135@outlook.com,user123,user,1301,bronze,Nam,24,178,68.5,21.6,Úc,Kỹ sư phần mềm,2026-04-20T20:41:06
+136,Hoàng Phương Mai,hoangmai136@yahoo.com,user123,user,12165,diamond,Nữ,37,163,48.7,18.3,Nhật Bản,Nhà báo,2025-11-20T20:41:06
+137,Hoàng Đức Trung,hoangtrung137@yahoo.com,user123,user,2110,gold,Nam,25,163,58.9,22.2,Canada,Freelancer,2025-08-31T20:41:06
+138,Bùi Đức Quân,bùiquan138@hotmail.com,user123,user,133,iron,Nam,33,168,66.2,23.5,Nhật Bản,Lập trình viên,2026-04-05T20:41:06
+139,Phan Hữu Nhân,phannhan139@yahoo.com,user123,user,68,iron,Nam,39,175,76.0,24.8,Đức,Freelancer,2025-08-26T20:41:06
+140,Phạm Văn Trung,phamtrung140@gmail.com,user123,user,19,iron,Nam,41,169,65.4,22.9,Úc,Freelancer,2025-08-29T20:41:06
+141,Lý Kim Nga,lynga141@outlook.com,user123,user,12579,diamond,Nữ,22,170,66.5,23.0,Canada,Lập trình viên,2026-01-10T20:41:06
+142,Đỗ Văn Bảo,dỗbao142@gmail.com,user123,user,872,bronze,Nam,44,162,57.2,21.8,Việt Nam,Giáo viên,2025-10-17T20:41:06
+143,Phạm Mỹ Loan,phamloan143@outlook.com,user123,user,984,bronze,Nữ,19,154,50.8,21.4,Úc,Lập trình viên,2025-12-06T20:41:06
+144,Vũ Bích Quỳnh,vũquynh144@yahoo.com,user123,user,3930,gold,Nữ,37,163,60.7,22.8,Hàn Quốc,Bác sĩ,2025-12-03T20:41:06
+145,Phạm Ngọc Hoa,phamhoa145@gmail.com,user123,user,7922,platinum,Nữ,32,166,62.1,22.5,Hàn Quốc,Y tá,2026-01-13T20:41:06
+146,Huỳnh Hữu Giang,huynhgiang146@gmail.com,user123,user,499,iron,Nam,36,168,59.9,21.2,Việt Nam,Kỹ sư phần mềm,2026-01-25T20:41:06
+147,Hồ Thị Xuân,hoxuan147@outlook.com,user123,user,25367,master,Nữ,28,158,50.2,20.1,Việt Nam,Nhân viên văn phòng,2025-09-01T20:41:06
+148,Dương Hữu Hiếu,duonghieu148@hotmail.com,user123,user,7338,platinum,Nam,27,165,60.7,22.3,Việt Nam,Giáo viên,2025-08-13T20:41:06
+149,Phạm Quốc Thắng,phamthang149@hotmail.com,user123,user,1395,bronze,Nam,21,176,70.2,22.7,Mỹ,Sinh viên,2025-12-23T20:41:06
+150,Phan Thanh Long,phanlong150@gmail.com,user123,user,1016,bronze,Nam,32,181,68.6,20.9,Mỹ,Kỹ sư phần mềm,2025-07-07T20:41:06
+151,Dương Kim Nga,duongnga151@yahoo.com,user123,user,5811,platinum,Nữ,30,162,60.1,22.9,Canada,Marketing,2026-05-02T20:41:06
+152,Đặng Văn Dũng,dangdũng152@yahoo.com,user123,user,5840,platinum,Nam,19,179,75.4,23.5,Việt Nam,Kiến trúc sư,2025-10-15T20:41:06
+153,Võ Đức Minh,võminh153@outlook.com,user123,user,6806,platinum,Nam,39,174,62.0,20.5,Mỹ,Quản lý dự án,2025-11-22T20:41:06
+154,Vũ Quốc Anh,vũanh154@gmail.com,user123,user,2573,gold,Nam,21,175,65.9,21.5,Việt Nam,Luật sư,2025-11-22T20:41:06
+155,Huỳnh Phương Hoa,huynhhoa155@hotmail.com,user123,user,1177,bronze,Nữ,40,166,62.8,22.8,Pháp,Bác sĩ,2026-01-20T20:41:06
+156,Ngô Mỹ Trang,ngotrang156@hotmail.com,user123,user,11300,diamond,Nữ,35,162,56.8,21.6,Trung Quốc,Kỹ sư phần mềm,2025-11-12T20:41:06
+157,Đỗ Phương Mai,dỗmai157@yahoo.com,user123,user,1485,bronze,Nữ,18,160,60.1,23.5,Trung Quốc,Bác sĩ,2025-10-15T20:41:06
+158,Vũ Bích Ngân,vũngan158@outlook.com,user123,user,24839,master,Nữ,45,169,57.4,20.1,Thái Lan,Giáo viên,2025-11-30T20:41:06
+159,Bùi Văn Tuấn,bùituan159@yahoo.com,user123,user,9445,diamond,Nam,38,177,76.9,24.5,Việt Nam,Kỹ sư phần mềm,2026-03-11T20:41:06
+160,Dương Văn Quang,duongquang160@yahoo.com,user123,user,5607,platinum,Nam,29,178,61.8,19.5,Canada,Nhân viên văn phòng,2025-07-29T20:41:06
+161,Hồ Kim Xuân,hoxuan161@yahoo.com,user123,user,1884,gold,Nữ,18,170,66.9,23.1,Việt Nam,Kế toán,2025-10-17T20:41:06
+162,Hồ Quốc Liêm,holiem162@gmail.com,user123,user,640,bronze,Nam,23,176,65.6,21.2,Hàn Quốc,Quản lý dự án,2026-03-28T20:41:06
+163,Trần Thanh Hà,tranha163@yahoo.com,user123,user,1918,gold,Nữ,26,164,62.1,23.1,Pháp,Freelancer,2026-01-13T20:41:06
+164,Lê Kim Xuân,lexuan164@gmail.com,user123,user,103,iron,Nữ,43,167,62.1,22.3,Trung Quốc,Freelancer,2026-02-05T20:41:06
+165,Bùi Minh Phong,bùiphong165@outlook.com,user123,user,1992,gold,Nam,25,178,79.6,25.1,Úc,Sinh viên,2026-02-21T20:41:06
+166,Lý Minh Phúc,lyphúc166@gmail.com,user123,user,5087,platinum,Nam,44,168,53.3,18.9,Việt Nam,Sinh viên,2026-03-07T20:41:06
+167,Đặng Kim Nga,dangnga167@gmail.com,user123,user,14668,diamond,Nữ,42,164,49.3,18.3,Hàn Quốc,Sinh viên,2025-11-06T20:41:06
+168,Ngô Công Lâm,ngolam168@outlook.com,user123,user,2079,gold,Nam,21,163,50.3,18.9,Mỹ,Kế toán,2025-08-21T20:41:06
+169,Phan Phương Xuân,phanxuan169@outlook.com,user123,user,7213,platinum,Nữ,23,153,53.0,22.6,Đức,Bác sĩ,2026-05-04T20:41:06
+170,Võ Công Hiếu,võhieu170@outlook.com,user123,user,429,iron,Nam,44,163,63.5,23.9,Việt Nam,Quản lý dự án,2025-07-28T20:41:06
+171,Đặng Hữu Lâm,danglam171@hotmail.com,user123,user,2620,gold,Nam,24,181,77.5,23.7,Hàn Quốc,Kiến trúc sư,2025-09-14T20:41:06
+172,Bùi Thu Trang,bùitrang172@yahoo.com,user123,user,800,bronze,Nữ,42,170,64.0,22.1,Việt Nam,Kỹ sư phần mềm,2025-06-29T20:41:06
+173,Huỳnh Thanh Linh,huynhlinh173@hotmail.com,user123,user,421,iron,Nữ,40,164,52.1,19.4,Úc,Y tá,2026-02-19T20:41:06
+174,Lê Ngọc Quỳnh,lequynh174@hotmail.com,user123,user,5354,platinum,Nữ,37,157,54.7,22.2,Nhật Bản,Nhân viên văn phòng,2025-09-27T20:41:06
+175,Lý Thu Thảo,lythao175@gmail.com,user123,user,3585,gold,Nữ,37,167,54.4,19.5,Nhật Bản,Sinh viên,2025-10-17T20:41:06
+176,Nguyễn Phương Lan,nguyễnlan176@gmail.com,user123,user,557,bronze,Nữ,41,167,52.4,18.8,Singapore,Bác sĩ,2026-03-13T20:41:06
+177,Vũ Ngọc Mai,vũmai177@gmail.com,user123,user,77,iron,Nữ,22,162,52.3,19.9,Việt Nam,Sinh viên,2026-05-12T20:41:06
+178,Lê Phương Trinh,letrinh178@outlook.com,user123,user,28885,master,Nữ,36,156,57.3,23.5,Việt Nam,Lập trình viên,2025-10-19T20:41:06
+179,Lý Phương Nhung,lynhung179@hotmail.com,user123,user,1472,bronze,Nữ,22,167,65.0,23.3,Việt Nam,Kỹ sư phần mềm,2025-06-04T20:41:06
+180,Vũ Công Nam,vũnam180@hotmail.com,user123,user,125,iron,Nam,42,169,54.4,19.0,Canada,Marketing,2025-12-22T20:41:06
+181,Phạm Thanh Xuân,phamxuan181@outlook.com,user123,user,2542,gold,Nam,33,174,71.5,23.6,Canada,Bác sĩ,2025-07-15T20:41:06
+182,Huỳnh Kim Loan,huynhloan182@gmail.com,user123,user,594,bronze,Nữ,34,157,55.1,22.4,Pháp,Kế toán,2025-06-12T20:41:06
+183,Huỳnh Văn Giang,huynhgiang183@hotmail.com,user123,user,3396,gold,Nam,25,165,69.3,25.5,Úc,Sinh viên,2025-07-26T20:41:06
+184,Hoàng Phương Chi,hoangchi184@hotmail.com,user123,user,834,bronze,Nữ,23,156,49.8,20.5,Việt Nam,Giáo viên,2026-01-16T20:41:06
+185,Lê Mỹ Chi,lechi185@yahoo.com,user123,user,2120,gold,Nữ,22,170,52.6,18.2,Canada,Doanh nhân,2025-09-30T20:41:06
+186,Lê Minh Khoa,lekhoa186@hotmail.com,user123,user,155,iron,Nam,27,181,71.3,21.8,Nhật Bản,Doanh nhân,2025-08-14T20:41:06
+187,Ngô Công Thắng,ngothang187@outlook.com,user123,user,1249,bronze,Nam,41,163,51.9,19.5,Việt Nam,Lập trình viên,2026-02-15T20:41:06
+188,Võ Văn Khoa,võkhoa188@hotmail.com,user123,user,8046,diamond,Nam,28,168,60.2,21.3,Úc,Kiến trúc sư,2025-08-14T20:41:06
+189,Phan Thị Lan,phanlan189@outlook.com,user123,user,621,bronze,Nữ,44,155,49.4,20.6,Canada,Nhà báo,2026-03-24T20:41:06
+190,Bùi Quốc Phúc,bùiphúc190@yahoo.com,user123,user,176,iron,Nam,23,170,55.4,19.2,Việt Nam,Y tá,2025-09-22T20:41:06
+191,Phan Minh Tùng,phantùng191@gmail.com,user123,user,1288,bronze,Nam,38,170,71.7,24.8,Pháp,Luật sư,2025-12-02T20:41:06
+192,Huỳnh Thị Trang,huynhtrang192@yahoo.com,user123,user,706,bronze,Nữ,42,164,59.4,22.1,Việt Nam,Quản lý dự án,2025-09-16T20:41:06
+193,Vũ Minh Nam,vũnam193@outlook.com,user123,user,1087,bronze,Nam,26,167,59.3,21.3,Việt Nam,Doanh nhân,2025-05-27T20:41:06
+194,Lê Thu Linh,lelinh194@hotmail.com,user123,user,6711,platinum,Nữ,25,162,49.8,19.0,Việt Nam,Marketing,2026-01-03T20:41:06
+195,Hồ Quốc Bảo,hobao195@hotmail.com,user123,user,3626,gold,Nam,38,179,77.1,24.1,Thái Lan,Bác sĩ,2026-01-04T20:41:06
+196,Lý Hoàng Hải,lyhai196@hotmail.com,user123,user,2839,gold,Nam,31,182,79.4,24.0,Việt Nam,Marketing,2026-05-04T20:41:06
+197,Hoàng Quốc Hiếu,hoanghieu197@yahoo.com,user123,user,9690,diamond,Nam,32,162,48.9,18.6,Trung Quốc,Thiết kế đồ họa,2025-11-15T20:41:06
+198,Võ Mỹ Linh,võlinh198@gmail.com,user123,user,212,iron,Nữ,34,154,41.4,17.5,Hàn Quốc,Bác sĩ,2025-08-30T20:41:06
+199,Đỗ Thu Hương,dỗhuong199@gmail.com,user123,user,6742,platinum,Nữ,44,170,55.4,19.2,Đức,Quản lý dự án,2025-11-28T20:41:06
+200,Vũ Công Tuấn,vũtuan200@gmail.com,user123,user,7481,platinum,Nam,23,165,65.3,24.0,Đức,Luật sư,2025-11-11T20:41:06
+201,Trần Kim Anh,trananh201@gmail.com,user123,user,3569,gold,Nữ,30,159,45.5,18.0,Úc,Lập trình viên,2026-05-04T20:41:06
+202,Bùi Văn Đức,bùiduc202@gmail.com,user123,user,2417,gold,Nam,33,178,65.8,20.8,Việt Nam,Marketing,2026-05-23T20:41:06
+203,Nguyễn Hoàng Quân,nguyễnquan203@outlook.com,user123,user,27472,master,Nam,26,168,69.0,24.4,Việt Nam,Kế toán,2026-01-22T20:41:06
+204,Dương Thu Uyên,duonguyen204@gmail.com,user123,user,4764,platinum,Nữ,37,162,46.1,17.6,Việt Nam,Doanh nhân,2026-02-09T20:41:06
+205,Ngô Đức Liêm,ngoliem205@outlook.com,user123,user,184,iron,Nam,36,168,56.5,20.0,Nhật Bản,Giáo viên,2025-06-20T20:41:06
+206,Dương Hoàng Giang,duonggiang206@gmail.com,user123,user,623,bronze,Nam,23,179,75.8,23.7,Thái Lan,Giáo viên,2026-01-12T20:41:06
+207,Đặng Phương Nhung,dangnhung207@gmail.com,user123,user,6850,platinum,Nữ,41,154,53.0,22.3,Mỹ,Y tá,2026-03-18T20:41:06
+208,Hoàng Ngọc Lan,hoanglan208@hotmail.com,user123,user,3116,gold,Nữ,32,167,56.1,20.1,Úc,Y tá,2025-09-24T20:41:06
+209,Lê Văn Kiên,lekien209@hotmail.com,user123,user,3780,gold,Nam,20,169,62.3,21.8,Mỹ,Bác sĩ,2026-04-01T20:41:06
+210,Đặng Đức Khoa,dangkhoa210@yahoo.com,user123,user,610,bronze,Nam,30,165,56.4,20.7,Pháp,Lập trình viên,2025-12-03T20:41:06
+211,Huỳnh Công Quang,huynhquang211@outlook.com,user123,user,11084,diamond,Nam,30,173,63.4,21.2,Việt Nam,Luật sư,2026-05-02T20:41:06
+212,Huỳnh Văn Nam,huynhnam212@gmail.com,user123,user,3203,gold,Nam,31,166,64.2,23.3,Việt Nam,Nhà báo,2025-09-21T20:41:06
+213,Phạm Hoàng Long,phamlong213@yahoo.com,user123,user,1803,gold,Nam,31,163,55.0,20.7,Nhật Bản,Kỹ sư phần mềm,2025-06-23T20:41:06
+214,Phan Kim Tuyết,phantuyet214@outlook.com,user123,user,6059,platinum,Nữ,35,162,50.0,19.1,Trung Quốc,Luật sư,2025-09-06T20:41:06
+215,Trần Công Thắng,tranthang215@gmail.com,user123,user,3448,gold,Nam,18,164,53.7,20.0,Việt Nam,Nhân viên văn phòng,2026-04-01T20:41:06
+216,Hồ Quốc Anh,hoanh216@gmail.com,user123,user,311,iron,Nam,32,171,65.9,22.5,Pháp,Y tá,2025-06-14T20:41:06
+217,Hoàng Thị Thủy,hoangthủy217@gmail.com,user123,user,1867,gold,Nữ,23,165,48.7,17.9,Việt Nam,Bác sĩ,2025-08-19T20:41:06
+218,Dương Minh Đức,duongduc218@gmail.com,user123,user,2376,gold,Nam,38,177,73.0,23.3,Đức,Y tá,2026-01-19T20:41:06
+219,Lý Đức Nam,lynam219@outlook.com,user123,user,597,bronze,Nam,30,177,77.7,24.8,Canada,Nhân viên văn phòng,2026-03-16T20:41:06
+220,Phan Hoàng Minh,phanminh220@yahoo.com,user123,user,397,iron,Nam,40,177,72.3,23.1,Việt Nam,Doanh nhân,2025-11-04T20:41:06
+221,Phạm Bích Thủy,phamthủy221@gmail.com,user123,user,229,iron,Nữ,28,162,50.8,19.4,Đức,Giáo viên,2025-11-29T20:41:06
+222,Đặng Quốc Vũ,dangvũ222@yahoo.com,user123,user,3976,gold,Nam,41,179,63.3,19.8,Việt Nam,Kiến trúc sư,2026-05-22T20:41:06
+223,Dương Kim Hiền,duonghien223@gmail.com,user123,user,5641,platinum,Nữ,30,163,50.1,18.9,Úc,Kỹ sư phần mềm,2025-06-23T20:41:06
+224,Võ Phương Yến,võyen224@yahoo.com,user123,user,428,iron,Nữ,39,153,49.8,21.3,Mỹ,Marketing,2025-08-22T20:41:06
+225,Đỗ Đức Anh,dỗanh225@hotmail.com,user123,user,177,iron,Nam,20,171,71.4,24.4,Thái Lan,Freelancer,2026-03-31T20:41:06
+226,Ngô Ngọc Dung,ngodung226@gmail.com,user123,user,23534,master,Nữ,24,165,50.6,18.6,Việt Nam,Kiến trúc sư,2025-07-08T20:41:06
+227,Phạm Hữu Đức,phamduc227@outlook.com,user123,user,2978,gold,Nam,21,166,54.2,19.7,Úc,Kiến trúc sư,2025-06-19T20:41:06
+228,Phạm Đức Lâm,phamlam228@gmail.com,user123,user,874,bronze,Nam,29,173,74.9,25.0,Việt Nam,Nhân viên văn phòng,2025-06-19T20:41:06
+229,Vũ Thanh Quỳnh,vũquynh229@outlook.com,user123,user,3036,gold,Nữ,19,152,52.3,22.6,Thái Lan,Luật sư,2026-04-06T20:41:06
+230,Trần Ngọc Dung,trandung230@yahoo.com,user123,user,4846,platinum,Nữ,27,168,51.0,18.1,Trung Quốc,Luật sư,2025-06-07T20:41:06
+231,Hoàng Hữu Minh,hoangminh231@yahoo.com,user123,user,2189,gold,Nam,28,169,68.6,24.0,Việt Nam,Doanh nhân,2025-08-11T20:41:06
+232,Trần Thu Phương,tranphuong232@gmail.com,user123,user,1211,bronze,Nữ,25,168,55.6,19.7,Việt Nam,Doanh nhân,2025-11-20T20:41:06
+233,Hoàng Phương Ngân,hoangngan233@yahoo.com,user123,user,1434,bronze,Nữ,30,167,63.2,22.7,Pháp,Quản lý dự án,2025-08-26T20:41:06
+234,Vũ Thanh Nhung,vũnhung234@yahoo.com,user123,user,1010,bronze,Nữ,43,164,60.9,22.6,Đức,Luật sư,2025-07-14T20:41:06
+235,Bùi Bích Trang,bùitrang235@yahoo.com,user123,user,3518,gold,Nữ,29,154,48.3,20.4,Việt Nam,Y tá,2025-12-01T20:41:06
+236,Vũ Mỹ Xuân,vũxuan236@outlook.com,user123,user,1139,bronze,Nữ,30,159,46.9,18.6,Việt Nam,Doanh nhân,2025-09-16T20:41:06
+237,Vũ Thị Thủy,vũthủy237@gmail.com,user123,user,13742,diamond,Nữ,22,162,59.4,22.6,Trung Quốc,Quản lý dự án,2026-02-20T20:41:06
+238,Trần Quốc Liêm,tranliem238@outlook.com,user123,user,9570,diamond,Nam,29,168,70.1,24.8,Nhật Bản,Marketing,2026-01-11T20:41:06
+239,Vũ Minh Anh,vũanh239@outlook.com,user123,user,4861,platinum,Nam,36,166,65.8,23.9,Nhật Bản,Freelancer,2026-03-09T20:41:06
+240,Dương Thanh Minh,duongminh240@outlook.com,user123,user,3045,gold,Nam,40,172,68.9,23.3,Việt Nam,Kế toán,2026-03-31T20:41:06
+241,Huỳnh Thu Hương,huynhhuong241@hotmail.com,user123,user,149,iron,Nữ,23,160,55.6,21.7,Hàn Quốc,Luật sư,2026-02-22T20:41:06
+242,Ngô Thu Chi,ngochi242@hotmail.com,user123,user,619,bronze,Nữ,37,152,49.9,21.6,Hàn Quốc,Nhân viên văn phòng,2025-11-04T20:41:06
+243,Lý Hữu Thắng,lythang243@gmail.com,user123,user,23,iron,Nam,31,181,79.4,24.2,Việt Nam,Kiến trúc sư,2025-12-17T20:41:06
+244,Đặng Thu Trinh,dangtrinh244@yahoo.com,user123,user,144,iron,Nữ,30,154,43.0,18.1,Đức,Sinh viên,2025-06-27T20:41:06
+245,Hồ Công Hiếu,hohieu245@outlook.com,user123,user,13306,diamond,Nam,29,164,60.5,22.5,Đức,Thiết kế đồ họa,2025-11-05T20:41:06
+246,Phan Ngọc Uyên,phanuyen246@outlook.com,user123,user,2385,gold,Nữ,44,152,50.8,22.0,Việt Nam,Lập trình viên,2025-10-17T20:41:06
+247,Vũ Văn Việt,vũviet247@yahoo.com,user123,user,3821,gold,Nam,24,181,82.0,25.0,Việt Nam,Y tá,2026-02-02T20:41:06
+248,Hoàng Đức Kiên,hoangkien248@hotmail.com,user123,user,2409,gold,Nam,21,172,73.9,25.0,Singapore,Nhân viên văn phòng,2026-02-20T20:41:06
+249,Vũ Đức Minh,vũminh249@outlook.com,user123,user,2990,gold,Nam,28,177,71.9,22.9,Pháp,Thiết kế đồ họa,2025-07-04T20:41:06
+250,Huỳnh Thanh Vũ,huynhvũ250@outlook.com,user123,user,59,iron,Nam,23,162,62.3,23.7,Việt Nam,Marketing,2025-10-13T20:41:06
+251,Phạm Bích Chi,phamchi251@outlook.com,user123,user,849,bronze,Nữ,33,166,59.6,21.6,Trung Quốc,Y tá,2025-09-05T20:41:06
+252,Ngô Bích Nhung,ngonhung252@outlook.com,user123,user,1111,bronze,Nữ,27,164,48.3,18.0,Việt Nam,Kế toán,2025-10-17T20:41:06
+253,Hồ Công Khoa,hokhoa253@outlook.com,user123,user,9941,diamond,Nam,21,172,55.6,18.8,Việt Nam,Giáo viên,2025-09-16T20:41:06
+254,Võ Bích Thảo,võthao254@gmail.com,user123,user,3915,gold,Nữ,27,157,50.3,20.4,Đức,Doanh nhân,2026-04-24T20:41:06
+255,Phan Ngọc Hoa,phanhoa255@gmail.com,user123,user,849,bronze,Nữ,29,157,51.6,20.9,Úc,Marketing,2025-10-24T20:41:06
+256,Huỳnh Thu Tâm,huynhtam256@gmail.com,user123,user,766,bronze,Nữ,19,165,58.8,21.6,Việt Nam,Kiến trúc sư,2025-11-19T20:41:06
+257,Lý Mỹ Lan,lylan257@yahoo.com,user123,user,12316,diamond,Nữ,43,165,50.5,18.5,Thái Lan,Thiết kế đồ họa,2025-06-08T20:41:06
+258,Đặng Thanh Long,danglong258@outlook.com,user123,user,5526,platinum,Nam,37,169,68.5,24.0,Thái Lan,Kiến trúc sư,2025-10-27T20:41:06
+259,Hoàng Quốc Giang,hoanggiang259@outlook.com,user123,user,1513,gold,Nam,28,180,75.7,23.4,Việt Nam,Kế toán,2025-09-14T20:41:06
+260,Ngô Hữu Hải,ngohai260@outlook.com,user123,user,2510,gold,Nam,37,171,61.1,20.9,Việt Nam,Y tá,2025-11-12T20:41:06
+261,Huỳnh Văn Trung,huynhtrung261@outlook.com,user123,user,1389,bronze,Nam,18,169,57.5,20.1,Thái Lan,Nhân viên văn phòng,2025-10-14T20:41:06
+262,Võ Minh Hiếu,võhieu262@outlook.com,user123,user,11586,diamond,Nam,39,177,65.5,20.9,Nhật Bản,Marketing,2025-08-16T20:41:06
+263,Phạm Ngọc Thảo,phamthao263@hotmail.com,user123,user,2491,gold,Nữ,18,157,53.8,21.8,Việt Nam,Y tá,2025-12-28T20:41:06
+264,Nguyễn Thanh Chi,nguyễnchi264@hotmail.com,user123,user,8512,diamond,Nữ,31,157,47.6,19.3,Trung Quốc,Sinh viên,2026-03-25T20:41:06
+265,Vũ Hữu Bảo,vũbao265@yahoo.com,user123,user,3934,gold,Nam,38,177,69.3,22.1,Việt Nam,Nhà báo,2026-05-09T20:41:06
+266,Lê Văn Sơn,leson266@hotmail.com,user123,user,1012,bronze,Nam,20,164,68.3,25.4,Canada,Y tá,2025-12-26T20:41:06
+267,Lê Bích Thu,lethu267@outlook.com,user123,user,1160,bronze,Nữ,40,155,55.8,23.2,Pháp,Marketing,2026-05-26T20:41:06
+268,Phạm Hữu Quang,phamquang268@hotmail.com,user123,user,1369,bronze,Nam,43,171,61.4,21.0,Singapore,Thiết kế đồ họa,2025-09-22T20:41:06
+269,Võ Mỹ Hoa,võhoa269@outlook.com,user123,user,1430,bronze,Nữ,34,162,58.5,22.3,Singapore,Sinh viên,2025-06-27T20:41:06
+270,Phan Mỹ Hương,phanhuong270@outlook.com,user123,user,3599,gold,Nữ,35,164,57.7,21.5,Trung Quốc,Y tá,2025-12-31T20:41:06
+271,Đỗ Công Dũng,dỗdũng271@yahoo.com,user123,user,6082,platinum,Nam,33,163,66.8,25.1,Nhật Bản,Quản lý dự án,2025-09-30T20:41:06
+272,Trần Đức Xuân,tranxuan272@outlook.com,user123,user,29147,master,Nam,23,175,59.4,19.4,Úc,Lập trình viên,2025-08-25T20:41:06
+273,Ngô Hữu Xuân,ngoxuan273@yahoo.com,user123,user,804,bronze,Nam,35,163,59.9,22.5,Việt Nam,Kế toán,2026-02-17T20:41:06
+274,Nguyễn Công Tuấn,nguyễntuan274@gmail.com,user123,user,4723,platinum,Nam,25,167,59.0,21.2,Việt Nam,Marketing,2025-10-23T20:41:06
+275,Lý Bích Yến,lyyen275@outlook.com,user123,user,2325,gold,Nữ,42,165,62.6,23.0,Nhật Bản,Nhà báo,2025-11-26T20:41:06
+276,Dương Công Phong,duongphong276@yahoo.com,user123,user,1899,gold,Nam,32,171,58.0,19.8,Việt Nam,Quản lý dự án,2026-03-31T20:41:06
+277,Đặng Mỹ Thủy,dangthủy277@yahoo.com,user123,user,967,bronze,Nữ,43,166,53.9,19.6,Mỹ,Lập trình viên,2026-02-14T20:41:06
+278,Ngô Hữu Đức,ngoduc278@outlook.com,user123,user,7500,platinum,Nam,42,166,63.4,23.0,Trung Quốc,Nhân viên văn phòng,2026-02-22T20:41:06
+279,Phan Mỹ Vân,phanvan279@yahoo.com,user123,user,1462,bronze,Nữ,35,167,64.5,23.1,Việt Nam,Luật sư,2026-02-01T20:41:06
+280,Phạm Phương Hoa,phamhoa280@outlook.com,user123,user,51,iron,Nữ,33,163,57.6,21.7,Úc,Lập trình viên,2025-09-21T20:41:06
+281,Đặng Thanh Dũng,dangdũng281@gmail.com,user123,user,19110,master,Nam,23,174,64.1,21.2,Úc,Lập trình viên,2026-03-20T20:41:06
+282,Đặng Thanh Hà,dangha282@gmail.com,user123,user,6758,platinum,Nữ,35,161,47.5,18.3,Việt Nam,Kế toán,2026-01-31T20:41:06
+283,Hồ Thanh Thủy,hothủy283@outlook.com,user123,user,233,iron,Nữ,18,169,57.6,20.2,Singapore,Freelancer,2025-10-24T20:41:06
+284,Đỗ Thị Xuân,dỗxuan284@outlook.com,user123,user,3880,gold,Nữ,24,164,53.3,19.8,Thái Lan,Luật sư,2026-05-25T20:41:06
+285,Trần Văn Đức,tranduc285@outlook.com,user123,user,2539,gold,Nam,34,163,62.7,23.6,Pháp,Marketing,2025-11-15T20:41:06
+286,Võ Công Vũ,võvũ286@outlook.com,user123,user,11771,diamond,Nam,22,179,67.1,20.9,Việt Nam,Quản lý dự án,2026-02-20T20:41:06
+287,Dương Kim Thu,duongthu287@yahoo.com,user123,user,6964,platinum,Nữ,18,154,45.7,19.3,Đức,Sinh viên,2025-06-27T20:41:06
+288,Hoàng Ngọc Tâm,hoangtam288@outlook.com,user123,user,688,bronze,Nữ,34,153,43.0,18.4,Thái Lan,Kỹ sư phần mềm,2025-06-14T20:41:06
+289,Võ Văn Thiện,võthien289@outlook.com,user123,user,236,iron,Nam,42,181,63.9,19.5,Canada,Bác sĩ,2026-02-12T20:41:06
+290,Trần Văn Tuấn,trantuan290@hotmail.com,user123,user,1134,bronze,Nam,35,170,58.7,20.3,Mỹ,Lập trình viên,2025-08-07T20:41:06
+291,Đỗ Thanh Anh,dỗanh291@yahoo.com,user123,user,4060,platinum,Nữ,19,152,43.3,18.7,Trung Quốc,Nhà báo,2026-05-07T20:41:06
+292,Trần Thu Hà,tranha292@hotmail.com,user123,user,7377,platinum,Nữ,33,169,64.3,22.5,Việt Nam,Sinh viên,2026-05-08T20:41:06
+293,Lê Ngọc Trang,letrang293@yahoo.com,user123,user,5088,platinum,Nữ,26,157,54.0,21.9,Thái Lan,Nhân viên văn phòng,2026-05-16T20:41:06
+294,Hồ Bích Uyên,houyen294@yahoo.com,user123,user,1408,bronze,Nữ,24,162,53.3,20.3,Úc,Kế toán,2026-04-20T20:41:06
+295,Phan Ngọc Nhung,phannhung295@yahoo.com,user123,user,368,iron,Nữ,24,164,48.8,18.1,Việt Nam,Lập trình viên,2025-09-30T20:41:06
+296,Ngô Minh Giang,ngogiang296@yahoo.com,user123,user,443,iron,Nam,34,172,64.3,21.7,Hàn Quốc,Freelancer,2025-11-15T20:41:06
+297,Phan Quốc Bảo,phanbao297@outlook.com,user123,user,4521,platinum,Nam,21,166,55.2,20.0,Việt Nam,Y tá,2026-01-28T20:41:06
+298,Huỳnh Thanh Quỳnh,huynhquynh298@gmail.com,user123,user,6800,platinum,Nữ,29,169,54.8,19.2,Đức,Bác sĩ,2025-07-01T20:41:06
+299,Dương Thanh Quân,duongquan299@outlook.com,user123,user,1174,bronze,Nam,35,170,65.9,22.8,Úc,Doanh nhân,2025-12-06T20:41:06
+300,Huỳnh Công Sơn,huynhson300@hotmail.com,user123,user,12770,diamond,Nam,43,169,71.1,24.9,Mỹ,Bác sĩ,2026-03-06T20:41:06
+301,Bùi Thanh Xuân,bùixuan301@hotmail.com,user123,user,25500,master,Nữ,36,164,60.0,22.3,Trung Quốc,Thiết kế đồ họa,2025-06-24T20:41:06
+302,Dương Thu Loan,duongloan302@gmail.com,user123,user,5833,platinum,Nữ,33,165,60.3,22.1,Việt Nam,Bác sĩ,2025-07-19T20:41:06
+303,Nguyễn Thanh Hương,nguyễnhuong303@hotmail.com,user123,user,375,iron,Nữ,44,156,49.0,20.1,Singapore,Nhân viên văn phòng,2026-04-10T20:41:06
+304,Đỗ Hữu Vũ,dỗvũ304@yahoo.com,user123,user,7076,platinum,Nam,39,180,77.1,23.8,Hàn Quốc,Quản lý dự án,2026-04-24T20:41:06
+305,Dương Thu Giang,duonggiang305@hotmail.com,user123,user,3622,gold,Nữ,24,161,60.3,23.3,Singapore,Luật sư,2025-08-31T20:41:06
+306,Huỳnh Công Xuân,huynhxuan306@hotmail.com,user123,user,124,iron,Nam,42,178,66.1,20.9,Nhật Bản,Nhân viên văn phòng,2025-09-23T20:41:06
+307,Huỳnh Minh Bảo,huynhbao307@gmail.com,user123,user,550,bronze,Nam,40,174,68.3,22.6,Đức,Nhân viên văn phòng,2025-05-31T20:41:06
+308,Phạm Thu Trinh,phamtrinh308@outlook.com,user123,user,1407,bronze,Nữ,36,152,49.7,21.5,Việt Nam,Quản lý dự án,2025-05-28T20:41:06
+309,Bùi Thanh Nhân,bùinhan309@outlook.com,user123,user,13467,diamond,Nam,39,177,61.6,19.7,Canada,Freelancer,2026-04-03T20:41:06
+310,Lý Hoàng Dũng,lydũng310@yahoo.com,user123,user,3250,gold,Nam,38,172,59.1,20.0,Đức,Kỹ sư phần mềm,2026-02-15T20:41:06
+311,Phạm Ngọc Hà,phamha311@hotmail.com,user123,user,5224,platinum,Nữ,33,152,40.3,17.4,Việt Nam,Giáo viên,2026-02-02T20:41:06
+312,Vũ Đức Trung,vũtrung312@hotmail.com,user123,user,10169,diamond,Nam,40,163,64.4,24.2,Pháp,Kỹ sư phần mềm,2025-11-11T20:41:06
+313,Vũ Hữu Trung,vũtrung313@hotmail.com,user123,user,3015,gold,Nam,23,170,63.6,22.0,Hàn Quốc,Doanh nhân,2026-02-15T20:41:06
+314,Trần Phương Hương,tranhuong314@gmail.com,user123,user,1452,bronze,Nữ,24,161,60.6,23.4,Nhật Bản,Luật sư,2026-04-28T20:41:06
+315,Ngô Minh Khải,ngokhai315@gmail.com,user123,user,220,iron,Nam,22,163,57.3,21.6,Việt Nam,Thiết kế đồ họa,2025-10-27T20:41:06
+316,Hoàng Thị Thảo,hoangthao316@hotmail.com,user123,user,420,iron,Nữ,33,153,40.8,17.4,Đức,Bác sĩ,2025-12-21T20:41:06
+317,Bùi Phương Yến,bùiyen317@hotmail.com,user123,user,706,bronze,Nữ,21,167,51.6,18.5,Nhật Bản,Thiết kế đồ họa,2026-01-12T20:41:06
+318,Ngô Ngọc Phương,ngophuong318@hotmail.com,user123,user,5728,platinum,Nữ,28,166,56.7,20.6,Việt Nam,Kỹ sư phần mềm,2025-07-27T20:41:06
+319,Phạm Văn Giang,phamgiang319@hotmail.com,user123,user,1248,bronze,Nam,33,169,60.0,21.0,Hàn Quốc,Y tá,2026-03-09T20:41:06
+320,Võ Hữu Long,võlong320@gmail.com,user123,user,1027,bronze,Nam,30,164,55.5,20.6,Việt Nam,Marketing,2025-12-31T20:41:06
+321,Lê Bích Ngân,lengan321@gmail.com,user123,user,18,iron,Nữ,38,159,51.5,20.4,Mỹ,Giáo viên,2025-09-17T20:41:06
+322,Võ Phương Mai,võmai322@gmail.com,user123,user,1321,bronze,Nữ,30,167,59.9,21.5,Singapore,Freelancer,2025-11-25T20:41:06
+323,Đỗ Hữu Quang,dỗquang323@outlook.com,user123,user,465,iron,Nam,23,164,56.8,21.1,Việt Nam,Kế toán,2025-06-24T20:41:06
+324,Võ Hữu Thắng,võthang324@outlook.com,user123,user,664,bronze,Nam,29,168,69.2,24.5,Canada,Lập trình viên,2025-09-01T20:41:06
+325,Lý Kim Ngân,lyngan325@outlook.com,user123,user,14191,diamond,Nữ,19,158,44.4,17.8,Canada,Kiến trúc sư,2025-09-08T20:41:06
+326,Lý Đức Lâm,lylam326@outlook.com,user123,user,12056,diamond,Nam,37,173,60.4,20.2,Singapore,Y tá,2025-06-02T20:41:06
+327,Đỗ Công Hải,dỗhai327@yahoo.com,user123,user,809,bronze,Nam,22,173,58.4,19.5,Úc,Kiến trúc sư,2025-07-03T20:41:06
+328,Hồ Thị Quỳnh,hoquynh328@yahoo.com,user123,user,1293,bronze,Nữ,26,158,46.2,18.5,Pháp,Lập trình viên,2026-01-11T20:41:06
+329,Dương Quốc Anh,duonganh329@gmail.com,user123,user,4648,platinum,Nam,27,176,59.7,19.3,Đức,Nhà báo,2026-04-12T20:41:06
+330,Hoàng Hữu Anh,hoanganh330@gmail.com,user123,user,6277,platinum,Nam,22,163,58.8,22.1,Pháp,Bác sĩ,2026-02-01T20:41:06
+331,Hoàng Đức Khoa,hoangkhoa331@yahoo.com,user123,user,1139,bronze,Nam,23,164,65.4,24.3,Việt Nam,Kế toán,2025-12-27T20:41:06
+332,Hoàng Thanh Linh,hoanglinh332@yahoo.com,user123,user,29300,master,Nữ,28,156,56.9,23.4,Pháp,Giáo viên,2025-09-05T20:41:06
+333,Phạm Phương My,phammy333@outlook.com,user123,user,1402,bronze,Nữ,43,154,47.8,20.2,Singapore,Kiến trúc sư,2025-08-03T20:41:06
+334,Hoàng Đức Cường,hoangcuong334@outlook.com,user123,user,1294,bronze,Nam,34,174,69.8,23.1,Hàn Quốc,Nhà báo,2025-07-10T20:41:06
+335,Hoàng Quốc Việt,hoangviet335@hotmail.com,user123,user,652,bronze,Nam,20,167,56.7,20.3,Hàn Quốc,Marketing,2025-05-28T20:41:06
+336,Dương Đức Kiên,duongkien336@yahoo.com,user123,user,6524,platinum,Nam,26,168,59.5,21.1,Singapore,Thiết kế đồ họa,2025-09-29T20:41:06
+337,Phan Phương Anh,phananh337@outlook.com,user123,user,3288,gold,Nữ,36,156,52.8,21.7,Nhật Bản,Doanh nhân,2026-03-25T20:41:06
+338,Hồ Thanh Nga,honga338@outlook.com,user123,user,27516,master,Nữ,39,157,45.8,18.6,Việt Nam,Lập trình viên,2025-11-05T20:41:06
+339,Đặng Văn Tùng,dangtùng339@gmail.com,user123,user,263,iron,Nam,40,175,58.5,19.1,Mỹ,Y tá,2025-09-13T20:41:06
+340,Trần Văn Tuấn,trantuan340@gmail.com,user123,user,84,iron,Nam,37,162,60.2,22.9,Singapore,Lập trình viên,2025-11-07T20:41:06
+341,Phạm Thanh Hương,phamhuong341@yahoo.com,user123,user,1093,bronze,Nữ,27,166,50.8,18.4,Pháp,Luật sư,2025-07-01T20:41:06
+342,Nguyễn Quốc Phúc,nguyễnphúc342@yahoo.com,user123,user,372,iron,Nam,29,178,72.1,22.8,Úc,Kiến trúc sư,2026-02-04T20:41:06
+343,Bùi Thanh Anh,bùianh343@yahoo.com,user123,user,6258,platinum,Nữ,27,165,48.9,18.0,Việt Nam,Kế toán,2025-11-24T20:41:06
+344,Đặng Minh Thiện,dangthien344@gmail.com,user123,user,185,iron,Nam,27,178,65.9,20.8,Nhật Bản,Quản lý dự án,2026-02-07T20:41:06
+345,Nguyễn Thanh Uyên,nguyễnuyen345@gmail.com,user123,user,10499,diamond,Nữ,44,159,50.0,19.8,Việt Nam,Thiết kế đồ họa,2025-09-29T20:41:06
+346,Đặng Thanh Xuân,dangxuan346@gmail.com,user123,user,14495,diamond,Nữ,25,159,49.7,19.7,Việt Nam,Nhà báo,2025-12-07T20:41:06
+347,Phan Bích Chi,phanchi347@hotmail.com,user123,user,286,iron,Nữ,23,153,52.8,22.6,Singapore,Y tá,2026-01-24T20:41:06
+348,Vũ Thanh Minh,vũminh348@outlook.com,user123,user,1239,bronze,Nam,24,174,65.7,21.7,Pháp,Kiến trúc sư,2026-01-28T20:41:06
+349,Vũ Văn Vũ,vũvũ349@outlook.com,user123,user,5573,platinum,Nam,18,164,59.4,22.1,Canada,Kế toán,2025-10-15T20:41:06
+350,Huỳnh Công Minh,huynhminh350@hotmail.com,user123,user,257,iron,Nam,45,175,63.4,20.7,Singapore,Giáo viên,2025-10-31T20:41:06
+351,Đỗ Minh Kiên,dỗkien351@hotmail.com,user123,user,3983,gold,Nam,25,175,72.9,23.8,Trung Quốc,Nhà báo,2026-04-03T20:41:06
+352,Đặng Thanh Quân,dangquan352@hotmail.com,user123,user,22911,master,Nam,42,168,63.7,22.6,Việt Nam,Nhà báo,2026-05-06T20:41:06
+353,Võ Công Quân,võquan353@yahoo.com,user123,user,694,bronze,Nam,31,166,67.6,24.5,Mỹ,Quản lý dự án,2025-12-11T20:41:06
+354,Trần Quốc Nhân,trannhan354@hotmail.com,user123,user,3569,gold,Nam,25,169,62.2,21.8,Trung Quốc,Nhà báo,2025-12-05T20:41:06
+355,Hồ Hoàng Quân,hoquan355@hotmail.com,user123,user,4254,platinum,Nam,38,177,71.4,22.8,Thái Lan,Nhân viên văn phòng,2025-06-20T20:41:06
+356,Dương Mỹ Giang,duonggiang356@yahoo.com,user123,user,998,bronze,Nữ,45,164,59.1,22.0,Việt Nam,Kỹ sư phần mềm,2026-04-10T20:41:06
+357,Nguyễn Văn Việt,nguyễnviet357@outlook.com,user123,user,226,iron,Nam,44,174,62.3,20.6,Thái Lan,Luật sư,2025-09-17T20:41:06
+358,Phan Thu Giang,phangiang358@yahoo.com,user123,user,73,iron,Nữ,43,153,53.4,22.8,Việt Nam,Kỹ sư phần mềm,2025-10-24T20:41:06
+359,Ngô Bích Hoa,ngohoa359@outlook.com,user123,user,761,bronze,Nữ,24,159,54.4,21.5,Canada,Luật sư,2025-09-08T20:41:06
+360,Ngô Thị Nhung,ngonhung360@gmail.com,user123,user,800,bronze,Nữ,28,167,61.0,21.9,Trung Quốc,Freelancer,2026-05-10T20:41:06
+361,Phạm Đức Tùng,phamtùng361@hotmail.com,user123,user,341,iron,Nam,31,165,53.9,19.8,Úc,Marketing,2025-10-20T20:41:06
+362,Đỗ Hữu Hải,dỗhai362@outlook.com,user123,user,11,iron,Nam,25,169,63.1,22.1,Thái Lan,Sinh viên,2025-08-28T20:41:06
+363,Hoàng Ngọc Thủy,hoangthủy363@hotmail.com,user123,user,158,iron,Nữ,45,152,54.7,23.7,Mỹ,Y tá,2025-12-20T20:41:06
+364,Hồ Thu Phương,hophuong364@yahoo.com,user123,user,1624,gold,Nữ,40,153,48.2,20.6,Singapore,Quản lý dự án,2025-06-13T20:41:06
+365,Ngô Phương My,ngomy365@gmail.com,user123,user,2812,gold,Nữ,43,170,60.4,20.9,Nhật Bản,Giáo viên,2025-09-21T20:41:06
+366,Hoàng Mỹ Xuân,hoangxuan366@yahoo.com,user123,user,5626,platinum,Nữ,44,163,47.9,18.0,Nhật Bản,Kỹ sư phần mềm,2026-05-06T20:41:06
+367,Nguyễn Văn Sơn,nguyễnson367@hotmail.com,user123,user,11064,diamond,Nam,42,162,47.7,18.2,Việt Nam,Luật sư,2025-06-18T20:41:06
+368,Đặng Công Khải,dangkhai368@gmail.com,user123,user,8905,diamond,Nam,28,169,64.7,22.7,Việt Nam,Doanh nhân,2025-12-23T20:41:06
+369,Phạm Thị Thu,phamthu369@yahoo.com,user123,user,8197,diamond,Nữ,35,156,52.6,21.6,Việt Nam,Thiết kế đồ họa,2026-03-23T20:41:06
+370,Phạm Thanh Liêm,phamliem370@outlook.com,user123,user,481,iron,Nam,19,163,66.8,25.1,Canada,Luật sư,2026-01-01T20:41:06
+371,Đỗ Thu Lan,dỗlan371@hotmail.com,user123,user,12320,diamond,Nữ,32,163,49.5,18.6,Việt Nam,Nhà báo,2025-06-10T20:41:06
+372,Lý Thanh Hoa,lyhoa372@yahoo.com,user123,user,3437,gold,Nữ,23,160,45.3,17.7,Việt Nam,Nhà báo,2025-08-03T20:41:06
+373,Ngô Đức Minh,ngominh373@hotmail.com,user123,user,772,bronze,Nam,36,168,59.2,21.0,Hàn Quốc,Freelancer,2025-11-19T20:41:06
+374,Vũ Thị Hằng,vũhang374@hotmail.com,user123,user,17975,master,Nữ,21,170,57.4,19.9,Úc,Marketing,2026-02-11T20:41:06
+375,Trần Hoàng Cường,trancuong375@hotmail.com,user123,user,1204,bronze,Nam,25,178,78.2,24.7,Canada,Doanh nhân,2026-05-06T20:41:06
+376,Phan Minh Lâm,phanlam376@outlook.com,user123,user,3317,gold,Nam,35,180,75.3,23.2,Việt Nam,Kiến trúc sư,2025-05-27T20:41:06
+377,Đặng Thị Mai,dangmai377@hotmail.com,user123,user,80,iron,Nữ,24,166,56.6,20.5,Hàn Quốc,Freelancer,2025-11-20T20:41:06
+378,Hoàng Quốc Lâm,hoanglam378@outlook.com,user123,user,1437,bronze,Nam,26,169,68.7,24.1,Đức,Thiết kế đồ họa,2026-03-29T20:41:06
+379,Bùi Thanh Tuyết,bùituyet379@outlook.com,user123,user,1099,bronze,Nữ,41,170,58.4,20.2,Hàn Quốc,Kỹ sư phần mềm,2025-11-15T20:41:06
+380,Phan Ngọc Hương,phanhuong380@outlook.com,user123,user,3570,gold,Nữ,19,167,64.1,23.0,Hàn Quốc,Marketing,2026-05-05T20:41:06
+381,Võ Thanh Phúc,võphúc381@yahoo.com,user123,user,1383,bronze,Nam,25,165,67.9,24.9,Đức,Sinh viên,2025-11-04T20:41:06
+382,Võ Thanh Thu,võthu382@yahoo.com,user123,user,411,iron,Nữ,44,155,50.3,20.9,Hàn Quốc,Y tá,2025-11-04T20:41:06
+383,Vũ Ngọc Lan,vũlan383@hotmail.com,user123,user,12890,diamond,Nữ,19,158,43.5,17.4,Đức,Kiến trúc sư,2026-04-07T20:41:06
+384,Phạm Ngọc Tuyết,phamtuyet384@gmail.com,user123,user,11814,diamond,Nữ,34,167,60.9,21.8,Canada,Kỹ sư phần mềm,2025-07-31T20:41:06
+385,Đỗ Kim Hiền,dỗhien385@gmail.com,user123,user,976,bronze,Nữ,31,155,48.4,20.1,Thái Lan,Kỹ sư phần mềm,2025-12-04T20:41:06
+386,Ngô Thanh Lâm,ngolam386@hotmail.com,user123,user,7479,platinum,Nam,41,182,66.7,20.1,Việt Nam,Marketing,2025-06-26T20:41:06
+387,Huỳnh Văn Hải,huynhhai387@hotmail.com,user123,user,3936,gold,Nam,33,167,63.8,22.9,Nhật Bản,Giáo viên,2025-11-12T20:41:06
+388,Hoàng Thanh Hoa,hoanghoa388@gmail.com,user123,user,515,bronze,Nữ,31,152,50.1,21.7,Hàn Quốc,Bác sĩ,2026-04-19T20:41:06
+389,Phan Phương Mai,phanmai389@outlook.com,user123,user,3499,gold,Nữ,21,166,61.8,22.4,Thái Lan,Nhân viên văn phòng,2025-06-23T20:41:06
+390,Đỗ Thanh Linh,dỗlinh390@hotmail.com,user123,user,2382,gold,Nữ,29,157,45.1,18.3,Singapore,Giáo viên,2025-12-11T20:41:06
+391,Hoàng Bích Tuyết,hoangtuyet391@hotmail.com,user123,user,1157,bronze,Nữ,21,164,52.4,19.5,Việt Nam,Kỹ sư phần mềm,2025-09-13T20:41:06
+392,Nguyễn Thu Thảo,nguyễnthao392@outlook.com,user123,user,961,bronze,Nữ,45,167,61.5,22.1,Úc,Kế toán,2026-02-28T20:41:06
+393,Lê Quốc Phúc,lephúc393@outlook.com,user123,user,9815,diamond,Nam,45,178,63.9,20.2,Singapore,Freelancer,2025-09-20T20:41:06
+394,Ngô Minh Cường,ngocuong394@outlook.com,user123,user,9679,diamond,Nam,28,175,74.3,24.3,Trung Quốc,Y tá,2025-11-24T20:41:06
+395,Đỗ Kim Anh,dỗanh395@outlook.com,user123,user,2927,gold,Nữ,38,155,51.6,21.5,Pháp,Freelancer,2025-10-08T20:41:06
+396,Nguyễn Hoàng Dũng,nguyễndũng396@gmail.com,user123,user,1744,gold,Nam,21,180,74.8,23.1,Việt Nam,Nhà báo,2026-04-10T20:41:06
+397,Lê Hoàng Khải,lekhai397@gmail.com,user123,user,2694,gold,Nam,34,180,77.9,24.0,Việt Nam,Thiết kế đồ họa,2025-06-23T20:41:06
+398,Lý Hoàng Khải,lykhai398@gmail.com,user123,user,621,bronze,Nam,36,163,56.3,21.2,Hàn Quốc,Kỹ sư phần mềm,2026-04-28T20:41:06
+399,Vũ Thanh Đức,vũduc399@gmail.com,user123,user,202,iron,Nam,32,182,64.5,19.5,Đức,Nhà báo,2026-03-26T20:41:06
+400,Nguyễn Hữu Quang,nguyễnquang400@outlook.com,user123,user,790,bronze,Nam,20,180,76.0,23.5,Pháp,Quản lý dự án,2026-05-26T20:41:06
+401,Hoàng Thu Tuyết,hoangtuyet401@yahoo.com,user123,user,1375,bronze,Nữ,32,152,50.8,22.0,Úc,Freelancer,2025-09-15T20:41:06
+402,Ngô Kim Phương,ngophuong402@hotmail.com,user123,user,13100,diamond,Nữ,26,154,51.7,21.8,Canada,Sinh viên,2025-07-21T20:41:06
+403,Ngô Minh Quân,ngoquan403@yahoo.com,user123,user,389,iron,Nam,33,177,65.2,20.8,Mỹ,Kế toán,2025-12-28T20:41:06
+404,Ngô Minh Hải,ngohai404@hotmail.com,user123,user,109,iron,Nam,31,166,66.1,24.0,Trung Quốc,Kế toán,2025-08-14T20:41:06
+405,Hoàng Kim Nga,hoangnga405@hotmail.com,user123,user,4559,platinum,Nữ,37,155,43.1,17.9,Úc,Quản lý dự án,2025-08-29T20:41:06
+406,Phạm Phương Uyên,phamuyen406@outlook.com,user123,user,6400,platinum,Nữ,26,160,54.3,21.2,Đức,Doanh nhân,2026-02-24T20:41:06
+407,Nguyễn Đức Thiện,nguyễnthien407@outlook.com,user123,user,64,iron,Nam,23,171,65.5,22.4,Pháp,Nhân viên văn phòng,2025-06-30T20:41:06
+408,Võ Phương Trinh,võtrinh408@outlook.com,user123,user,7951,platinum,Nữ,21,159,51.6,20.4,Đức,Thiết kế đồ họa,2025-07-29T20:41:06
+409,Đặng Thanh Khoa,dangkhoa409@gmail.com,user123,user,10956,diamond,Nam,32,164,59.5,22.1,Đức,Doanh nhân,2026-01-22T20:41:06
+410,Phạm Công Cường,phamcuong410@yahoo.com,user123,user,193,iron,Nam,20,171,64.8,22.2,Hàn Quốc,Lập trình viên,2026-03-09T20:41:06
+411,Nguyễn Phương Uyên,nguyễnuyen411@outlook.com,user123,user,368,iron,Nữ,23,162,51.9,19.8,Việt Nam,Luật sư,2025-09-26T20:41:06
+412,Bùi Hoàng Nam,bùinam412@yahoo.com,user123,user,8303,diamond,Nam,27,163,61.4,23.1,Việt Nam,Thiết kế đồ họa,2026-04-30T20:41:06
+413,Đỗ Phương Tuyết,dỗtuyet413@yahoo.com,user123,user,1535,gold,Nữ,23,155,48.1,20.0,Việt Nam,Thiết kế đồ họa,2025-08-26T20:41:06
+414,Lê Phương Giang,legiang414@hotmail.com,user123,user,523,bronze,Nữ,22,161,59.2,22.8,Việt Nam,Quản lý dự án,2025-10-16T20:41:06
+415,Vũ Thị Tâm,vũtam415@outlook.com,user123,user,24793,master,Nữ,39,164,56.9,21.2,Singapore,Thiết kế đồ họa,2025-12-17T20:41:06
+416,Hoàng Hữu Phong,hoangphong416@hotmail.com,user123,user,20081,master,Nam,42,175,74.1,24.2,Đức,Kỹ sư phần mềm,2025-07-10T20:41:06
+417,Hoàng Công Minh,hoangminh417@yahoo.com,user123,user,3379,gold,Nam,22,162,50.4,19.2,Trung Quốc,Freelancer,2025-10-28T20:41:06
+418,Đỗ Đức Kiên,dỗkien418@outlook.com,user123,user,1359,bronze,Nam,42,174,60.5,20.0,Nhật Bản,Lập trình viên,2025-12-07T20:41:06
+419,Bùi Bích Vân,bùivan419@hotmail.com,user123,user,45,iron,Nữ,37,158,45.0,18.0,Đức,Kỹ sư phần mềm,2025-05-30T20:41:06
+420,Đặng Đức Sơn,dangson420@outlook.com,user123,user,853,bronze,Nam,45,170,58.2,20.1,Hàn Quốc,Giáo viên,2026-03-02T20:41:06
+421,Hoàng Thanh Anh,hoanganh421@gmail.com,user123,user,1261,bronze,Nam,45,172,59.7,20.2,Thái Lan,Marketing,2025-08-24T20:41:06
+422,Đỗ Phương Trinh,dỗtrinh422@hotmail.com,user123,user,522,bronze,Nữ,43,167,54.5,19.5,Mỹ,Doanh nhân,2026-02-13T20:41:06
+423,Vũ Thu Thu,vũthu423@outlook.com,user123,user,25267,master,Nữ,38,167,50.4,18.1,Đức,Luật sư,2025-08-31T20:41:06
+424,Lê Hữu Lâm,lelam424@outlook.com,user123,user,505,bronze,Nam,26,174,67.7,22.4,Mỹ,Y tá,2025-08-17T20:41:06
+425,Ngô Kim Lan,ngolan425@gmail.com,user123,user,24876,master,Nữ,39,154,46.2,19.5,Việt Nam,Y tá,2025-09-22T20:41:06
+426,Nguyễn Ngọc Nhung,nguyễnnhung426@gmail.com,user123,user,1439,bronze,Nữ,25,164,53.0,19.7,Việt Nam,Doanh nhân,2025-12-18T20:41:06
+427,Hoàng Thanh Tùng,hoangtùng427@gmail.com,user123,user,1340,bronze,Nam,33,168,55.5,19.7,Hàn Quốc,Nhà báo,2025-08-09T20:41:06
+428,Dương Mỹ Tuyết,duongtuyet428@gmail.com,user123,user,133,iron,Nữ,45,170,61.0,21.1,Nhật Bản,Nhà báo,2025-12-17T20:41:06
+429,Phạm Thanh Xuân,phamxuan429@hotmail.com,user123,user,2468,gold,Nam,41,181,72.0,22.0,Mỹ,Lập trình viên,2026-05-10T20:41:06
+430,Hồ Mỹ Thu,hothu430@outlook.com,user123,user,2348,gold,Nữ,28,159,48.8,19.3,Úc,Bác sĩ,2025-12-17T20:41:06
+431,Hồ Thị Yến,hoyen431@hotmail.com,user123,user,14390,diamond,Nữ,39,154,48.3,20.4,Pháp,Nhân viên văn phòng,2025-09-27T20:41:06
+432,Võ Bích Giang,võgiang432@yahoo.com,user123,user,907,bronze,Nữ,20,153,49.2,21.0,Hàn Quốc,Sinh viên,2025-10-21T20:41:06
+433,Trần Công Việt,tranviet433@yahoo.com,user123,user,2402,gold,Nam,19,163,52.5,19.8,Pháp,Marketing,2026-02-16T20:41:06
+434,Vũ Kim Dung,vũdung434@outlook.com,user123,user,9588,diamond,Nữ,40,167,53.6,19.2,Nhật Bản,Kế toán,2026-01-03T20:41:06
+435,Huỳnh Phương Phương,huynhphuong435@outlook.com,user123,user,2599,gold,Nữ,38,161,59.9,23.1,Việt Nam,Bác sĩ,2026-04-27T20:41:06
+436,Đặng Thu Uyên,danguyen436@hotmail.com,user123,user,1532,gold,Nữ,21,157,46.7,18.9,Trung Quốc,Thiết kế đồ họa,2025-09-07T20:41:06
+437,Vũ Công Quân,vũquan437@yahoo.com,user123,user,998,bronze,Nam,28,172,67.7,22.9,Nhật Bản,Y tá,2026-03-04T20:41:06
+438,Ngô Ngọc Mai,ngomai438@gmail.com,user123,user,591,bronze,Nữ,33,163,59.9,22.5,Canada,Quản lý dự án,2025-09-19T20:41:06
+439,Phan Quốc Tuấn,phantuan439@outlook.com,user123,user,350,iron,Nam,23,164,49.0,18.2,Việt Nam,Luật sư,2025-11-27T20:41:06
+440,Huỳnh Bích Nhung,huynhnhung440@gmail.com,user123,user,518,bronze,Nữ,20,168,53.8,19.1,Pháp,Nhân viên văn phòng,2026-03-10T20:41:06
+441,Ngô Công Dũng,ngodũng441@yahoo.com,user123,user,3138,gold,Nam,19,162,48.7,18.6,Singapore,Marketing,2025-08-07T20:41:06
+442,Phạm Minh Tuấn,phamtuan442@gmail.com,user123,user,198,iron,Nam,40,169,70.7,24.8,Nhật Bản,Quản lý dự án,2025-09-07T20:41:06
+443,Đỗ Thanh Hà,dỗha443@yahoo.com,user123,user,495,iron,Nữ,42,157,56.3,22.8,Việt Nam,Luật sư,2026-02-01T20:41:06
+444,Nguyễn Thu Hằng,nguyễnhang444@outlook.com,user123,user,7233,platinum,Nữ,23,163,60.4,22.7,Việt Nam,Doanh nhân,2026-04-12T20:41:06
+445,Nguyễn Thu Chi,nguyễnchi445@yahoo.com,user123,user,865,bronze,Nữ,25,169,58.0,20.3,Việt Nam,Kế toán,2025-12-23T20:41:06
+446,Lê Công Hùng,lehùng446@hotmail.com,user123,user,10016,diamond,Nam,38,164,61.2,22.8,Canada,Luật sư,2025-11-20T20:41:06
+447,Vũ Hữu Nhân,vũnhan447@yahoo.com,user123,user,2101,gold,Nam,32,181,62.4,19.0,Việt Nam,Nhà báo,2025-08-27T20:41:06
+448,Bùi Minh Nghĩa,bùinghĩa448@gmail.com,user123,user,8951,diamond,Nam,19,171,70.2,24.0,Việt Nam,Nhân viên văn phòng,2025-10-24T20:41:06
+449,Ngô Thị Nga,ngonga449@gmail.com,user123,user,3011,gold,Nữ,34,162,58.4,22.3,Việt Nam,Luật sư,2025-09-13T20:41:06
+450,Đỗ Thanh My,dỗmy450@hotmail.com,user123,user,143,iron,Nữ,35,161,60.3,23.3,Trung Quốc,Doanh nhân,2025-10-12T20:41:06
+451,Hồ Bích Hà,hoha451@gmail.com,user123,user,416,iron,Nữ,34,152,52.8,22.9,Việt Nam,Marketing,2025-10-17T20:41:06
+452,Phạm Quốc Khải,phamkhai452@gmail.com,user123,user,3133,gold,Nam,35,166,64.6,23.4,Nhật Bản,Marketing,2026-01-25T20:41:06
+453,Lý Văn Kiên,lykien453@yahoo.com,user123,user,883,bronze,Nam,29,174,75.2,24.8,Úc,Doanh nhân,2025-08-04T20:41:06
+454,Đặng Hoàng Dũng,dangdũng454@outlook.com,user123,user,1014,bronze,Nam,23,182,67.6,20.4,Nhật Bản,Nhà báo,2025-12-01T20:41:06
+455,Đặng Bích Xuân,dangxuan455@yahoo.com,user123,user,8033,diamond,Nữ,21,155,53.9,22.4,Úc,Kế toán,2025-07-08T20:41:06
+456,Dương Thanh Hùng,duonghùng456@hotmail.com,user123,user,7097,platinum,Nam,21,166,60.1,21.8,Trung Quốc,Y tá,2025-12-22T20:41:06
+457,Võ Thanh Phúc,võphúc457@hotmail.com,user123,user,5071,platinum,Nam,45,173,63.0,21.0,Đức,Sinh viên,2026-02-17T20:41:06
+458,Phan Hoàng Đức,phanduc458@yahoo.com,user123,user,411,iron,Nam,38,171,66.0,22.6,Việt Nam,Giáo viên,2025-09-01T20:41:06
+459,Đỗ Minh Tuấn,dỗtuan459@gmail.com,user123,user,969,bronze,Nam,37,165,63.4,23.3,Pháp,Y tá,2026-05-23T20:41:06
+460,Bùi Thị Hương,bùihuong460@outlook.com,user123,user,871,bronze,Nữ,23,156,50.6,20.8,Singapore,Bác sĩ,2025-08-27T20:41:06
+461,Võ Công Quân,võquan461@gmail.com,user123,user,376,iron,Nam,44,172,67.7,22.9,Việt Nam,Freelancer,2026-05-04T20:41:06
+462,Võ Phương Thủy,võthủy462@outlook.com,user123,user,5530,platinum,Nữ,23,166,54.0,19.6,Mỹ,Giáo viên,2026-05-04T20:41:06
+463,Nguyễn Kim Hà,nguyễnha463@gmail.com,user123,user,2508,gold,Nữ,32,167,52.8,18.9,Mỹ,Kiến trúc sư,2025-06-29T20:41:06
+464,Huỳnh Ngọc Vân,huynhvan464@yahoo.com,user123,user,555,bronze,Nữ,38,154,48.2,20.3,Hàn Quốc,Bác sĩ,2026-02-15T20:41:06
+465,Vũ Thanh Dũng,vũdũng465@outlook.com,user123,user,2107,gold,Nam,24,179,63.1,19.7,Singapore,Sinh viên,2025-06-14T20:41:06
+466,Phạm Quốc Trung,phamtrung466@gmail.com,user123,user,10989,diamond,Nam,37,176,72.4,23.4,Trung Quốc,Luật sư,2026-03-27T20:41:06
+467,Hồ Mỹ Tuyết,hotuyet467@outlook.com,user123,user,5964,platinum,Nữ,22,169,55.1,19.3,Nhật Bản,Nhân viên văn phòng,2025-09-07T20:41:06
+468,Võ Hoàng Minh,võminh468@hotmail.com,user123,user,1131,bronze,Nam,36,173,56.5,18.9,Việt Nam,Giáo viên,2025-11-02T20:41:06
+469,Lý Bích Yến,lyyen469@hotmail.com,user123,user,1382,bronze,Nữ,19,169,54.1,18.9,Úc,Bác sĩ,2026-04-23T20:41:06
+470,Dương Văn Giang,duonggiang470@gmail.com,user123,user,6203,platinum,Nam,30,165,66.0,24.2,Hàn Quốc,Bác sĩ,2025-08-08T20:41:06
+471,Vũ Minh Phúc,vũphúc471@yahoo.com,user123,user,248,iron,Nam,39,179,68.3,21.3,Việt Nam,Marketing,2026-01-01T20:41:06
+472,Huỳnh Thị My,huynhmy472@hotmail.com,user123,user,857,bronze,Nữ,22,162,54.2,20.7,Việt Nam,Sinh viên,2026-05-17T20:41:06
+473,Hoàng Công Anh,hoanganh473@gmail.com,user123,user,1083,bronze,Nam,44,165,53.7,19.7,Hàn Quốc,Quản lý dự án,2026-03-10T20:41:06
+474,Vũ Công Nam,vũnam474@yahoo.com,user123,user,161,iron,Nam,35,170,72.2,25.0,Mỹ,Giáo viên,2025-09-16T20:41:06
+475,Võ Văn Quân,võquan475@gmail.com,user123,user,18,iron,Nam,29,162,51.5,19.6,Úc,Kỹ sư phần mềm,2025-07-08T20:41:06
+476,Lê Mỹ Vân,levan476@outlook.com,user123,user,5946,platinum,Nữ,44,163,52.4,19.7,Pháp,Y tá,2025-11-02T20:41:06
+477,Đỗ Kim Hoa,dỗhoa477@gmail.com,user123,user,2976,gold,Nữ,25,160,44.7,17.5,Pháp,Giáo viên,2026-04-10T20:41:06
+478,Dương Thanh Phong,duongphong478@gmail.com,user123,user,25586,master,Nam,22,182,75.5,22.8,Việt Nam,Doanh nhân,2026-01-05T20:41:06
+479,Lý Minh Giang,lygiang479@yahoo.com,user123,user,24519,master,Nam,42,177,78.4,25.0,Việt Nam,Luật sư,2026-01-02T20:41:06
+480,Trần Minh Trung,trantrung480@yahoo.com,user123,user,839,bronze,Nam,42,173,56.5,18.9,Việt Nam,Marketing,2026-04-09T20:41:06
+481,Võ Kim Nga,võnga481@yahoo.com,user123,user,549,bronze,Nữ,42,170,55.7,19.3,Hàn Quốc,Doanh nhân,2025-11-22T20:41:06
+482,Vũ Đức Trung,vũtrung482@yahoo.com,user123,user,3144,gold,Nam,43,180,69.2,21.4,Việt Nam,Marketing,2025-09-18T20:41:06
+483,Đỗ Thu Phương,dỗphuong483@gmail.com,user123,user,7363,platinum,Nữ,24,165,49.9,18.3,Mỹ,Bác sĩ,2025-07-13T20:41:06
+484,Võ Minh Tuấn,võtuan484@hotmail.com,user123,user,23089,master,Nam,38,178,67.3,21.2,Nhật Bản,Kế toán,2025-06-27T20:41:06
+485,Lý Ngọc Mai,lymai485@yahoo.com,user123,user,410,iron,Nữ,25,163,61.3,23.1,Úc,Marketing,2025-10-06T20:41:06
+486,Lê Văn Hùng,lehùng486@outlook.com,user123,user,1898,gold,Nam,26,170,68.1,23.6,Singapore,Doanh nhân,2026-03-10T20:41:06
+487,Lê Thanh Vân,levan487@gmail.com,user123,user,2563,gold,Nữ,40,165,48.3,17.7,Việt Nam,Sinh viên,2026-03-23T20:41:06
+488,Phan Bích Hà,phanha488@outlook.com,user123,user,33,iron,Nữ,26,161,56.1,21.6,Nhật Bản,Marketing,2026-03-03T20:41:06
+489,Võ Thanh Linh,võlinh489@gmail.com,user123,user,1216,bronze,Nữ,25,155,54.0,22.5,Mỹ,Bác sĩ,2026-05-15T20:41:06
+490,Hồ Mỹ Chi,hochi490@yahoo.com,user123,user,2074,gold,Nữ,25,164,48.0,17.8,Mỹ,Y tá,2026-01-21T20:41:06
+491,Ngô Quốc Việt,ngoviet491@gmail.com,user123,user,31,iron,Nam,22,175,57.5,18.8,Pháp,Quản lý dự án,2025-07-08T20:41:06
+492,Dương Thị Loan,duongloan492@gmail.com,user123,user,7507,platinum,Nữ,25,168,50.2,17.8,Pháp,Quản lý dự án,2025-10-06T20:41:06
+493,Phạm Quốc Long,phamlong493@hotmail.com,user123,user,1726,gold,Nam,23,175,66.3,21.6,Việt Nam,Bác sĩ,2026-05-06T20:41:06
+494,Dương Đức Đức,duongduc494@hotmail.com,user123,user,589,bronze,Nam,32,166,55.8,20.2,Việt Nam,Luật sư,2025-10-29T20:41:06
+495,Dương Mỹ Thủy,duongthủy495@yahoo.com,user123,user,1347,bronze,Nữ,33,162,49.5,18.9,Úc,Y tá,2026-04-09T20:41:06
+496,Võ Bích Hoa,võhoa496@hotmail.com,user123,user,1920,gold,Nữ,43,162,50.4,19.2,Nhật Bản,Y tá,2025-12-20T20:41:06
+497,Ngô Bích Trang,ngotrang497@yahoo.com,user123,user,3,iron,Nữ,39,162,54.8,20.9,Việt Nam,Nhân viên văn phòng,2025-07-20T20:41:06
+498,Vũ Minh Liêm,vũliem498@hotmail.com,user123,user,6651,platinum,Nam,29,165,52.1,19.1,Việt Nam,Bác sĩ,2026-04-26T20:41:06
+499,Trần Văn Minh,tranminh499@gmail.com,user123,user,4200,platinum,Nam,26,182,73.7,22.2,Việt Nam,Thiết kế đồ họa,2026-02-06T20:41:06
+500,Hồ Thanh Nhung,honhung500@outlook.com,user123,user,339,iron,Nữ,34,164,56.8,21.1,Mỹ,Marketing,2026-05-21T20:41:06
+501,Vũ Đức Anh,vũanh501@yahoo.com,user123,user,597,bronze,Nam,22,167,58.1,20.8,Việt Nam,Y tá,2025-06-03T20:41:06
+502,Nguyễn Hoàng Nhân,nguyễnnhan502@hotmail.com,user123,user,708,bronze,Nam,27,169,71.2,24.9,Việt Nam,Bác sĩ,2026-02-27T20:41:06
+503,Lê Kim Tuyết,letuyet503@outlook.com,user123,user,12533,diamond,Nữ,20,166,56.4,20.5,Việt Nam,Giáo viên,2026-03-13T20:41:06
+504,Dương Quốc Bảo,duongbao504@yahoo.com,user123,user,83,iron,Nam,35,174,74.4,24.6,Thái Lan,Kỹ sư phần mềm,2025-06-23T20:41:06
+505,Ngô Thanh Nghĩa,ngonghĩa505@hotmail.com,user123,user,1354,bronze,Nam,29,172,70.2,23.7,Mỹ,Kế toán,2025-08-27T20:41:06
+506,Vũ Mỹ Thu,vũthu506@yahoo.com,user123,user,6435,platinum,Nữ,21,154,54.0,22.8,Đức,Sinh viên,2025-11-27T20:41:06
+507,Nguyễn Văn Hải,nguyễnhai507@hotmail.com,user123,user,6,iron,Nam,41,166,62.6,22.7,Đức,Nhân viên văn phòng,2026-01-30T20:41:06
+508,Võ Ngọc Phương,võphuong508@hotmail.com,user123,user,251,iron,Nữ,20,162,53.7,20.5,Canada,Thiết kế đồ họa,2026-03-01T20:41:06
+509,Võ Mỹ Tuyết,võtuyet509@outlook.com,user123,user,3430,gold,Nữ,34,159,59.3,23.5,Singapore,Doanh nhân,2025-07-01T20:41:06
+510,Lý Hoàng Việt,lyviet510@gmail.com,user123,user,2579,gold,Nam,20,162,49.1,18.7,Nhật Bản,Quản lý dự án,2025-10-18T20:41:06
+511,Ngô Minh Quân,ngoquan511@outlook.com,user123,user,283,iron,Nam,31,180,69.4,21.4,Nhật Bản,Nhân viên văn phòng,2026-01-15T20:41:06
+512,Vũ Thanh Hùng,vũhùng512@yahoo.com,user123,user,1253,bronze,Nam,36,177,68.9,22.0,Canada,Thiết kế đồ họa,2025-09-18T20:41:06
+513,Dương Hữu Dũng,duongdũng513@hotmail.com,user123,user,819,bronze,Nam,26,182,78.0,23.5,Hàn Quốc,Nhà báo,2026-05-22T20:41:06
+514,Trần Hoàng Hùng,tranhùng514@yahoo.com,user123,user,1,iron,Nam,36,172,71.8,24.3,Canada,Thiết kế đồ họa,2026-04-19T20:41:06
+515,Vũ Công Long,vũlong515@outlook.com,user123,user,832,bronze,Nam,41,176,64.6,20.9,Thái Lan,Kiến trúc sư,2026-02-14T20:41:06
+516,Hồ Hoàng Anh,hoanh516@hotmail.com,user123,user,27078,master,Nam,24,182,81.1,24.5,Việt Nam,Luật sư,2026-05-17T20:41:06
+517,Vũ Hữu Thiện,vũthien517@hotmail.com,user123,user,25784,master,Nam,20,169,62.3,21.8,Việt Nam,Giáo viên,2026-02-26T20:41:06
+518,Ngô Phương Vân,ngovan518@outlook.com,user123,user,1527,gold,Nữ,26,152,51.8,22.4,Canada,Nhà báo,2025-12-08T20:41:06
+519,Vũ Ngọc Phương,vũphuong519@hotmail.com,user123,user,1456,bronze,Nữ,31,155,49.3,20.5,Trung Quốc,Nhân viên văn phòng,2025-05-27T20:41:06
+520,Trần Thanh Khoa,trankhoa520@outlook.com,user123,user,16,iron,Nam,34,166,54.3,19.7,Hàn Quốc,Kỹ sư phần mềm,2025-08-16T20:41:06
+521,Huỳnh Công Khoa,huynhkhoa521@yahoo.com,user123,user,2068,gold,Nam,19,166,55.1,20.0,Đức,Nhân viên văn phòng,2026-01-07T20:41:06
+522,Lê Quốc Bảo,lebao522@outlook.com,user123,user,3820,gold,Nam,45,168,65.5,23.2,Singapore,Marketing,2025-09-29T20:41:06
+523,Đặng Văn Anh,danganh523@outlook.com,user123,user,977,bronze,Nam,23,164,56.4,21.0,Việt Nam,Doanh nhân,2025-09-17T20:41:06
+524,Phạm Hữu Anh,phamanh524@yahoo.com,user123,user,1269,bronze,Nam,44,177,66.2,21.1,Thái Lan,Thiết kế đồ họa,2025-09-20T20:41:06
+525,Hoàng Quốc Dũng,hoangdũng525@yahoo.com,user123,user,12929,diamond,Nam,35,164,65.3,24.3,Việt Nam,Quản lý dự án,2025-07-06T20:41:06
+526,Nguyễn Quốc Cường,nguyễncuong526@yahoo.com,user123,user,1166,bronze,Nam,19,169,65.1,22.8,Việt Nam,Y tá,2026-02-13T20:41:06
+527,Phạm Công Vũ,phamvũ527@yahoo.com,user123,user,4057,platinum,Nam,34,174,74.5,24.6,Úc,Kỹ sư phần mềm,2026-03-26T20:41:06
+528,Đặng Thanh Tâm,dangtam528@outlook.com,user123,user,1903,gold,Nữ,43,170,57.0,19.7,Thái Lan,Freelancer,2025-06-10T20:41:06
+529,Phạm Quốc Hải,phamhai529@gmail.com,user123,user,12160,diamond,Nam,31,166,57.5,20.9,Trung Quốc,Freelancer,2025-11-10T20:41:06
+530,Hoàng Mỹ Loan,hoangloan530@gmail.com,user123,user,9704,diamond,Nữ,35,156,46.7,19.2,Trung Quốc,Doanh nhân,2026-04-21T20:41:06
+531,Hồ Mỹ Yến,hoyen531@outlook.com,user123,user,525,bronze,Nữ,35,165,62.9,23.1,Việt Nam,Marketing,2026-04-29T20:41:06
+532,Ngô Đức Anh,ngoanh532@outlook.com,user123,user,66,iron,Nam,35,173,62.8,21.0,Hàn Quốc,Y tá,2025-06-24T20:41:06
+533,Lý Hữu Xuân,lyxuan533@outlook.com,user123,user,2661,gold,Nam,36,165,50.4,18.5,Thái Lan,Thiết kế đồ họa,2026-04-28T20:41:06
+534,Hoàng Quốc Nhân,hoangnhan534@yahoo.com,user123,user,223,iron,Nam,21,164,54.4,20.2,Mỹ,Thiết kế đồ họa,2025-08-12T20:41:06
+535,Hoàng Bích Tuyết,hoangtuyet535@yahoo.com,user123,user,7361,platinum,Nữ,21,165,52.0,19.1,Nhật Bản,Kế toán,2025-09-14T20:41:06
+536,Trần Hoàng Trung,trantrung536@outlook.com,user123,user,489,iron,Nam,37,163,56.4,21.2,Đức,Marketing,2026-05-20T20:41:06
+537,Vũ Phương Loan,vũloan537@hotmail.com,user123,user,150,iron,Nữ,40,157,57.3,23.2,Thái Lan,Marketing,2025-07-11T20:41:06
+538,Bùi Thanh Tuấn,bùituan538@gmail.com,user123,user,810,bronze,Nam,35,171,56.4,19.3,Việt Nam,Freelancer,2026-05-25T20:41:06
+539,Phạm Minh Dũng,phamdũng539@hotmail.com,user123,user,1646,gold,Nam,30,176,67.2,21.7,Việt Nam,Luật sư,2026-04-08T20:41:06
+540,Ngô Thị Tâm,ngotam540@hotmail.com,user123,user,891,bronze,Nữ,36,163,58.8,22.1,Trung Quốc,Luật sư,2026-02-25T20:41:06
+541,Ngô Thanh Linh,ngolinh541@hotmail.com,user123,user,1462,bronze,Nữ,23,169,65.3,22.9,Việt Nam,Giáo viên,2025-12-17T20:41:06
+542,Hồ Quốc Khoa,hokhoa542@yahoo.com,user123,user,1269,bronze,Nam,39,168,67.3,23.8,Úc,Quản lý dự án,2026-01-15T20:41:06
+543,Bùi Minh Trung,bùitrung543@outlook.com,user123,user,2747,gold,Nam,33,178,63.2,19.9,Việt Nam,Marketing,2026-03-07T20:41:06
+544,Đặng Thanh Nga,dangnga544@hotmail.com,user123,user,2817,gold,Nữ,34,166,58.7,21.3,Trung Quốc,Marketing,2026-03-19T20:41:06
+545,Lê Thanh Anh,leanh545@yahoo.com,user123,user,871,bronze,Nam,26,166,51.3,18.6,Việt Nam,Sinh viên,2025-11-01T20:41:06
+546,Võ Phương Ngân,võngan546@yahoo.com,user123,user,1040,bronze,Nữ,25,152,42.4,18.4,Đức,Kỹ sư phần mềm,2026-05-12T20:41:06
+547,Đặng Minh Lâm,danglam547@outlook.com,user123,user,4163,platinum,Nam,25,168,52.5,18.6,Việt Nam,Bác sĩ,2026-05-11T20:41:06
+548,Võ Đức Việt,võviet548@gmail.com,user123,user,167,iron,Nam,25,164,53.2,19.8,Hàn Quốc,Bác sĩ,2025-11-04T20:41:06
+549,Đặng Mỹ Thủy,dangthủy549@hotmail.com,user123,user,55,iron,Nữ,39,159,44.3,17.5,Đức,Giáo viên,2026-01-29T20:41:06
+550,Võ Quốc Tuấn,võtuan550@yahoo.com,user123,user,492,iron,Nam,35,175,63.4,20.7,Việt Nam,Kiến trúc sư,2025-05-28T20:41:06
+551,Bùi Phương Thủy,bùithủy551@gmail.com,user123,user,3888,gold,Nữ,45,164,51.5,19.1,Việt Nam,Thiết kế đồ họa,2026-05-02T20:41:06
+552,Dương Minh Xuân,duongxuan552@outlook.com,user123,user,3492,gold,Nam,36,172,60.7,20.5,Việt Nam,Luật sư,2026-05-03T20:41:06
+553,Nguyễn Thị Yến,nguyễnyen553@yahoo.com,user123,user,888,bronze,Nữ,38,169,52.1,18.2,Việt Nam,Lập trình viên,2025-12-11T20:41:06
+554,Dương Thị Phương,duongphuong554@hotmail.com,user123,user,8343,diamond,Nữ,40,158,52.9,21.2,Mỹ,Freelancer,2025-08-13T20:41:06
+555,Nguyễn Kim Trinh,nguyễntrinh555@hotmail.com,user123,user,14912,diamond,Nữ,18,170,63.4,21.9,Thái Lan,Nhà báo,2026-02-25T20:41:06
+556,Võ Hữu Vũ,võvũ556@hotmail.com,user123,user,8422,diamond,Nam,30,165,54.6,20.1,Mỹ,Kỹ sư phần mềm,2025-09-05T20:41:06
+557,Hoàng Văn Phong,hoangphong557@gmail.com,user123,user,964,bronze,Nam,38,164,53.7,20.0,Canada,Quản lý dự án,2025-12-09T20:41:06
+558,Đặng Thanh Quang,dangquang558@hotmail.com,user123,user,646,bronze,Nam,32,167,51.4,18.4,Việt Nam,Quản lý dự án,2026-03-20T20:41:06
+559,Hồ Kim Trinh,hotrinh559@hotmail.com,user123,user,3621,gold,Nữ,34,153,55.0,23.5,Việt Nam,Y tá,2025-12-15T20:41:06
+560,Đỗ Hữu Minh,dỗminh560@yahoo.com,user123,user,2746,gold,Nam,22,180,76.8,23.7,Nhật Bản,Quản lý dự án,2025-06-07T20:41:06
+561,Ngô Đức Bảo,ngobao561@outlook.com,user123,user,123,iron,Nam,21,174,73.5,24.3,Việt Nam,Lập trình viên,2025-07-06T20:41:06
+562,Phan Thanh Vân,phanvan562@hotmail.com,user123,user,1064,bronze,Nữ,35,160,53.0,20.7,Nhật Bản,Kiến trúc sư,2025-12-26T20:41:06
+563,Hồ Thanh Giang,hogiang563@yahoo.com,user123,user,2822,gold,Nam,43,179,64.4,20.1,Việt Nam,Lập trình viên,2025-08-18T20:41:06
+564,Hồ Kim Loan,holoan564@gmail.com,user123,user,601,bronze,Nữ,25,160,59.1,23.1,Trung Quốc,Nhà báo,2026-02-21T20:41:06
+565,Hồ Thị Thảo,hothao565@hotmail.com,user123,user,797,bronze,Nữ,42,159,48.4,19.1,Nhật Bản,Luật sư,2025-07-05T20:41:06
+566,Lê Thị Thảo,lethao566@yahoo.com,user123,user,934,bronze,Nữ,19,154,54.6,23.0,Việt Nam,Bác sĩ,2025-08-26T20:41:06
+567,Hoàng Thanh Nghĩa,hoangnghĩa567@hotmail.com,user123,user,2054,gold,Nam,38,164,52.4,19.5,Hàn Quốc,Lập trình viên,2025-06-22T20:41:06
+568,Bùi Quốc Quang,bùiquang568@gmail.com,user123,user,1487,bronze,Nam,35,180,66.4,20.5,Thái Lan,Sinh viên,2026-05-14T20:41:06
+569,Dương Phương Nhung,duongnhung569@hotmail.com,user123,user,769,bronze,Nữ,45,168,61.6,21.8,Singapore,Kế toán,2025-09-14T20:41:06
+570,Dương Quốc Liêm,duongliem570@yahoo.com,user123,user,1249,bronze,Nam,26,170,69.8,24.2,Việt Nam,Kiến trúc sư,2025-08-01T20:41:06
+571,Hoàng Đức Phúc,hoangphúc571@outlook.com,user123,user,1165,bronze,Nam,23,166,55.1,20.0,Đức,Doanh nhân,2026-01-01T20:41:06
+572,Nguyễn Công Hải,nguyễnhai572@yahoo.com,user123,user,1140,bronze,Nam,26,164,53.4,19.9,Úc,Nhà báo,2025-12-29T20:41:06
+573,Phạm Thị My,phammy573@gmail.com,user123,user,9928,diamond,Nữ,35,160,54.9,21.4,Việt Nam,Marketing,2026-05-25T20:41:06
+574,Trần Kim Tâm,trantam574@yahoo.com,user123,user,914,bronze,Nữ,45,163,47.5,17.9,Nhật Bản,Nhà báo,2025-06-10T20:41:06
+575,Ngô Minh Phong,ngophong575@hotmail.com,user123,user,17272,master,Nam,24,179,63.0,19.7,Thái Lan,Doanh nhân,2025-08-09T20:41:06
+576,Nguyễn Thanh Thiện,nguyễnthien576@yahoo.com,user123,user,11031,diamond,Nam,22,165,59.9,22.0,Pháp,Nhân viên văn phòng,2025-07-26T20:41:06
+577,Vũ Văn Long,vũlong577@yahoo.com,user123,user,992,bronze,Nam,42,162,51.8,19.7,Úc,Y tá,2025-07-25T20:41:06
+578,Phan Minh Nam,phannam578@yahoo.com,user123,user,2126,gold,Nam,34,167,53.5,19.2,Singapore,Quản lý dự án,2026-04-18T20:41:06
+579,Vũ Minh Việt,vũviet579@gmail.com,user123,user,14366,diamond,Nam,40,162,58.9,22.4,Việt Nam,Giáo viên,2025-09-20T20:41:06
+580,Võ Quốc Long,võlong580@yahoo.com,user123,user,190,iron,Nam,42,179,73.3,22.9,Thái Lan,Freelancer,2026-03-14T20:41:06
+581,Hồ Bích Thu,hothu581@outlook.com,user123,user,1152,bronze,Nữ,36,169,59.6,20.9,Trung Quốc,Nhân viên văn phòng,2025-12-28T20:41:06
+582,Vũ Thị Uyên,vũuyen582@yahoo.com,user123,user,11276,diamond,Nữ,26,160,45.2,17.7,Canada,Kỹ sư phần mềm,2025-07-11T20:41:06
+583,Vũ Hữu Phong,vũphong583@gmail.com,user123,user,2022,gold,Nam,21,171,68.1,23.3,Việt Nam,Luật sư,2025-11-02T20:41:06
+584,Phạm Thanh Nga,phamnga584@yahoo.com,user123,user,292,iron,Nữ,42,157,55.6,22.6,Việt Nam,Quản lý dự án,2026-05-23T20:41:06
+585,Vũ Công Lâm,vũlam585@hotmail.com,user123,user,988,bronze,Nam,30,177,67.8,21.6,Singapore,Freelancer,2026-02-07T20:41:06
+586,Ngô Văn Phúc,ngophúc586@yahoo.com,user123,user,2401,gold,Nam,19,163,67.1,25.3,Việt Nam,Doanh nhân,2025-10-27T20:41:06
+587,Võ Phương Chi,võchi587@yahoo.com,user123,user,35,iron,Nữ,37,152,50.0,21.6,Canada,Lập trình viên,2025-11-02T20:41:06
+588,Huỳnh Thanh Giang,huynhgiang588@gmail.com,user123,user,5589,platinum,Nữ,31,153,43.2,18.5,Việt Nam,Sinh viên,2025-06-04T20:41:06
+589,Hồ Đức Sơn,hoson589@gmail.com,user123,user,413,iron,Nam,39,162,54.5,20.8,Singapore,Kế toán,2025-07-08T20:41:06
+590,Vũ Công Liêm,vũliem590@outlook.com,user123,user,2444,gold,Nam,42,169,59.5,20.8,Hàn Quốc,Luật sư,2025-08-15T20:41:06
+591,Nguyễn Thu Nhung,nguyễnnhung591@gmail.com,user123,user,6910,platinum,Nữ,23,162,57.1,21.8,Singapore,Kỹ sư phần mềm,2025-06-17T20:41:06
+592,Vũ Quốc Nghĩa,vũnghĩa592@outlook.com,user123,user,2292,gold,Nam,24,170,64.8,22.4,Pháp,Doanh nhân,2026-04-09T20:41:06
+593,Hoàng Bích Nhung,hoangnhung593@yahoo.com,user123,user,11163,diamond,Nữ,43,165,55.3,20.3,Việt Nam,Luật sư,2025-08-27T20:41:06
+594,Bùi Thanh Vân,bùivan594@gmail.com,user123,user,885,bronze,Nữ,44,161,60.9,23.5,Mỹ,Marketing,2025-06-19T20:41:06
+595,Huỳnh Ngọc Dung,huynhdung595@hotmail.com,user123,user,1242,bronze,Nữ,41,165,60.8,22.3,Đức,Kỹ sư phần mềm,2025-10-11T20:41:06
+596,Phạm Phương Quỳnh,phamquynh596@gmail.com,user123,user,1978,gold,Nữ,33,164,50.2,18.7,Úc,Y tá,2025-08-04T20:41:06
+597,Phan Quốc Bảo,phanbao597@outlook.com,user123,user,27776,master,Nam,36,176,58.4,18.9,Đức,Freelancer,2025-08-14T20:41:06
+598,Đỗ Mỹ Chi,dỗchi598@outlook.com,user123,user,260,iron,Nữ,41,157,46.7,18.9,Canada,Marketing,2025-12-18T20:41:06
+599,Võ Mỹ Ngân,võngan599@outlook.com,user123,user,1841,gold,Nữ,44,160,55.4,21.6,Pháp,Marketing,2025-07-12T20:41:06
+600,Nguyễn Hoàng Liêm,nguyễnliem600@hotmail.com,user123,user,650,bronze,Nam,29,172,55.9,18.9,Trung Quốc,Nhà báo,2025-12-11T20:41:06
+601,Đỗ Thu Hương,dỗhuong601@yahoo.com,user123,user,29687,master,Nữ,33,155,45.4,18.9,Mỹ,Giáo viên,2026-04-24T20:41:06
+602,Bùi Minh Minh,bùiminh602@hotmail.com,user123,user,5920,platinum,Nam,45,179,64.7,20.2,Mỹ,Giáo viên,2025-06-08T20:41:06
+603,Hoàng Mỹ Mai,hoangmai603@gmail.com,user123,user,3659,gold,Nữ,22,169,59.9,21.0,Việt Nam,Sinh viên,2026-02-07T20:41:06
+604,Ngô Quốc Khải,ngokhai604@yahoo.com,user123,user,9872,diamond,Nam,43,169,72.6,25.4,Pháp,Thiết kế đồ họa,2026-01-06T20:41:06
+605,Huỳnh Mỹ Anh,huynhanh605@hotmail.com,user123,user,234,iron,Nữ,26,169,64.8,22.7,Úc,Freelancer,2025-10-04T20:41:06
+606,Hoàng Bích Xuân,hoangxuan606@hotmail.com,user123,user,1950,gold,Nữ,35,169,64.3,22.5,Đức,Thiết kế đồ họa,2025-06-09T20:41:06
+607,Trần Phương Trinh,trantrinh607@hotmail.com,user123,user,8757,diamond,Nữ,42,160,53.2,20.8,Hàn Quốc,Nhân viên văn phòng,2025-05-28T20:41:06
+608,Huỳnh Phương Mai,huynhmai608@hotmail.com,user123,user,1141,bronze,Nữ,42,158,56.1,22.5,Trung Quốc,Marketing,2025-10-01T20:41:06
+609,Bùi Thu Vân,bùivan609@gmail.com,user123,user,1259,bronze,Nữ,41,157,53.0,21.5,Việt Nam,Y tá,2025-10-02T20:41:06
+610,Phan Bích Giang,phangiang610@outlook.com,user123,user,570,bronze,Nữ,43,168,63.0,22.3,Trung Quốc,Doanh nhân,2026-05-08T20:41:06
+611,Đặng Hoàng Anh,danganh611@hotmail.com,user123,user,23,iron,Nam,42,167,67.0,24.0,Đức,Quản lý dự án,2026-03-26T20:41:06
+612,Trần Bích Hoa,tranhoa612@gmail.com,user123,user,1649,gold,Nữ,44,169,51.7,18.1,Pháp,Thiết kế đồ họa,2026-04-05T20:41:06
+613,Trần Quốc Giang,trangiang613@hotmail.com,user123,user,22461,master,Nam,20,170,69.3,24.0,Nhật Bản,Nhân viên văn phòng,2025-09-04T20:41:06
+614,Lê Công Thắng,lethang614@gmail.com,user123,user,8089,diamond,Nam,35,179,62.7,19.6,Việt Nam,Doanh nhân,2025-07-12T20:41:06
+615,Vũ Phương Yến,vũyen615@gmail.com,user123,user,593,bronze,Nữ,26,153,44.3,18.9,Hàn Quốc,Lập trình viên,2025-12-26T20:41:06
+616,Đỗ Mỹ Thảo,dỗthao616@gmail.com,user123,user,15836,master,Nữ,34,153,44.0,18.8,Nhật Bản,Doanh nhân,2025-11-03T20:41:06
+617,Huỳnh Bích Yến,huynhyen617@hotmail.com,user123,user,1313,bronze,Nữ,26,165,57.0,20.9,Đức,Kế toán,2026-05-14T20:41:06
+618,Ngô Kim Hiền,ngohien618@gmail.com,user123,user,7481,platinum,Nữ,40,164,58.1,21.6,Việt Nam,Thiết kế đồ họa,2026-03-19T20:41:06
+619,Phạm Đức Khải,phamkhai619@outlook.com,user123,user,808,bronze,Nam,38,174,69.4,22.9,Trung Quốc,Luật sư,2025-09-21T20:41:06
+620,Ngô Mỹ Vân,ngovan620@yahoo.com,user123,user,326,iron,Nữ,22,167,61.0,21.9,Canada,Y tá,2025-10-17T20:41:06
+621,Vũ Bích Thu,vũthu621@gmail.com,user123,user,211,iron,Nữ,42,153,51.0,21.8,Đức,Bác sĩ,2025-12-23T20:41:06
+622,Phan Thanh Uyên,phanuyen622@outlook.com,user123,user,635,bronze,Nữ,28,153,48.7,20.8,Đức,Sinh viên,2025-11-25T20:41:06
+623,Nguyễn Quốc Hải,nguyễnhai623@hotmail.com,user123,user,542,bronze,Nam,36,179,76.1,23.8,Singapore,Nhân viên văn phòng,2026-03-08T20:41:06
+624,Lê Ngọc My,lemy624@hotmail.com,user123,user,1599,gold,Nữ,27,164,59.9,22.3,Pháp,Freelancer,2026-01-03T20:41:06
+625,Bùi Đức Nhân,bùinhan625@yahoo.com,user123,user,1157,bronze,Nam,23,170,56.4,19.5,Canada,Lập trình viên,2025-11-28T20:41:06
+626,Huỳnh Thanh Tuyết,huynhtuyet626@yahoo.com,user123,user,389,iron,Nữ,25,170,57.8,20.0,Hàn Quốc,Luật sư,2025-06-21T20:41:06
+627,Hồ Thu Tuyết,hotuyet627@hotmail.com,user123,user,813,bronze,Nữ,23,152,45.9,19.9,Singapore,Kiến trúc sư,2025-05-27T20:41:06
+628,Dương Minh Thiện,duongthien628@yahoo.com,user123,user,1807,gold,Nam,19,177,67.7,21.6,Việt Nam,Kỹ sư phần mềm,2025-07-04T20:41:06
+629,Ngô Phương Hằng,ngohang629@hotmail.com,user123,user,8625,diamond,Nữ,20,170,55.4,19.2,Việt Nam,Thiết kế đồ họa,2025-12-23T20:41:06
+630,Nguyễn Công Hiếu,nguyễnhieu630@outlook.com,user123,user,3681,gold,Nam,35,165,49.6,18.2,Việt Nam,Kiến trúc sư,2025-08-20T20:41:06
+631,Lý Quốc Tuấn,lytuan631@hotmail.com,user123,user,3995,gold,Nam,42,173,57.6,19.2,Pháp,Sinh viên,2026-04-02T20:41:06
+632,Đỗ Phương Mai,dỗmai632@hotmail.com,user123,user,219,iron,Nữ,43,157,43.8,17.8,Việt Nam,Kỹ sư phần mềm,2025-10-27T20:41:06
+633,Ngô Quốc Sơn,ngoson633@yahoo.com,user123,user,3222,gold,Nam,28,171,66.8,22.8,Canada,Nhân viên văn phòng,2026-01-31T20:41:06
+634,Hồ Bích Lan,holan634@yahoo.com,user123,user,220,iron,Nữ,36,163,61.4,23.1,Singapore,Nhân viên văn phòng,2025-07-04T20:41:06
+635,Dương Kim Chi,duongchi635@outlook.com,user123,user,263,iron,Nữ,34,155,44.0,18.3,Úc,Nhân viên văn phòng,2025-12-31T20:41:06
+636,Bùi Thị Thu,bùithu636@outlook.com,user123,user,11040,diamond,Nữ,43,170,56.8,19.7,Việt Nam,Doanh nhân,2025-10-14T20:41:06
+637,Võ Minh Vũ,võvũ637@hotmail.com,user123,user,17187,master,Nam,32,174,63.1,20.8,Việt Nam,Giáo viên,2025-12-04T20:41:06
+638,Ngô Quốc Việt,ngoviet638@yahoo.com,user123,user,983,bronze,Nam,41,180,71.0,21.9,Nhật Bản,Bác sĩ,2026-02-21T20:41:06
+639,Trần Văn Hiếu,tranhieu639@yahoo.com,user123,user,205,iron,Nam,21,165,55.3,20.3,Việt Nam,Doanh nhân,2025-07-07T20:41:06
+640,Phạm Thu Xuân,phamxuan640@outlook.com,user123,user,1479,bronze,Nữ,26,170,63.2,21.9,Hàn Quốc,Lập trình viên,2026-05-26T20:41:06
+641,Phạm Ngọc Vân,phamvan641@gmail.com,user123,user,2469,gold,Nữ,31,160,49.7,19.4,Hàn Quốc,Lập trình viên,2025-12-03T20:41:06
+642,Ngô Hoàng Quân,ngoquan642@hotmail.com,user123,user,8804,diamond,Nam,45,163,57.1,21.5,Nhật Bản,Nhân viên văn phòng,2025-12-09T20:41:06
+643,Huỳnh Văn Nhân,huynhnhan643@gmail.com,user123,user,4123,platinum,Nam,34,174,65.1,21.5,Pháp,Luật sư,2025-10-09T20:41:06
+644,Lê Hữu Tuấn,letuan644@gmail.com,user123,user,612,bronze,Nam,23,172,61.1,20.7,Mỹ,Freelancer,2025-11-08T20:41:06
+645,Lê Phương Tuyết,letuyet645@yahoo.com,user123,user,3409,gold,Nữ,30,154,42.8,18.0,Úc,Sinh viên,2026-03-17T20:41:06
+646,Ngô Ngọc Hiền,ngohien646@gmail.com,user123,user,1364,bronze,Nữ,18,169,65.2,22.8,Việt Nam,Kiến trúc sư,2026-05-20T20:41:06
+647,Đặng Thu Hương,danghuong647@yahoo.com,user123,user,202,iron,Nữ,23,153,42.7,18.2,Mỹ,Freelancer,2026-02-16T20:41:06
+648,Ngô Thanh Yến,ngoyen648@gmail.com,user123,user,104,iron,Nữ,45,169,52.1,18.2,Thái Lan,Kiến trúc sư,2025-12-31T20:41:06
+649,Vũ Đức Quân,vũquan649@gmail.com,user123,user,7401,platinum,Nam,18,170,68.9,23.8,Đức,Nhà báo,2026-03-28T20:41:06
+650,Hoàng Công Trung,hoangtrung650@outlook.com,user123,user,915,bronze,Nam,42,181,67.9,20.7,Việt Nam,Freelancer,2026-02-06T20:41:06
+651,Đỗ Hoàng Anh,dỗanh651@gmail.com,user123,user,147,iron,Nam,18,177,73.1,23.3,Hàn Quốc,Marketing,2025-07-23T20:41:06
+652,Phạm Văn Anh,phamanh652@outlook.com,user123,user,264,iron,Nam,18,178,61.5,19.4,Singapore,Sinh viên,2025-12-10T20:41:06
+653,Bùi Thanh Hải,bùihai653@outlook.com,user123,user,402,iron,Nam,38,176,63.2,20.4,Pháp,Kỹ sư phần mềm,2026-02-25T20:41:06
+654,Đỗ Quốc Phúc,dỗphúc654@hotmail.com,user123,user,4131,platinum,Nam,37,174,63.8,21.1,Úc,Lập trình viên,2025-09-08T20:41:06
+655,Đặng Kim Chi,dangchi655@yahoo.com,user123,user,227,iron,Nữ,26,152,51.4,22.2,Trung Quốc,Nhà báo,2025-10-26T20:41:06
+656,Nguyễn Quốc Bảo,nguyễnbao656@outlook.com,user123,user,7373,platinum,Nam,28,177,61.0,19.5,Việt Nam,Y tá,2026-03-07T20:41:06
+657,Ngô Hữu Quang,ngoquang657@hotmail.com,user123,user,1536,gold,Nam,41,164,50.1,18.6,Mỹ,Nhà báo,2026-04-14T20:41:06
+658,Phạm Công Việt,phamviet658@hotmail.com,user123,user,12508,diamond,Nam,42,163,60.1,22.6,Đức,Luật sư,2025-09-11T20:41:06
+659,Huỳnh Bích Lan,huynhlan659@yahoo.com,user123,user,2359,gold,Nữ,29,154,51.2,21.6,Pháp,Giáo viên,2026-01-23T20:41:06
+660,Lý Thanh Hằng,lyhang660@outlook.com,user123,user,556,bronze,Nữ,40,168,59.6,21.1,Việt Nam,Bác sĩ,2025-08-21T20:41:06
+661,Lý Đức Phong,lyphong661@gmail.com,user123,user,3969,gold,Nam,40,169,67.9,23.8,Úc,Doanh nhân,2026-04-04T20:41:06
+662,Đặng Ngọc Nhung,dangnhung662@gmail.com,user123,user,25329,master,Nữ,33,159,46.2,18.3,Đức,Luật sư,2026-04-21T20:41:06
+663,Hoàng Kim Dung,hoangdung663@yahoo.com,user123,user,491,iron,Nữ,31,161,53.4,20.6,Việt Nam,Kế toán,2025-08-16T20:41:06
+664,Dương Văn Dũng,duongdũng664@yahoo.com,user123,user,726,bronze,Nam,42,179,80.1,25.0,Pháp,Bác sĩ,2025-08-26T20:41:06
+665,Đặng Phương Thu,dangthu665@yahoo.com,user123,user,3131,gold,Nữ,37,170,61.4,21.2,Úc,Nhà báo,2025-06-12T20:41:06
+666,Ngô Kim Thu,ngothu666@yahoo.com,user123,user,212,iron,Nữ,24,154,53.7,22.6,Việt Nam,Lập trình viên,2026-01-14T20:41:06
+667,Lê Ngọc Nhung,lenhung667@outlook.com,user123,user,1794,gold,Nữ,36,169,58.3,20.4,Việt Nam,Kỹ sư phần mềm,2025-09-27T20:41:06
+668,Hoàng Công Khoa,hoangkhoa668@yahoo.com,user123,user,780,bronze,Nam,26,176,67.5,21.8,Thái Lan,Quản lý dự án,2026-01-25T20:41:06
+669,Trần Mỹ Loan,tranloan669@yahoo.com,user123,user,352,iron,Nữ,20,152,47.7,20.6,Việt Nam,Nhân viên văn phòng,2025-08-09T20:41:06
+670,Đỗ Thanh Cường,dỗcuong670@gmail.com,user123,user,2623,gold,Nam,42,182,79.3,23.9,Mỹ,Giáo viên,2026-05-21T20:41:06
+671,Dương Minh Tuấn,duongtuan671@outlook.com,user123,user,353,iron,Nam,39,177,59.8,19.1,Mỹ,Lập trình viên,2026-03-22T20:41:06
+672,Hồ Mỹ Vân,hovan672@hotmail.com,user123,user,774,bronze,Nữ,33,161,53.1,20.5,Singapore,Thiết kế đồ họa,2025-08-02T20:41:06
+673,Dương Thanh Mai,duongmai673@gmail.com,user123,user,205,iron,Nữ,35,167,51.3,18.4,Úc,Marketing,2026-02-09T20:41:06
+674,Lê Hoàng Long,lelong674@yahoo.com,user123,user,407,iron,Nam,39,163,54.9,20.7,Nhật Bản,Luật sư,2025-12-18T20:41:06
+675,Bùi Minh Cường,bùicuong675@yahoo.com,user123,user,3175,gold,Nam,29,165,57.0,20.9,Việt Nam,Kỹ sư phần mềm,2026-05-25T20:41:06
+676,Huỳnh Hữu Thắng,huynhthang676@outlook.com,user123,user,3217,gold,Nam,20,166,68.7,24.9,Canada,Thiết kế đồ họa,2025-12-03T20:41:06
+677,Nguyễn Phương Tâm,nguyễntam677@yahoo.com,user123,user,1527,gold,Nữ,45,170,62.2,21.5,Việt Nam,Thiết kế đồ họa,2025-12-09T20:41:06
+678,Bùi Thị Vân,bùivan678@gmail.com,user123,user,1019,bronze,Nữ,22,162,49.4,18.8,Đức,Lập trình viên,2025-09-11T20:41:06
+679,Nguyễn Hữu Tuấn,nguyễntuan679@hotmail.com,user123,user,426,iron,Nam,43,177,75.4,24.1,Đức,Nhà báo,2026-05-26T20:41:06
+680,Đặng Quốc Giang,danggiang680@hotmail.com,user123,user,239,iron,Nam,34,165,52.7,19.4,Trung Quốc,Giáo viên,2025-09-15T20:41:06
+681,Phạm Thanh Nhân,phamnhan681@yahoo.com,user123,user,4028,platinum,Nam,28,179,61.4,19.2,Việt Nam,Sinh viên,2025-10-18T20:41:06
+682,Đặng Công Nhân,dangnhan682@outlook.com,user123,user,890,bronze,Nam,38,179,67.7,21.1,Hàn Quốc,Luật sư,2026-01-28T20:41:06
+683,Lê Kim Linh,lelinh683@outlook.com,user123,user,2332,gold,Nữ,23,169,54.6,19.1,Singapore,Marketing,2025-12-04T20:41:06
+684,Bùi Phương Yến,bùiyen684@gmail.com,user123,user,1350,bronze,Nữ,18,162,49.5,18.9,Trung Quốc,Doanh nhân,2025-06-21T20:41:06
+685,Trần Công Nghĩa,trannghĩa685@yahoo.com,user123,user,9440,diamond,Nam,18,166,51.6,18.7,Úc,Quản lý dự án,2026-03-17T20:41:06
+686,Võ Văn Lâm,võlam686@outlook.com,user123,user,959,bronze,Nam,22,180,73.5,22.7,Singapore,Bác sĩ,2025-10-13T20:41:06
+687,Hồ Mỹ Nhung,honhung687@hotmail.com,user123,user,2656,gold,Nữ,28,167,62.9,22.6,Đức,Marketing,2025-10-08T20:41:06
+688,Ngô Thanh Hương,ngohuong688@gmail.com,user123,user,1813,gold,Nữ,22,159,46.2,18.3,Úc,Nhà báo,2026-05-02T20:41:06
+689,Phan Mỹ Anh,phananh689@outlook.com,user123,user,3485,gold,Nữ,35,162,54.5,20.8,Việt Nam,Giáo viên,2025-07-01T20:41:06
+690,Vũ Thị Ngân,vũngan690@gmail.com,user123,user,6030,platinum,Nữ,35,152,50.5,21.9,Pháp,Lập trình viên,2025-07-06T20:41:06
+691,Vũ Phương Thủy,vũthủy691@hotmail.com,user123,user,2547,gold,Nữ,32,153,51.8,22.1,Thái Lan,Marketing,2026-03-25T20:41:06
+692,Lê Đức Sơn,leson692@gmail.com,user123,user,196,iron,Nam,21,171,63.8,21.8,Đức,Thiết kế đồ họa,2025-07-30T20:41:06
+693,Lý Thanh Hằng,lyhang693@hotmail.com,user123,user,2953,gold,Nữ,28,165,63.0,23.1,Việt Nam,Thiết kế đồ họa,2026-05-03T20:41:06
+694,Trần Minh Hùng,tranhùng694@gmail.com,user123,user,696,bronze,Nam,23,163,55.9,21.0,Hàn Quốc,Bác sĩ,2025-06-02T20:41:06
+695,Nguyễn Thu Tuyết,nguyễntuyet695@yahoo.com,user123,user,1450,bronze,Nữ,28,161,47.7,18.4,Việt Nam,Marketing,2025-07-02T20:41:06
+696,Dương Phương Hoa,duonghoa696@yahoo.com,user123,user,2599,gold,Nữ,42,162,49.4,18.8,Singapore,Quản lý dự án,2026-01-28T20:41:06
+697,Ngô Mỹ Hoa,ngohoa697@outlook.com,user123,user,706,bronze,Nữ,35,165,54.0,19.8,Singapore,Kế toán,2025-05-31T20:41:06
+698,Huỳnh Kim Vân,huynhvan698@hotmail.com,user123,user,921,bronze,Nữ,33,168,52.5,18.6,Thái Lan,Bác sĩ,2025-09-22T20:41:06
+699,Phạm Hữu Thắng,phamthang699@hotmail.com,user123,user,1228,bronze,Nam,40,180,79.0,24.4,Việt Nam,Nhà báo,2026-03-20T20:41:06
+700,Nguyễn Kim Nhung,nguyễnnhung700@gmail.com,user123,user,6083,platinum,Nữ,27,167,64.7,23.2,Singapore,Kế toán,2025-11-28T20:41:06
+701,Võ Thanh Tùng,võtùng701@outlook.com,user123,user,4497,platinum,Nam,42,170,69.3,24.0,Mỹ,Kiến trúc sư,2026-04-29T20:41:06
+702,Võ Kim Trang,võtrang702@hotmail.com,user123,user,462,iron,Nữ,23,156,49.0,20.1,Singapore,Sinh viên,2025-10-30T20:41:06
+703,Huỳnh Công Hiếu,huynhhieu703@gmail.com,user123,user,901,bronze,Nam,22,176,76.6,24.7,Trung Quốc,Giáo viên,2026-05-20T20:41:06
+704,Phạm Văn Minh,phamminh704@outlook.com,user123,user,15174,master,Nam,23,168,56.0,19.8,Úc,Nhà báo,2026-03-21T20:41:06
+705,Dương Thanh Yến,duongyen705@hotmail.com,user123,user,163,iron,Nữ,37,166,52.2,18.9,Việt Nam,Sinh viên,2025-11-09T20:41:06
+706,Lê Hoàng Cường,lecuong706@yahoo.com,user123,user,674,bronze,Nam,33,165,51.6,19.0,Thái Lan,Luật sư,2025-11-27T20:41:06
+707,Vũ Mỹ Uyên,vũuyen707@hotmail.com,user123,user,59,iron,Nữ,28,167,57.7,20.7,Việt Nam,Freelancer,2026-04-17T20:41:06
+708,Phan Thu Hà,phanha708@outlook.com,user123,user,1126,bronze,Nữ,40,157,48.1,19.5,Mỹ,Kỹ sư phần mềm,2025-05-30T20:41:06
+709,Nguyễn Công Phong,nguyễnphong709@gmail.com,user123,user,762,bronze,Nam,26,168,55.8,19.8,Việt Nam,Bác sĩ,2026-03-13T20:41:06
+710,Đỗ Thanh Mai,dỗmai710@hotmail.com,user123,user,1501,gold,Nữ,36,157,51.9,21.1,Thái Lan,Lập trình viên,2026-01-01T20:41:06
+711,Huỳnh Ngọc Quỳnh,huynhquynh711@yahoo.com,user123,user,5734,platinum,Nữ,21,164,61.2,22.8,Úc,Y tá,2025-12-09T20:41:06
+712,Đặng Công Phong,dangphong712@outlook.com,user123,user,5178,platinum,Nam,23,181,78.6,24.0,Úc,Kỹ sư phần mềm,2025-11-23T20:41:06
+713,Bùi Công Hùng,bùihùng713@outlook.com,user123,user,871,bronze,Nam,24,174,63.2,20.9,Úc,Bác sĩ,2025-06-13T20:41:06
+714,Lê Hoàng Phúc,lephúc714@yahoo.com,user123,user,1253,bronze,Nam,20,173,64.3,21.5,Thái Lan,Thiết kế đồ họa,2025-06-14T20:41:06
+715,Vũ Phương Trinh,vũtrinh715@gmail.com,user123,user,3759,gold,Nữ,37,152,44.6,19.3,Pháp,Luật sư,2026-04-20T20:41:06
+716,Hồ Công Trung,hotrung716@hotmail.com,user123,user,3663,gold,Nam,28,175,67.3,22.0,Nhật Bản,Luật sư,2026-04-06T20:41:06
+717,Phan Bích Vân,phanvan717@gmail.com,user123,user,1567,gold,Nữ,40,152,48.2,20.9,Việt Nam,Giáo viên,2026-04-19T20:41:06
+718,Lý Thanh Trang,lytrang718@yahoo.com,user123,user,1264,bronze,Nữ,32,159,53.8,21.3,Canada,Bác sĩ,2025-12-05T20:41:06
+719,Hoàng Minh Đức,hoangduc719@hotmail.com,user123,user,467,iron,Nam,28,174,61.2,20.2,Mỹ,Y tá,2026-03-06T20:41:06
+720,Vũ Minh Đức,vũduc720@yahoo.com,user123,user,6,iron,Nam,28,180,64.3,19.8,Việt Nam,Lập trình viên,2026-03-07T20:41:06
+721,Võ Thanh Nam,võnam721@gmail.com,user123,user,326,iron,Nam,20,181,81.7,24.9,Việt Nam,Doanh nhân,2025-07-05T20:41:06
+722,Vũ Ngọc Hiền,vũhien722@yahoo.com,user123,user,6146,platinum,Nữ,45,167,63.6,22.8,Nhật Bản,Giáo viên,2025-09-02T20:41:06
+723,Phan Phương Yến,phanyen723@gmail.com,user123,user,747,bronze,Nữ,22,169,58.4,20.4,Mỹ,Kiến trúc sư,2025-06-20T20:41:06
+724,Vũ Thị Chi,vũchi724@hotmail.com,user123,user,1469,bronze,Nữ,37,153,46.2,19.7,Việt Nam,Marketing,2026-03-12T20:41:06
+725,Lê Phương My,lemy725@gmail.com,user123,user,1227,bronze,Nữ,31,156,54.1,22.2,Mỹ,Kỹ sư phần mềm,2025-09-10T20:41:06
+726,Huỳnh Phương Dung,huynhdung726@hotmail.com,user123,user,1121,bronze,Nữ,41,164,48.0,17.8,Việt Nam,Quản lý dự án,2025-08-16T20:41:06
+727,Ngô Kim My,ngomy727@gmail.com,user123,user,438,iron,Nữ,44,166,63.5,23.0,Việt Nam,Bác sĩ,2026-01-20T20:41:06
+728,Bùi Hữu Long,bùilong728@yahoo.com,user123,user,1119,bronze,Nam,23,166,63.4,23.0,Canada,Freelancer,2025-10-22T20:41:06
+729,Huỳnh Phương Hằng,huynhhang729@yahoo.com,user123,user,7680,platinum,Nữ,29,157,44.6,18.1,Việt Nam,Luật sư,2025-06-22T20:41:06
+730,Trần Thanh Chi,tranchi730@yahoo.com,user123,user,12323,diamond,Nữ,37,164,62.5,23.2,Mỹ,Y tá,2025-09-06T20:41:06
+731,Đặng Hữu Liêm,dangliem731@yahoo.com,user123,user,3132,gold,Nam,27,162,60.1,22.9,Mỹ,Kỹ sư phần mềm,2025-10-07T20:41:06
+732,Phạm Mỹ Yến,phamyen732@yahoo.com,user123,user,948,bronze,Nữ,29,163,50.4,19.0,Thái Lan,Nhà báo,2026-03-20T20:41:06
+733,Phan Ngọc Thảo,phanthao733@gmail.com,user123,user,1183,bronze,Nữ,38,164,58.9,21.9,Đức,Y tá,2025-09-10T20:41:06
+734,Huỳnh Minh Khoa,huynhkhoa734@hotmail.com,user123,user,166,iron,Nam,30,163,53.3,20.1,Việt Nam,Nhân viên văn phòng,2026-03-21T20:41:06
+735,Đặng Thị Mai,dangmai735@gmail.com,user123,user,552,bronze,Nữ,40,152,44.9,19.4,Pháp,Nhân viên văn phòng,2025-09-03T20:41:06
+736,Nguyễn Văn Khoa,nguyễnkhoa736@yahoo.com,user123,user,3586,gold,Nam,29,179,71.0,22.2,Việt Nam,Y tá,2026-02-22T20:41:06
+737,Lê Hoàng Nghĩa,lenghĩa737@gmail.com,user123,user,470,iron,Nam,41,176,65.3,21.1,Việt Nam,Nhà báo,2025-12-04T20:41:06
+738,Vũ Kim Hằng,vũhang738@outlook.com,user123,user,3073,gold,Nữ,29,155,51.7,21.5,Việt Nam,Quản lý dự án,2025-10-30T20:41:06
+739,Hồ Hoàng Dũng,hodũng739@hotmail.com,user123,user,186,iron,Nam,20,171,64.8,22.2,Úc,Thiết kế đồ họa,2026-03-26T20:41:06
+740,Võ Thanh Phúc,võphúc740@outlook.com,user123,user,621,bronze,Nam,29,170,57.2,19.8,Trung Quốc,Sinh viên,2026-03-10T20:41:06
+741,Ngô Quốc Hiếu,ngohieu741@gmail.com,user123,user,719,bronze,Nam,43,182,82.9,25.0,Việt Nam,Y tá,2026-05-24T20:41:06
+742,Lý Công Cường,lycuong742@hotmail.com,user123,user,553,bronze,Nam,30,174,75.0,24.8,Việt Nam,Marketing,2025-05-28T20:41:06
+743,Đỗ Thu Lan,dỗlan743@outlook.com,user123,user,2498,gold,Nữ,24,154,50.6,21.3,Nhật Bản,Sinh viên,2025-07-29T20:41:06
+744,Hồ Thu Tâm,hotam744@gmail.com,user123,user,29722,master,Nữ,22,155,42.4,17.6,Đức,Bác sĩ,2025-11-19T20:41:06
+745,Ngô Ngọc Ngân,ngongan745@yahoo.com,user123,user,13078,diamond,Nữ,39,156,46.0,18.9,Mỹ,Y tá,2025-10-28T20:41:06
+746,Nguyễn Mỹ Tuyết,nguyễntuyet746@gmail.com,user123,user,2145,gold,Nữ,33,161,54.9,21.2,Hàn Quốc,Kỹ sư phần mềm,2025-07-31T20:41:06
+747,Phan Hữu Hùng,phanhùng747@yahoo.com,user123,user,540,bronze,Nam,26,170,64.4,22.3,Pháp,Kiến trúc sư,2025-09-11T20:41:06
+748,Hoàng Thị Trinh,hoangtrinh748@gmail.com,user123,user,5286,platinum,Nữ,27,152,52.4,22.7,Úc,Kỹ sư phần mềm,2025-11-28T20:41:06
+749,Dương Quốc Phong,duongphong749@gmail.com,user123,user,629,bronze,Nam,44,163,65.6,24.7,Hàn Quốc,Thiết kế đồ họa,2025-11-21T20:41:06
+750,Vũ Hữu Liêm,vũliem750@outlook.com,user123,user,2923,gold,Nam,43,171,60.1,20.6,Việt Nam,Nhân viên văn phòng,2025-09-05T20:41:06
+751,Huỳnh Hữu Tuấn,huynhtuan751@gmail.com,user123,user,887,bronze,Nam,26,177,65.5,20.9,Trung Quốc,Marketing,2026-05-14T20:41:06
+752,Đặng Bích Dung,dangdung752@gmail.com,user123,user,691,bronze,Nữ,31,159,57.2,22.6,Úc,Kiến trúc sư,2026-03-29T20:41:06
+753,Lý Thanh Việt,lyviet753@hotmail.com,user123,user,4555,platinum,Nam,32,162,52.3,19.9,Việt Nam,Marketing,2025-07-14T20:41:06
+754,Đặng Minh Dũng,dangdũng754@outlook.com,user123,user,26576,master,Nam,34,179,70.0,21.8,Úc,Y tá,2025-09-07T20:41:06
+755,Đặng Đức Nhân,dangnhan755@outlook.com,user123,user,1351,bronze,Nam,36,168,62.5,22.1,Hàn Quốc,Y tá,2025-07-19T20:41:06
+756,Trần Thị Phương,tranphuong756@hotmail.com,user123,user,495,iron,Nữ,38,164,62.3,23.2,Đức,Luật sư,2025-12-11T20:41:06
+757,Lê Phương Hà,leha757@hotmail.com,user123,user,3229,gold,Nữ,25,154,51.1,21.5,Hàn Quốc,Quản lý dự án,2025-10-19T20:41:06
+758,Bùi Mỹ Linh,bùilinh758@hotmail.com,user123,user,4219,platinum,Nữ,30,168,63.4,22.5,Việt Nam,Thiết kế đồ họa,2025-09-12T20:41:06
+759,Trần Kim My,tranmy759@yahoo.com,user123,user,189,iron,Nữ,36,165,56.7,20.8,Việt Nam,Giáo viên,2025-11-11T20:41:06
+760,Trần Hữu Dũng,trandũng760@hotmail.com,user123,user,358,iron,Nam,28,181,69.3,21.2,Trung Quốc,Nhân viên văn phòng,2026-04-09T20:41:06
+761,Đặng Hoàng Liêm,dangliem761@gmail.com,user123,user,9479,diamond,Nam,35,175,64.8,21.2,Đức,Doanh nhân,2026-02-13T20:41:06
+762,Bùi Thanh Việt,bùiviet762@hotmail.com,user123,user,622,bronze,Nam,35,180,71.1,21.9,Canada,Sinh viên,2025-08-24T20:41:06
+763,Phan Thị Hoa,phanhoa763@hotmail.com,user123,user,2883,gold,Nữ,36,157,53.1,21.5,Thái Lan,Sinh viên,2025-11-11T20:41:06
+764,Lý Kim Tâm,lytam764@hotmail.com,user123,user,12994,diamond,Nữ,37,168,59.5,21.1,Pháp,Nhân viên văn phòng,2025-08-02T20:41:06
+765,Võ Bích Phương,võphuong765@outlook.com,user123,user,215,iron,Nữ,42,167,55.5,19.9,Việt Nam,Nhà báo,2025-07-10T20:41:06
+766,Trần Thanh Khải,trankhai766@gmail.com,user123,user,1499,bronze,Nam,32,176,69.4,22.4,Thái Lan,Quản lý dự án,2026-01-17T20:41:06
+767,Lê Bích Yến,leyen767@hotmail.com,user123,user,12757,diamond,Nữ,18,161,55.3,21.3,Mỹ,Sinh viên,2025-12-15T20:41:06
+768,Hoàng Bích Thu,hoangthu768@gmail.com,user123,user,946,bronze,Nữ,23,166,61.0,22.1,Việt Nam,Bác sĩ,2026-01-24T20:41:06
+769,Trần Ngọc Chi,tranchi769@hotmail.com,user123,user,2670,gold,Nữ,22,158,46.3,18.5,Pháp,Sinh viên,2025-11-19T20:41:06
+770,Lý Thị Ngân,lyngan770@hotmail.com,user123,user,392,iron,Nữ,26,157,51.4,20.9,Việt Nam,Y tá,2026-02-06T20:41:06
+771,Lý Công Hùng,lyhùng771@hotmail.com,user123,user,920,bronze,Nam,27,166,60.9,22.1,Pháp,Kiến trúc sư,2025-10-29T20:41:06
+772,Trần Phương Linh,tranlinh772@yahoo.com,user123,user,18362,master,Nữ,39,163,58.4,22.0,Việt Nam,Doanh nhân,2026-01-28T20:41:06
+773,Bùi Thu Tuyết,bùituyet773@outlook.com,user123,user,4611,platinum,Nữ,27,159,50.8,20.1,Trung Quốc,Doanh nhân,2026-01-22T20:41:06
+774,Lê Thanh Ngân,lengan774@yahoo.com,user123,user,502,bronze,Nữ,40,155,52.5,21.9,Hàn Quốc,Freelancer,2026-05-10T20:41:06
+775,Lý Công Hải,lyhai775@yahoo.com,user123,user,5714,platinum,Nam,29,173,57.4,19.2,Trung Quốc,Luật sư,2025-08-29T20:41:06
+776,Hồ Thanh Yến,hoyen776@outlook.com,user123,user,6077,platinum,Nữ,22,169,52.8,18.5,Việt Nam,Nhà báo,2025-07-09T20:41:06
+777,Phạm Thanh Tâm,phamtam777@yahoo.com,user123,user,14024,diamond,Nữ,23,169,52.8,18.5,Việt Nam,Quản lý dự án,2025-10-18T20:41:06
+778,Dương Phương Trang,duongtrang778@outlook.com,user123,user,6150,platinum,Nữ,37,159,47.0,18.6,Thái Lan,Kế toán,2026-04-03T20:41:06
+779,Võ Minh Lâm,võlam779@hotmail.com,user123,user,7734,platinum,Nam,24,162,64.0,24.4,Thái Lan,Lập trình viên,2025-09-21T20:41:06
+780,Đỗ Đức Kiên,dỗkien780@gmail.com,user123,user,14302,diamond,Nam,32,171,69.4,23.7,Canada,Quản lý dự án,2026-02-27T20:41:06
+781,Lê Quốc Hùng,lehùng781@hotmail.com,user123,user,812,bronze,Nam,30,168,58.1,20.6,Đức,Thiết kế đồ họa,2026-02-01T20:41:06
+782,Lý Thanh Hà,lyha782@gmail.com,user123,user,285,iron,Nữ,27,156,56.3,23.1,Việt Nam,Doanh nhân,2025-06-16T20:41:06
+783,Vũ Ngọc Linh,vũlinh783@outlook.com,user123,user,575,bronze,Nữ,36,156,50.0,20.5,Pháp,Nhân viên văn phòng,2026-01-18T20:41:06
+784,Đặng Minh Thiện,dangthien784@yahoo.com,user123,user,3000,gold,Nam,35,174,61.0,20.1,Nhật Bản,Lập trình viên,2025-09-02T20:41:06
+785,Vũ Minh Minh,vũminh785@hotmail.com,user123,user,1374,bronze,Nam,37,172,72.5,24.5,Đức,Nhân viên văn phòng,2025-10-08T20:41:06
+786,Lê Mỹ Lan,lelan786@outlook.com,user123,user,2453,gold,Nữ,37,169,50.9,17.8,Singapore,Sinh viên,2025-09-16T20:41:06
+787,Đặng Quốc Minh,dangminh787@outlook.com,user123,user,1438,bronze,Nam,23,170,68.2,23.6,Trung Quốc,Nhân viên văn phòng,2025-05-29T20:41:06
+788,Đỗ Kim Hoa,dỗhoa788@yahoo.com,user123,user,1107,bronze,Nữ,34,157,51.8,21.0,Việt Nam,Luật sư,2025-09-28T20:41:06
+789,Hồ Hoàng Vũ,hovũ789@yahoo.com,user123,user,22398,master,Nam,23,162,62.1,23.7,Nhật Bản,Sinh viên,2025-09-26T20:41:06
+790,Hoàng Mỹ Ngân,hoangngan790@yahoo.com,user123,user,10399,diamond,Nữ,38,152,46.2,20.0,Việt Nam,Sinh viên,2026-04-26T20:41:06
+791,Dương Thu Nhung,duongnhung791@hotmail.com,user123,user,1082,bronze,Nữ,34,155,41.7,17.4,Việt Nam,Kiến trúc sư,2025-10-28T20:41:06
+792,Vũ Phương Vân,vũvan792@hotmail.com,user123,user,12701,diamond,Nữ,25,166,61.0,22.1,Úc,Marketing,2026-02-17T20:41:06
+793,Nguyễn Bích Giang,nguyễngiang793@yahoo.com,user123,user,1063,bronze,Nữ,29,164,48.5,18.0,Việt Nam,Sinh viên,2025-06-11T20:41:06
+794,Vũ Minh Long,vũlong794@gmail.com,user123,user,353,iron,Nam,39,164,60.6,22.5,Pháp,Lập trình viên,2025-10-06T20:41:06
+795,Lê Công Trung,letrung795@outlook.com,user123,user,95,iron,Nam,24,176,74.5,24.1,Trung Quốc,Kế toán,2026-04-04T20:41:06
+796,Bùi Thanh Minh,bùiminh796@yahoo.com,user123,user,13557,diamond,Nam,34,182,74.6,22.5,Thái Lan,Nhà báo,2025-12-11T20:41:06
+797,Phạm Quốc Việt,phamviet797@hotmail.com,user123,user,1865,gold,Nam,24,178,66.3,20.9,Pháp,Doanh nhân,2026-05-02T20:41:06
+798,Lý Quốc Phong,lyphong798@outlook.com,user123,user,651,bronze,Nam,19,172,57.9,19.6,Nhật Bản,Kế toán,2026-02-14T20:41:06
+799,Lê Thanh Trinh,letrinh799@outlook.com,user123,user,2347,gold,Nữ,32,163,57.4,21.6,Việt Nam,Marketing,2025-09-04T20:41:06
+800,Dương Minh Đức,duongduc800@yahoo.com,user123,user,1443,bronze,Nam,32,174,63.5,21.0,Hàn Quốc,Bác sĩ,2025-10-24T20:41:06
+801,Đặng Kim Giang,danggiang801@gmail.com,user123,user,2529,gold,Nữ,42,156,48.5,19.9,Thái Lan,Giáo viên,2025-09-15T20:41:06
+802,Đỗ Văn Nghĩa,dỗnghĩa802@outlook.com,user123,user,6572,platinum,Nam,39,162,60.1,22.9,Trung Quốc,Kiến trúc sư,2026-01-18T20:41:06
+803,Lý Quốc Nghĩa,lynghĩa803@gmail.com,user123,user,2209,gold,Nam,31,169,54.7,19.2,Việt Nam,Doanh nhân,2025-09-09T20:41:06
+804,Hồ Phương Linh,holinh804@hotmail.com,user123,user,2719,gold,Nữ,34,163,47.3,17.8,Nhật Bản,Marketing,2025-08-03T20:41:06
+805,Dương Thị Chi,duongchi805@gmail.com,user123,user,18642,master,Nữ,30,168,53.0,18.8,Hàn Quốc,Thiết kế đồ họa,2025-06-07T20:41:06
+806,Lê Phương Ngân,lengan806@outlook.com,user123,user,5773,platinum,Nữ,23,153,50.8,21.7,Singapore,Kỹ sư phần mềm,2026-03-06T20:41:06
+807,Hoàng Minh Thắng,hoangthang807@outlook.com,user123,user,1314,bronze,Nam,36,178,64.5,20.4,Hàn Quốc,Sinh viên,2025-08-13T20:41:06
+808,Võ Minh Quang,võquang808@gmail.com,user123,user,560,bronze,Nam,28,182,64.8,19.6,Mỹ,Y tá,2026-04-01T20:41:06
+809,Lý Thanh Đức,lyduc809@yahoo.com,user123,user,3217,gold,Nam,42,180,61.4,19.0,Việt Nam,Bác sĩ,2025-07-23T20:41:06
+810,Đỗ Minh Lâm,dỗlam810@outlook.com,user123,user,451,iron,Nam,40,182,69.7,21.0,Trung Quốc,Marketing,2025-06-28T20:41:06
+811,Võ Thanh Nga,võnga811@gmail.com,user123,user,861,bronze,Nữ,36,160,59.7,23.3,Thái Lan,Doanh nhân,2026-02-28T20:41:06
+812,Phan Minh Đức,phanduc812@hotmail.com,user123,user,351,iron,Nam,21,181,77.0,23.5,Đức,Nhân viên văn phòng,2025-11-04T20:41:06
+813,Dương Ngọc Uyên,duonguyen813@hotmail.com,user123,user,3002,gold,Nữ,32,152,48.6,21.0,Pháp,Kỹ sư phần mềm,2026-05-18T20:41:06
+814,Phan Ngọc Hằng,phanhang814@gmail.com,user123,user,6117,platinum,Nữ,44,168,59.0,20.9,Singapore,Kỹ sư phần mềm,2025-12-11T20:41:06
+815,Võ Hoàng Giang,võgiang815@outlook.com,user123,user,1387,bronze,Nam,25,166,60.3,21.9,Úc,Kế toán,2026-04-15T20:41:06
+816,Phạm Kim Chi,phamchi816@outlook.com,user123,user,1912,gold,Nữ,25,168,53.9,19.1,Nhật Bản,Kế toán,2025-05-29T20:41:06
+817,Bùi Công Xuân,bùixuan817@hotmail.com,user123,user,1795,gold,Nam,18,168,56.6,20.1,Hàn Quốc,Giáo viên,2025-11-28T20:41:06
+818,Đỗ Minh Thắng,dỗthang818@hotmail.com,user123,user,18790,master,Nam,41,164,68.1,25.3,Việt Nam,Kế toán,2025-07-20T20:41:06
+819,Nguyễn Thị Trinh,nguyễntrinh819@yahoo.com,user123,user,3287,gold,Nữ,30,157,47.4,19.2,Singapore,Marketing,2026-02-10T20:41:06
+820,Hồ Quốc Việt,hoviet820@hotmail.com,user123,user,10575,diamond,Nam,28,166,67.0,24.3,Đức,Freelancer,2025-05-28T20:41:06
+821,Bùi Kim Hiền,bùihien821@gmail.com,user123,user,2042,gold,Nữ,34,168,62.7,22.2,Việt Nam,Kiến trúc sư,2026-03-16T20:41:06
+822,Vũ Phương Nga,vũnga822@hotmail.com,user123,user,652,bronze,Nữ,21,169,61.9,21.7,Việt Nam,Giáo viên,2025-09-25T20:41:06
+823,Võ Thu Linh,võlinh823@hotmail.com,user123,user,1909,gold,Nữ,36,155,48.0,20.0,Việt Nam,Sinh viên,2025-08-12T20:41:06
+824,Lê Phương Thảo,lethao824@yahoo.com,user123,user,198,iron,Nữ,22,154,48.8,20.6,Canada,Kế toán,2025-07-18T20:41:06
+825,Hồ Quốc Vũ,hovũ825@yahoo.com,user123,user,10270,diamond,Nam,41,181,62.4,19.0,Việt Nam,Y tá,2025-12-05T20:41:06
+826,Phạm Hữu Khải,phamkhai826@yahoo.com,user123,user,1034,bronze,Nam,36,177,67.5,21.5,Việt Nam,Luật sư,2026-05-11T20:41:06
+827,Nguyễn Thị Anh,nguyễnanh827@outlook.com,user123,user,650,bronze,Nữ,41,163,53.5,20.1,Nhật Bản,Quản lý dự án,2025-11-06T20:41:06
+828,Hoàng Thanh Giang,hoanggiang828@yahoo.com,user123,user,111,iron,Nam,31,181,66.1,20.2,Singapore,Nhân viên văn phòng,2026-03-09T20:41:06
+829,Nguyễn Minh Nhân,nguyễnnhan829@hotmail.com,user123,user,3298,gold,Nam,45,181,81.0,24.7,Đức,Kiến trúc sư,2026-04-04T20:41:06
+830,Hồ Hoàng Phúc,hophúc830@gmail.com,user123,user,470,iron,Nam,33,166,66.6,24.2,Việt Nam,Kỹ sư phần mềm,2026-01-16T20:41:06
+831,Lý Phương Giang,lygiang831@gmail.com,user123,user,57,iron,Nữ,39,155,43.8,18.2,Việt Nam,Sinh viên,2025-07-08T20:41:06
+832,Đỗ Đức Dũng,dỗdũng832@gmail.com,user123,user,26,iron,Nam,37,181,80.3,24.5,Thái Lan,Freelancer,2025-05-30T20:41:06
+833,Phan Hữu Nhân,phannhan833@gmail.com,user123,user,212,iron,Nam,27,171,66.1,22.6,Trung Quốc,Nhà báo,2026-01-12T20:41:06
+834,Trần Đức Tùng,trantùng834@gmail.com,user123,user,203,iron,Nam,25,180,72.3,22.3,Việt Nam,Giáo viên,2026-05-14T20:41:06
+835,Phạm Kim Nhung,phamnhung835@yahoo.com,user123,user,11988,diamond,Nữ,36,161,46.7,18.0,Nhật Bản,Luật sư,2026-03-15T20:41:06
+836,Bùi Mỹ Trinh,bùitrinh836@yahoo.com,user123,user,472,iron,Nữ,45,153,50.1,21.4,Nhật Bản,Sinh viên,2026-05-12T20:41:06
+837,Vũ Ngọc Nhung,vũnhung837@gmail.com,user123,user,2608,gold,Nữ,32,155,54.5,22.7,Việt Nam,Kiến trúc sư,2025-05-27T20:41:06
+838,Hồ Thu Tuyết,hotuyet838@hotmail.com,user123,user,12684,diamond,Nữ,21,159,52.4,20.7,Canada,Lập trình viên,2025-05-27T20:41:06
+839,Hoàng Văn Xuân,hoangxuan839@hotmail.com,user123,user,1118,bronze,Nam,32,171,54.6,18.7,Đức,Kế toán,2025-07-27T20:41:06
+840,Đặng Hữu Nam,dangnam840@outlook.com,user123,user,9309,diamond,Nam,40,173,65.7,22.0,Trung Quốc,Nhà báo,2026-03-15T20:41:06
+841,Hồ Thu Thủy,hothủy841@hotmail.com,user123,user,2292,gold,Nữ,33,160,59.7,23.3,Việt Nam,Nhà báo,2025-07-06T20:41:06
+842,Hồ Thanh Khải,hokhai842@yahoo.com,user123,user,113,iron,Nam,28,180,64.6,19.9,Thái Lan,Marketing,2026-03-29T20:41:06
+843,Phạm Văn Thiện,phamthien843@yahoo.com,user123,user,3599,gold,Nam,31,172,65.1,22.0,Đức,Sinh viên,2025-10-16T20:41:06
+844,Võ Văn Anh,võanh844@yahoo.com,user123,user,14321,diamond,Nam,26,164,56.1,20.9,Canada,Luật sư,2026-04-14T20:41:06
+845,Hoàng Văn Quân,hoangquan845@yahoo.com,user123,user,291,iron,Nam,41,174,59.1,19.5,Trung Quốc,Freelancer,2025-12-10T20:41:06
+846,Hồ Phương Vân,hovan846@yahoo.com,user123,user,2799,gold,Nữ,43,158,43.9,17.6,Hàn Quốc,Nhân viên văn phòng,2025-10-16T20:41:06
+847,Bùi Phương Hiền,bùihien847@hotmail.com,user123,user,1455,bronze,Nữ,24,153,48.8,20.8,Hàn Quốc,Giáo viên,2025-07-25T20:41:06
+848,Đặng Đức Tùng,dangtùng848@hotmail.com,user123,user,1379,bronze,Nam,26,165,49.9,18.3,Trung Quốc,Kế toán,2025-09-25T20:41:06
+849,Ngô Hoàng Anh,ngoanh849@yahoo.com,user123,user,792,bronze,Nam,28,164,61.2,22.8,Việt Nam,Quản lý dự án,2025-10-03T20:41:06
+850,Trần Mỹ Thảo,tranthao850@hotmail.com,user123,user,58,iron,Nữ,44,167,52.8,18.9,Việt Nam,Freelancer,2025-06-24T20:41:06
+851,Lê Phương Hương,lehuong851@hotmail.com,user123,user,3368,gold,Nữ,45,162,59.8,22.8,Pháp,Thiết kế đồ họa,2025-09-23T20:41:06
+852,Nguyễn Văn Sơn,nguyễnson852@gmail.com,user123,user,1005,bronze,Nam,21,165,61.6,22.6,Việt Nam,Doanh nhân,2026-02-07T20:41:06
+853,Trần Mỹ Hiền,tranhien853@hotmail.com,user123,user,3362,gold,Nữ,42,170,61.6,21.3,Việt Nam,Kỹ sư phần mềm,2025-06-05T20:41:06
+854,Lê Thị Anh,leanh854@hotmail.com,user123,user,472,iron,Nữ,40,165,54.9,20.2,Hàn Quốc,Luật sư,2026-02-17T20:41:06
+855,Vũ Kim Quỳnh,vũquynh855@yahoo.com,user123,user,9978,diamond,Nữ,22,165,63.5,23.3,Việt Nam,Freelancer,2025-06-30T20:41:06
+856,Hoàng Thanh Xuân,hoangxuan856@hotmail.com,user123,user,58,iron,Nam,36,175,75.8,24.8,Pháp,Nhân viên văn phòng,2025-06-29T20:41:06
+857,Ngô Minh Trung,ngotrung857@gmail.com,user123,user,884,bronze,Nam,36,169,64.6,22.6,Việt Nam,Luật sư,2026-01-05T20:41:06
+858,Hồ Hoàng Tuấn,hotuan858@yahoo.com,user123,user,11369,diamond,Nam,27,177,65.7,21.0,Canada,Nhà báo,2025-08-03T20:41:06
+859,Phạm Hữu Xuân,phamxuan859@gmail.com,user123,user,943,bronze,Nam,29,179,76.4,23.8,Nhật Bản,Lập trình viên,2025-12-07T20:41:06
+860,Lý Thị Uyên,lyuyen860@outlook.com,user123,user,1373,bronze,Nữ,36,170,63.1,21.8,Canada,Y tá,2025-12-19T20:41:06
+861,Đặng Minh Nhân,dangnhan861@outlook.com,user123,user,12807,diamond,Nam,39,170,67.4,23.3,Singapore,Quản lý dự án,2025-08-12T20:41:06
+862,Hoàng Phương Trang,hoangtrang862@hotmail.com,user123,user,2279,gold,Nữ,24,167,53.7,19.3,Việt Nam,Luật sư,2026-02-04T20:41:06
+863,Ngô Văn Việt,ngoviet863@outlook.com,user123,user,2678,gold,Nam,44,180,74.4,23.0,Nhật Bản,Bác sĩ,2026-01-29T20:41:06
+864,Phan Thanh Quân,phanquan864@yahoo.com,user123,user,14876,diamond,Nam,43,180,69.6,21.5,Hàn Quốc,Quản lý dự án,2026-05-13T20:41:06
+865,Vũ Công Xuân,vũxuan865@gmail.com,user123,user,59,iron,Nam,37,180,78.4,24.2,Việt Nam,Thiết kế đồ họa,2026-02-12T20:41:06
+866,Hồ Bích Hằng,hohang866@hotmail.com,user123,user,440,iron,Nữ,31,166,54.5,19.8,Việt Nam,Bác sĩ,2026-03-27T20:41:06
+867,Phan Phương Uyên,phanuyen867@yahoo.com,user123,user,14801,diamond,Nữ,39,160,46.3,18.1,Trung Quốc,Marketing,2025-07-15T20:41:06
+868,Ngô Mỹ Trang,ngotrang868@gmail.com,user123,user,558,bronze,Nữ,34,161,46.4,17.9,Việt Nam,Lập trình viên,2026-01-16T20:41:06
+869,Võ Quốc Thiện,võthien869@hotmail.com,user123,user,515,bronze,Nam,40,170,70.9,24.5,Thái Lan,Giáo viên,2025-05-30T20:41:06
+870,Bùi Quốc Phúc,bùiphúc870@hotmail.com,user123,user,607,bronze,Nam,23,177,74.4,23.7,Trung Quốc,Freelancer,2025-06-01T20:41:06
+871,Đặng Mỹ Dung,dangdung871@outlook.com,user123,user,7479,platinum,Nữ,34,156,42.4,17.4,Úc,Doanh nhân,2025-09-04T20:41:06
+872,Hồ Đức Liêm,holiem872@outlook.com,user123,user,1239,bronze,Nam,39,165,53.0,19.5,Pháp,Quản lý dự án,2026-02-18T20:41:06
+873,Lý Minh Long,lylong873@hotmail.com,user123,user,10050,diamond,Nam,45,165,50.5,18.5,Trung Quốc,Freelancer,2026-01-15T20:41:06
+874,Nguyễn Phương Vân,nguyễnvan874@hotmail.com,user123,user,300,iron,Nữ,44,169,63.4,22.2,Việt Nam,Nhân viên văn phòng,2025-08-11T20:41:06
+875,Đặng Hoàng Nghĩa,dangnghĩa875@hotmail.com,user123,user,8998,diamond,Nam,20,171,64.8,22.2,Canada,Y tá,2025-07-07T20:41:06
+876,Lý Minh Long,lylong876@yahoo.com,user123,user,319,iron,Nam,34,164,63.8,23.7,Việt Nam,Marketing,2025-10-26T20:41:06
+877,Đỗ Ngọc Trang,dỗtrang877@hotmail.com,user123,user,11249,diamond,Nữ,38,158,54.1,21.7,Hàn Quốc,Lập trình viên,2025-12-21T20:41:06
+878,Đặng Minh Dũng,dangdũng878@yahoo.com,user123,user,187,iron,Nam,25,169,69.6,24.4,Việt Nam,Luật sư,2025-07-15T20:41:06
+879,Dương Thanh Hoa,duonghoa879@gmail.com,user123,user,1052,bronze,Nữ,34,166,52.6,19.1,Trung Quốc,Lập trình viên,2026-02-25T20:41:06
+880,Hoàng Thanh Lan,hoanglan880@yahoo.com,user123,user,212,iron,Nữ,43,156,46.7,19.2,Việt Nam,Doanh nhân,2025-11-21T20:41:06
+881,Phan Thị Tâm,phantam881@hotmail.com,user123,user,75,iron,Nữ,32,165,61.5,22.6,Trung Quốc,Bác sĩ,2025-10-28T20:41:06
+882,Vũ Thị Hương,vũhuong882@yahoo.com,user123,user,1858,gold,Nữ,42,165,60.5,22.2,Việt Nam,Luật sư,2026-03-06T20:41:06
+883,Ngô Hoàng Tùng,ngotùng883@gmail.com,user123,user,210,iron,Nam,24,162,50.5,19.2,Canada,Quản lý dự án,2026-03-16T20:41:06
+884,Hoàng Hoàng Dũng,hoangdũng884@yahoo.com,user123,user,1602,gold,Nam,18,162,65.2,24.8,Nhật Bản,Freelancer,2026-05-25T20:41:06
+885,Phan Phương Giang,phangiang885@gmail.com,user123,user,8560,diamond,Nữ,38,159,44.9,17.8,Việt Nam,Kỹ sư phần mềm,2026-03-16T20:41:06
+886,Huỳnh Đức Sơn,huynhson886@hotmail.com,user123,user,512,bronze,Nam,25,180,76.5,23.6,Đức,Bác sĩ,2026-01-21T20:41:06
+887,Đỗ Ngọc Linh,dỗlinh887@outlook.com,user123,user,795,bronze,Nữ,37,155,49.3,20.5,Việt Nam,Sinh viên,2026-01-17T20:41:06
+888,Vũ Thị Xuân,vũxuan888@gmail.com,user123,user,871,bronze,Nữ,28,165,63.7,23.4,Việt Nam,Nhà báo,2026-04-28T20:41:06
+889,Huỳnh Hoàng Kiên,huynhkien889@hotmail.com,user123,user,26768,master,Nam,38,175,68.1,22.2,Trung Quốc,Kiến trúc sư,2025-07-07T20:41:06
+890,Nguyễn Minh Kiên,nguyễnkien890@gmail.com,user123,user,508,bronze,Nam,35,178,67.2,21.2,Trung Quốc,Lập trình viên,2026-02-27T20:41:06
+891,Lý Minh Nam,lynam891@hotmail.com,user123,user,7780,platinum,Nam,22,181,70.2,21.4,Pháp,Luật sư,2025-07-08T20:41:06
+892,Lý Ngọc Hiền,lyhien892@hotmail.com,user123,user,973,bronze,Nữ,42,165,53.8,19.8,Pháp,Nhân viên văn phòng,2025-07-23T20:41:06
+893,Lê Phương Mai,lemai893@hotmail.com,user123,user,319,iron,Nữ,40,152,49.3,21.3,Singapore,Thiết kế đồ họa,2026-01-19T20:41:06
+894,Đỗ Ngọc Dung,dỗdung894@outlook.com,user123,user,2717,gold,Nữ,29,168,63.9,22.6,Mỹ,Sinh viên,2025-06-26T20:41:06
+895,Đỗ Thị Hà,dỗha895@gmail.com,user123,user,2480,gold,Nữ,18,153,50.0,21.4,Pháp,Kỹ sư phần mềm,2026-03-31T20:41:06
+896,Bùi Thu Hiền,bùihien896@hotmail.com,user123,user,445,iron,Nữ,44,154,51.9,21.9,Mỹ,Quản lý dự án,2026-03-21T20:41:06
+897,Nguyễn Hoàng Thiện,nguyễnthien897@gmail.com,user123,user,6753,platinum,Nam,28,172,64.3,21.7,Việt Nam,Marketing,2025-11-04T20:41:06
+898,Đỗ Thanh Thiện,dỗthien898@hotmail.com,user123,user,788,bronze,Nam,42,181,70.7,21.6,Đức,Doanh nhân,2026-04-29T20:41:06
+899,Phan Văn Giang,phangiang899@outlook.com,user123,user,10359,diamond,Nam,35,171,60.1,20.6,Canada,Kế toán,2026-04-19T20:41:06
+900,Vũ Thu Thu,vũthu900@gmail.com,user123,user,2968,gold,Nữ,36,158,51.1,20.5,Úc,Y tá,2026-05-18T20:41:06
+901,Đỗ Thanh Bảo,dỗbao901@gmail.com,user123,user,1683,gold,Nam,40,178,71.2,22.5,Canada,Giáo viên,2025-07-31T20:41:06
+902,Hoàng Thanh Hiếu,hoanghieu902@gmail.com,user123,user,293,iron,Nam,45,174,68.9,22.8,Việt Nam,Freelancer,2025-06-27T20:41:06
+903,Huỳnh Phương Lan,huynhlan903@gmail.com,user123,user,137,iron,Nữ,20,166,49.0,17.8,Canada,Kế toán,2026-03-08T20:41:06
+904,Võ Đức Phong,võphong904@outlook.com,user123,user,2584,gold,Nam,28,164,51.2,19.0,Pháp,Y tá,2025-08-05T20:41:06
+905,Lý Hoàng Sơn,lyson905@outlook.com,user123,user,1107,bronze,Nam,26,171,57.9,19.8,Mỹ,Kế toán,2025-12-27T20:41:06
+906,Dương Mỹ Thu,duongthu906@hotmail.com,user123,user,436,iron,Nữ,24,155,53.5,22.3,Đức,Freelancer,2025-11-08T20:41:06
+907,Trần Quốc Trung,trantrung907@outlook.com,user123,user,2839,gold,Nam,32,166,57.5,20.9,Việt Nam,Quản lý dự án,2026-05-07T20:41:06
+908,Võ Công Thiện,võthien908@hotmail.com,user123,user,2847,gold,Nam,20,167,59.2,21.2,Thái Lan,Lập trình viên,2026-03-20T20:41:06
+909,Phạm Phương Xuân,phamxuan909@hotmail.com,user123,user,1148,bronze,Nữ,28,153,50.7,21.7,Trung Quốc,Giáo viên,2026-04-05T20:41:06
+910,Đặng Minh Khải,dangkhai910@gmail.com,user123,user,2320,gold,Nam,40,169,66.0,23.1,Thái Lan,Thiết kế đồ họa,2025-09-04T20:41:06
+911,Hoàng Minh Khải,hoangkhai911@gmail.com,user123,user,202,iron,Nam,26,174,62.9,20.8,Pháp,Luật sư,2026-03-18T20:41:06
+912,Hồ Thanh Phong,hophong912@yahoo.com,user123,user,819,bronze,Nam,31,167,64.0,22.9,Việt Nam,Y tá,2025-10-14T20:41:06
+913,Vũ Hoàng Phong,vũphong913@hotmail.com,user123,user,1473,bronze,Nam,31,182,80.0,24.2,Canada,Thiết kế đồ họa,2026-02-11T20:41:06
+914,Hồ Thanh Tâm,hotam914@outlook.com,user123,user,989,bronze,Nữ,40,157,45.0,18.3,Pháp,Nhân viên văn phòng,2025-12-17T20:41:06
+915,Trần Thanh Anh,trananh915@hotmail.com,user123,user,1242,bronze,Nam,35,170,59.3,20.5,Canada,Marketing,2025-12-19T20:41:06
+916,Huỳnh Mỹ Mai,huynhmai916@gmail.com,user123,user,1025,bronze,Nữ,35,165,59.5,21.9,Việt Nam,Luật sư,2026-03-10T20:41:06
+917,Phan Bích Thảo,phanthao917@hotmail.com,user123,user,680,bronze,Nữ,42,161,60.4,23.3,Việt Nam,Lập trình viên,2026-01-14T20:41:06
+918,Huỳnh Quốc Việt,huynhviet918@outlook.com,user123,user,12318,diamond,Nam,27,178,62.2,19.6,Nhật Bản,Marketing,2025-10-05T20:41:06
+919,Võ Ngọc Ngân,võngan919@yahoo.com,user123,user,680,bronze,Nữ,22,152,46.8,20.3,Trung Quốc,Sinh viên,2025-05-30T20:41:06
+920,Phan Thu Xuân,phanxuan920@hotmail.com,user123,user,468,iron,Nữ,36,168,55.5,19.7,Trung Quốc,Luật sư,2025-08-05T20:41:06
+921,Đỗ Kim Thủy,dỗthủy921@yahoo.com,user123,user,157,iron,Nữ,27,168,58.2,20.6,Úc,Quản lý dự án,2026-05-06T20:41:06
+922,Huỳnh Hoàng Vũ,huynhvũ922@outlook.com,user123,user,4927,platinum,Nam,35,173,73.9,24.7,Nhật Bản,Doanh nhân,2025-12-06T20:41:06
+923,Đỗ Ngọc My,dỗmy923@gmail.com,user123,user,3603,gold,Nữ,26,163,50.8,19.1,Trung Quốc,Marketing,2025-08-23T20:41:06
+924,Võ Thu Linh,võlinh924@yahoo.com,user123,user,2536,gold,Nữ,23,165,60.0,22.0,Đức,Kế toán,2026-01-14T20:41:06
+925,Nguyễn Văn Dũng,nguyễndũng925@outlook.com,user123,user,10569,diamond,Nam,18,171,73.2,25.0,Trung Quốc,Marketing,2025-10-12T20:41:06
+926,Vũ Công Khải,vũkhai926@gmail.com,user123,user,678,bronze,Nam,28,177,63.5,20.3,Đức,Freelancer,2026-02-02T20:41:06
+927,Trần Mỹ Dung,trandung927@outlook.com,user123,user,7492,platinum,Nữ,21,154,41.5,17.5,Việt Nam,Kiến trúc sư,2026-05-19T20:41:06
+928,Võ Bích Hằng,võhang928@gmail.com,user123,user,517,bronze,Nữ,29,155,56.4,23.5,Hàn Quốc,Nhân viên văn phòng,2026-05-07T20:41:06
+929,Lý Hữu Hùng,lyhùng929@outlook.com,user123,user,13996,diamond,Nam,25,170,68.6,23.7,Úc,Kế toán,2025-05-30T20:41:06
+930,Đặng Bích Chi,dangchi930@yahoo.com,user123,user,793,bronze,Nữ,33,166,49.2,17.9,Việt Nam,Lập trình viên,2025-12-15T20:41:06
+931,Bùi Thu Hà,bùiha931@hotmail.com,user123,user,299,iron,Nữ,19,156,53.6,22.0,Úc,Giáo viên,2026-04-06T20:41:06
+932,Hoàng Minh Xuân,hoangxuan932@yahoo.com,user123,user,4999,platinum,Nam,18,182,69.8,21.1,Việt Nam,Bác sĩ,2025-06-15T20:41:06
+933,Võ Kim Giang,võgiang933@outlook.com,user123,user,3775,gold,Nữ,18,170,63.7,22.0,Pháp,Kiến trúc sư,2025-07-11T20:41:06
+934,Lê Thị Giang,legiang934@yahoo.com,user123,user,13823,diamond,Nữ,18,152,45.4,19.7,Việt Nam,Thiết kế đồ họa,2026-02-18T20:41:06
+935,Hoàng Kim Loan,hoangloan935@hotmail.com,user123,user,10213,diamond,Nữ,32,165,60.7,22.3,Việt Nam,Sinh viên,2026-01-30T20:41:06
+936,Đỗ Mỹ Dung,dỗdung936@outlook.com,user123,user,14745,diamond,Nữ,40,167,50.9,18.3,Úc,Kỹ sư phần mềm,2026-03-05T20:41:06
+937,Lê Quốc Thiện,lethien937@gmail.com,user123,user,3291,gold,Nam,26,176,63.2,20.4,Canada,Y tá,2025-06-13T20:41:06
+938,Dương Đức Trung,duongtrung938@yahoo.com,user123,user,1992,gold,Nam,26,164,50.4,18.7,Việt Nam,Y tá,2025-07-22T20:41:06
+939,Lý Bích Xuân,lyxuan939@yahoo.com,user123,user,2776,gold,Nữ,31,153,53.5,22.9,Nhật Bản,Kỹ sư phần mềm,2025-12-28T20:41:06
+940,Lý Minh Việt,lyviet940@hotmail.com,user123,user,2276,gold,Nam,23,168,71.3,25.3,Việt Nam,Giáo viên,2025-06-13T20:41:06
+941,Đặng Quốc Anh,danganh941@hotmail.com,user123,user,12393,diamond,Nam,20,171,67.4,23.0,Việt Nam,Kiến trúc sư,2025-09-22T20:41:06
+942,Võ Kim Trang,võtrang942@outlook.com,user123,user,991,bronze,Nữ,32,164,58.2,21.6,Trung Quốc,Sinh viên,2026-03-03T20:41:06
+943,Bùi Hoàng Thiện,bùithien943@hotmail.com,user123,user,205,iron,Nam,40,175,73.8,24.1,Hàn Quốc,Kiến trúc sư,2025-07-06T20:41:06
+944,Ngô Thanh Dung,ngodung944@gmail.com,user123,user,2917,gold,Nữ,32,164,59.4,22.1,Việt Nam,Doanh nhân,2026-03-21T20:41:06
+945,Lý Mỹ Trang,lytrang945@yahoo.com,user123,user,4640,platinum,Nữ,27,152,41.7,18.0,Việt Nam,Freelancer,2026-04-29T20:41:06
+946,Vũ Minh Minh,vũminh946@hotmail.com,user123,user,660,bronze,Nam,39,167,55.3,19.8,Úc,Lập trình viên,2026-01-22T20:41:06
+947,Vũ Hoàng Thiện,vũthien947@gmail.com,user123,user,3459,gold,Nam,43,177,59.7,19.1,Thái Lan,Giáo viên,2026-04-09T20:41:06
+948,Trần Thanh Nam,trannam948@gmail.com,user123,user,6,iron,Nam,33,163,64.4,24.2,Mỹ,Quản lý dự án,2025-10-22T20:41:06
+949,Trần Hoàng Lâm,tranlam949@gmail.com,user123,user,2541,gold,Nam,31,169,55.1,19.3,Việt Nam,Lập trình viên,2025-11-17T20:41:06
+950,Phạm Hoàng Phúc,phamphúc950@outlook.com,user123,user,7005,platinum,Nam,40,182,64.8,19.6,Mỹ,Nhân viên văn phòng,2026-03-15T20:41:06
+951,Đỗ Đức Minh,dỗminh951@yahoo.com,user123,user,3195,gold,Nam,43,163,60.5,22.8,Việt Nam,Bác sĩ,2025-07-18T20:41:06
+952,Đặng Thanh Kiên,dangkien952@yahoo.com,user123,user,2449,gold,Nam,24,166,69.2,25.1,Việt Nam,Lập trình viên,2025-08-16T20:41:06
+953,Ngô Quốc Quang,ngoquang953@outlook.com,user123,user,2601,gold,Nam,22,172,60.3,20.4,Mỹ,Marketing,2026-01-20T20:41:06
+954,Hoàng Văn Hải,hoanghai954@hotmail.com,user123,user,3064,gold,Nam,26,180,63.6,19.6,Việt Nam,Nhân viên văn phòng,2026-01-08T20:41:06
+955,Vũ Thanh Chi,vũchi955@hotmail.com,user123,user,3260,gold,Nữ,30,159,54.2,21.4,Canada,Kiến trúc sư,2025-12-16T20:41:06
+956,Huỳnh Đức Nhân,huynhnhan956@yahoo.com,user123,user,3634,gold,Nam,25,168,61.9,21.9,Việt Nam,Giáo viên,2025-07-08T20:41:06
+957,Lý Mỹ Hà,lyha957@yahoo.com,user123,user,21290,master,Nữ,31,163,61.4,23.1,Pháp,Lập trình viên,2026-02-27T20:41:06
+958,Hồ Kim Hằng,hohang958@hotmail.com,user123,user,61,iron,Nữ,26,162,61.5,23.4,Đức,Luật sư,2026-04-17T20:41:06
+959,Phạm Hoàng Việt,phamviet959@yahoo.com,user123,user,3234,gold,Nam,33,176,63.9,20.6,Việt Nam,Marketing,2025-10-20T20:41:06
+960,Bùi Thị Thảo,bùithao960@hotmail.com,user123,user,764,bronze,Nữ,18,170,60.4,20.9,Nhật Bản,Marketing,2025-09-03T20:41:06
+961,Hồ Kim Loan,holoan961@outlook.com,user123,user,4194,platinum,Nữ,36,168,66.2,23.5,Thái Lan,Kỹ sư phần mềm,2025-11-22T20:41:06
+962,Lý Thanh Ngân,lyngan962@outlook.com,user123,user,737,bronze,Nữ,35,160,47.0,18.4,Canada,Kiến trúc sư,2026-01-09T20:41:06
+963,Đỗ Hữu Khoa,dỗkhoa963@gmail.com,user123,user,1364,bronze,Nam,32,172,74.0,25.0,Úc,Marketing,2026-02-03T20:41:06
+964,Đỗ Văn Phúc,dỗphúc964@gmail.com,user123,user,3893,gold,Nam,29,182,77.7,23.5,Trung Quốc,Nhân viên văn phòng,2026-02-10T20:41:06
+965,Dương Mỹ Trang,duongtrang965@gmail.com,user123,user,1247,bronze,Nữ,31,154,49.8,21.0,Việt Nam,Kiến trúc sư,2025-07-30T20:41:06
+966,Hồ Đức Long,holong966@gmail.com,user123,user,2066,gold,Nam,18,167,63.5,22.8,Nhật Bản,Nhân viên văn phòng,2026-04-18T20:41:06
+967,Hồ Công Phong,hophong967@yahoo.com,user123,user,8874,diamond,Nam,38,181,64.3,19.6,Việt Nam,Giáo viên,2026-03-29T20:41:06
+968,Huỳnh Minh Quân,huynhquan968@gmail.com,user123,user,486,iron,Nam,19,167,64.0,22.9,Việt Nam,Luật sư,2025-10-10T20:41:06
+969,Phan Bích Tuyết,phantuyet969@outlook.com,user123,user,3281,gold,Nữ,26,160,60.3,23.6,Việt Nam,Doanh nhân,2026-01-13T20:41:06
+970,Huỳnh Hoàng Liêm,huynhliem970@yahoo.com,user123,user,1283,bronze,Nam,33,179,64.7,20.2,Hàn Quốc,Luật sư,2025-09-05T20:41:06
+971,Bùi Thanh Xuân,bùixuan971@gmail.com,user123,user,160,iron,Nữ,27,152,44.3,19.2,Việt Nam,Kiến trúc sư,2025-06-13T20:41:06
+972,Hồ Văn Kiên,hokien972@hotmail.com,user123,user,366,iron,Nam,19,182,72.4,21.9,Nhật Bản,Freelancer,2025-08-31T20:41:06
+973,Võ Thu Lan,võlan973@gmail.com,user123,user,3809,gold,Nữ,33,157,44.2,17.9,Đức,Thiết kế đồ họa,2026-05-03T20:41:06
+974,Hồ Thanh Loan,holoan974@hotmail.com,user123,user,5452,platinum,Nữ,28,160,53.3,20.8,Việt Nam,Freelancer,2025-07-23T20:41:06
+975,Ngô Hữu Nam,ngonam975@gmail.com,user123,user,14249,diamond,Nam,45,176,59.8,19.3,Canada,Nhân viên văn phòng,2026-02-11T20:41:06
+976,Trần Mỹ Thủy,tranthủy976@yahoo.com,user123,user,2018,gold,Nữ,35,156,48.8,20.1,Canada,Kế toán,2025-11-29T20:41:06
+977,Lý Bích Dung,lydung977@outlook.com,user123,user,26739,master,Nữ,27,167,54.2,19.4,Đức,Doanh nhân,2026-02-27T20:41:06
+978,Dương Thanh Phong,duongphong978@gmail.com,user123,user,7568,platinum,Nam,22,182,73.5,22.2,Úc,Y tá,2026-01-12T20:41:06
+979,Nguyễn Ngọc Chi,nguyễnchi979@hotmail.com,user123,user,8530,diamond,Nữ,31,163,48.0,18.1,Đức,Freelancer,2026-01-13T20:41:06
+980,Lê Quốc Trung,letrung980@gmail.com,user123,user,5527,platinum,Nam,24,172,61.0,20.6,Việt Nam,Quản lý dự án,2025-09-04T20:41:06
+981,Hồ Quốc Anh,hoanh981@gmail.com,user123,user,876,bronze,Nam,31,165,54.6,20.1,Đức,Marketing,2026-04-06T20:41:06
+982,Nguyễn Kim Thu,nguyễnthu982@yahoo.com,user123,user,3884,gold,Nữ,35,166,52.1,18.9,Đức,Nhà báo,2025-12-12T20:41:06
+983,Ngô Công Nam,ngonam983@gmail.com,user123,user,11317,diamond,Nam,19,172,71.4,24.1,Pháp,Thiết kế đồ họa,2026-03-17T20:41:06
+984,Trần Công Hùng,tranhùng984@yahoo.com,user123,user,471,iron,Nam,24,169,62.5,21.9,Đức,Kiến trúc sư,2025-07-09T20:41:06
+985,Bùi Công Tuấn,bùituan985@outlook.com,user123,user,10325,diamond,Nam,36,171,64.7,22.1,Thái Lan,Kiến trúc sư,2025-06-27T20:41:06
+986,Hồ Ngọc Nga,honga986@hotmail.com,user123,user,439,iron,Nữ,27,166,62.1,22.5,Úc,Marketing,2026-03-28T20:41:06
+987,Trần Hoàng Minh,tranminh987@outlook.com,user123,user,1930,gold,Nam,40,178,78.1,24.6,Hàn Quốc,Sinh viên,2025-11-06T20:41:06
+988,Phạm Thanh Cường,phamcuong988@yahoo.com,user123,user,3813,gold,Nam,20,167,58.5,21.0,Thái Lan,Lập trình viên,2025-07-24T20:41:06
+989,Hồ Đức Kiên,hokien989@yahoo.com,user123,user,528,bronze,Nam,40,175,58.5,19.1,Nhật Bản,Thiết kế đồ họa,2025-08-03T20:41:06
+990,Vũ Quốc Khoa,vũkhoa990@gmail.com,user123,user,1831,gold,Nam,31,181,72.1,22.0,Úc,Luật sư,2026-05-13T20:41:06
+991,Vũ Kim Linh,vũlinh991@hotmail.com,user123,user,630,bronze,Nữ,28,163,58.7,22.1,Canada,Kiến trúc sư,2025-10-17T20:41:06
+992,Lê Thị Anh,leanh992@gmail.com,user123,user,2506,gold,Nữ,43,168,55.7,19.7,Úc,Kiến trúc sư,2025-06-25T20:41:06
+993,Đặng Thanh Chi,dangchi993@hotmail.com,user123,user,1043,bronze,Nữ,20,167,58.0,20.8,Việt Nam,Marketing,2026-02-13T20:41:06
+994,Ngô Văn Quân,ngoquan994@yahoo.com,user123,user,2808,gold,Nam,26,164,53.2,19.8,Mỹ,Nhân viên văn phòng,2025-06-25T20:41:06
+995,Huỳnh Phương Giang,huynhgiang995@yahoo.com,user123,user,12077,diamond,Nữ,36,167,55.2,19.8,Úc,Luật sư,2025-07-25T20:41:06
+996,Hoàng Hữu Hiếu,hoanghieu996@outlook.com,user123,user,5751,platinum,Nam,20,170,61.6,21.3,Việt Nam,Giáo viên,2025-09-12T20:41:06
+997,Phan Văn Cường,phancuong997@yahoo.com,user123,user,837,bronze,Nam,30,182,65.4,19.7,Singapore,Luật sư,2026-05-09T20:41:06
+998,Ngô Thanh Dũng,ngodũng998@hotmail.com,user123,user,4638,platinum,Nam,28,182,75.4,22.8,Đức,Kỹ sư phần mềm,2026-03-20T20:41:06
+999,Đỗ Quốc Sơn,dỗson999@outlook.com,user123,user,2008,gold,Nam,37,180,65.0,20.1,Mỹ,Kế toán,2025-06-21T20:41:06
+1000,Trần Thu Hiền,tranhien1000@hotmail.com,user123,user,99,iron,Nữ,28,167,59.2,21.2,Đức,Giáo viên,2026-02-04T20:41:06
