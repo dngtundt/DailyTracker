@@ -16,6 +16,7 @@ import '../../core/providers/locale_provider.dart';
 import '../../widgets/rank_badge.dart';
 import '../challenges/challenges_screen.dart';
 import '../leaderboard/leaderboard_screen.dart';
+import 'post_detail_screen.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 
 class DashboardScreen extends StatefulWidget {
@@ -31,6 +32,151 @@ class _DashboardScreenState extends State<DashboardScreen> {
   List<PostModel> _posts = [];
   bool _loading = true;
   late String _todayQuote;
+
+  Future<void> _completeChallenge(ChallengeModel challenge) async {
+    if (challenge.isCompleted) return;
+    final auth = context.read<AuthService>();
+    final user = auth.currentUser;
+    if (user == null) return;
+    final completedNow = await FirestoreService.instance.completeChallenge(
+      user.id!,
+      challenge.id!,
+    );
+    if (!completedNow) return;
+    await auth.addPoints(challenge.points);
+    if (mounted) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          content: Row(children: [
+            const Text('🎉 ', style: TextStyle(fontSize: 18)),
+            Text('+${challenge.points} điểm! Thử thách hoàn thành!'),
+          ]),
+          backgroundColor: AppColors.success,
+          behavior: SnackBarBehavior.floating,
+          shape:
+              RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
+          duration: const Duration(seconds: 3),
+        ),
+      );
+      _loadData();
+    }
+  }
+
+  void _showChallengeDetails(ChallengeModel challenge) {
+    final colors = {
+      'fitness': AppColors.accent,
+      'nutrition': AppColors.success,
+      'mindset': AppColors.primary,
+      'productivity': AppColors.warning
+    };
+    final color = colors[challenge.category] ?? AppColors.primary;
+    final categoryLabels = {
+      'fitness': 'Thể thao',
+      'nutrition': 'Dinh dưỡng',
+      'mindset': 'Tâm thần',
+      'productivity': 'Năng suất'
+    };
+    final categoryLabel = categoryLabels[challenge.category] ?? 'Khác';
+
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppColors.surface,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: color.withOpacity(0.15),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(Icons.emoji_events_rounded, color: color, size: 24),
+            ),
+            const SizedBox(width: 12),
+            const Expanded(
+              child: Text(
+                'Chi tiết thử thách',
+                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+              ),
+            ),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              challenge.title,
+              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+            const SizedBox(height: 12),
+            Text(
+              challenge.description,
+              style: const TextStyle(color: Colors.white70, fontSize: 14, height: 1.5),
+            ),
+            const SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                  decoration: BoxDecoration(
+                    color: color.withOpacity(0.12),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Text(
+                    categoryLabel,
+                    style: TextStyle(color: color, fontWeight: FontWeight.bold, fontSize: 12),
+                  ),
+                ),
+                Text(
+                  'Phần thưởng: +${challenge.points}đ',
+                  style: const TextStyle(color: AppColors.warning, fontWeight: FontWeight.bold, fontSize: 13),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              challenge.startDate == challenge.endDate
+                  ? 'Ngày áp dụng: ${challenge.startDate}'
+                  : 'Thời gian: từ ${challenge.startDate} đến ${challenge.endDate}',
+              style: const TextStyle(color: AppColors.textSecondary, fontSize: 11),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('Đóng', style: TextStyle(color: AppColors.textSecondary)),
+          ),
+          if (!challenge.isCompleted)
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(ctx);
+                _completeChallenge(challenge);
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.primary,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+              ),
+              child: const Text('Hoàn thành'),
+            ),
+        ],
+      ),
+    );
+  }
+
+  Future<void> _toggleLikePost(PostModel post) async {
+    final user = context.read<AuthService>().currentUser;
+    if (user == null) return;
+    try {
+      await FirestoreService.instance.toggleLikePost(post.id!, user.id!);
+      _loadData();
+    } catch (e) {
+      debugPrint("Error liking: $e");
+    }
+  }
 
   @override
   void initState() {
@@ -487,7 +633,6 @@ class _DashboardScreenState extends State<DashboardScreen> {
     final color = colors[c.category] ?? AppColors.primary;
     return Container(
       margin: const EdgeInsets.only(bottom: 8),
-      padding: const EdgeInsets.all(14),
       decoration: BoxDecoration(
         color: AppColors.surface,
         borderRadius: BorderRadius.circular(14),
@@ -496,46 +641,61 @@ class _DashboardScreenState extends State<DashboardScreen> {
                 ? AppColors.success.withValues(alpha: 0.3)
                 : AppColors.border),
       ),
-      child: Row(children: [
-        Container(
-          width: 36,
-          height: 36,
-          decoration: BoxDecoration(
-              color: color.withValues(alpha: 0.15),
-              borderRadius: BorderRadius.circular(10)),
-          child: Icon(
-              c.isCompleted
-                  ? Icons.check_circle_rounded
-                  : Icons.radio_button_unchecked_rounded,
-              color: c.isCompleted ? AppColors.success : color,
-              size: 20),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(14),
+        child: InkWell(
+          onTap: () => _showChallengeDetails(c),
+          child: Padding(
+            padding: const EdgeInsets.all(14),
+            child: Row(children: [
+              GestureDetector(
+                onTap: () => _completeChallenge(c),
+                child: Container(
+                  width: 36,
+                  height: 36,
+                  decoration: BoxDecoration(
+                      color: color.withValues(alpha: 0.15),
+                      borderRadius: BorderRadius.circular(10)),
+                  child: Icon(
+                      c.isCompleted
+                          ? Icons.check_circle_rounded
+                          : Icons.radio_button_unchecked_rounded,
+                      color: c.isCompleted ? AppColors.success : color,
+                      size: 20),
+                ),
+              ),
+              const SizedBox(width: 12),
+              Expanded(
+                  child:
+                      Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
+                Text(c.title,
+                    style: TextStyle(
+                        color: c.isCompleted ? AppColors.textSecondary : Colors.white,
+                        fontSize: 14,
+                        fontWeight: FontWeight.w600,
+                        decoration:
+                            c.isCompleted ? TextDecoration.lineThrough : null)),
+              ])),
+              Container(
+                padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
+                decoration: BoxDecoration(
+                    color: color.withValues(alpha: 0.15),
+                    borderRadius: BorderRadius.circular(8)),
+                child: Text('+${c.points}',
+                    style: TextStyle(
+                        color: color, fontSize: 12, fontWeight: FontWeight.w700)),
+              ),
+            ]),
+          ),
         ),
-        const SizedBox(width: 12),
-        Expanded(
-            child:
-                Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-          Text(c.title,
-              style: TextStyle(
-                  color: c.isCompleted ? AppColors.textSecondary : Colors.white,
-                  fontSize: 14,
-                  fontWeight: FontWeight.w600,
-                  decoration:
-                      c.isCompleted ? TextDecoration.lineThrough : null)),
-        ])),
-        Container(
-          padding: const EdgeInsets.symmetric(horizontal: 8, vertical: 4),
-          decoration: BoxDecoration(
-              color: color.withValues(alpha: 0.15),
-              borderRadius: BorderRadius.circular(8)),
-          child: Text('+${c.points}',
-              style: TextStyle(
-                  color: color, fontSize: 12, fontWeight: FontWeight.w700)),
-        ),
-      ]),
+      ),
     );
   }
 
   Widget _buildPostCard(PostModel post) {
+    final user = context.read<AuthService>().currentUser;
+    final likedByMe = user != null && post.likes.contains(user.id);
+
     return Container(
       margin: const EdgeInsets.only(bottom: 12),
       decoration: BoxDecoration(
@@ -543,59 +703,175 @@ class _DashboardScreenState extends State<DashboardScreen> {
         borderRadius: BorderRadius.circular(16),
         border: Border.all(color: AppColors.border),
       ),
-      child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-        if (post.imageUrl != null && post.imageUrl!.isNotEmpty)
-          ClipRRect(
-            borderRadius: const BorderRadius.vertical(top: Radius.circular(15)),
-            child: Image.network(
-              post.imageUrl!,
-              width: double.infinity,
-              height: 180,
-              fit: BoxFit.cover,
-              errorBuilder: (_, __, ___) => const SizedBox(),
+      child: ClipRRect(
+        borderRadius: BorderRadius.circular(16),
+        child: InkWell(
+          onTap: () => Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (_) => PostDetailScreen(postId: post.id!),
             ),
-          ),
-        Padding(
-          padding: const EdgeInsets.all(16),
-          child:
-              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-            Row(children: [
-              Container(
-                width: 36,
-                height: 36,
-                decoration: BoxDecoration(
-                    gradient: AppColors.primaryGradient,
-                    borderRadius: BorderRadius.circular(10)),
-                child: const Icon(Icons.admin_panel_settings_rounded,
-                    color: Colors.white, size: 18),
+          ).then((_) => _loadData()),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              if (post.imageUrl != null && post.imageUrl!.isNotEmpty)
+                Image.network(
+                  post.imageUrl!,
+                  width: double.infinity,
+                  height: 180,
+                  fit: BoxFit.cover,
+                  errorBuilder: (_, __, ___) => const SizedBox(),
+                ),
+              Padding(
+                padding: const EdgeInsets.all(16),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Row(
+                      children: [
+                        Container(
+                          width: 36,
+                          height: 36,
+                          decoration: BoxDecoration(
+                              gradient: AppColors.primaryGradient,
+                              borderRadius: BorderRadius.circular(10)),
+                          child: const Icon(Icons.admin_panel_settings_rounded,
+                              color: Colors.white, size: 18),
+                        ),
+                        const SizedBox(width: 10),
+                        Expanded(
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.start,
+                            children: [
+                              Row(
+                                children: [
+                                  Text(post.adminName,
+                                      style: const TextStyle(
+                                          color: Colors.white,
+                                          fontWeight: FontWeight.w600,
+                                          fontSize: 13)),
+                                  const SizedBox(width: 4),
+                                  const Icon(Icons.verified_rounded, color: Colors.blue, size: 14),
+                                ],
+                              ),
+                              Text(
+                                DateFormat('dd/MM/yyyy HH:mm').format(post.createdAt),
+                                style: TextStyle(
+                                    color: AppColors.textSecondary, fontSize: 11),
+                              ),
+                            ],
+                          ),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 12),
+                    Text(post.title,
+                        style: GoogleFonts.outfit(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w700,
+                            fontSize: 15)),
+                    const SizedBox(height: 6),
+                    Text(post.content,
+                        style: TextStyle(
+                            color: AppColors.textSecondary, fontSize: 13, height: 1.5),
+                        maxLines: 3,
+                        overflow: TextOverflow.ellipsis),
+                    const SizedBox(height: 12),
+                    const Divider(color: AppColors.border, height: 1),
+                    const SizedBox(height: 8),
+                    // Likes & Comments Count
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                      children: [
+                        Text(
+                          '${post.likes.length} lượt thích',
+                          style: const TextStyle(color: AppColors.textSecondary, fontSize: 11),
+                        ),
+                        Text(
+                          '${post.comments.length} bình luận',
+                          style: const TextStyle(color: AppColors.textSecondary, fontSize: 11),
+                        ),
+                      ],
+                    ),
+                    const SizedBox(height: 8),
+                    const Divider(color: AppColors.border, height: 1),
+                    const SizedBox(height: 4),
+                    // Action Buttons: Like, Comment
+                    Row(
+                      children: [
+                        Expanded(
+                          child: Material(
+                            color: Colors.transparent,
+                            child: InkWell(
+                              onTap: () => _toggleLikePost(post),
+                              borderRadius: BorderRadius.circular(8),
+                              child: Padding(
+                                padding: const EdgeInsets.symmetric(vertical: 8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(
+                                      likedByMe ? Icons.thumb_up_rounded : Icons.thumb_up_outlined,
+                                      color: likedByMe ? Colors.blue : AppColors.textSecondary,
+                                      size: 16,
+                                    ),
+                                    const SizedBox(width: 6),
+                                    Text(
+                                      'Thích',
+                                      style: TextStyle(
+                                        color: likedByMe ? Colors.blue : AppColors.textSecondary,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                        Expanded(
+                          child: Material(
+                            color: Colors.transparent,
+                            child: InkWell(
+                              onTap: () => Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (_) => PostDetailScreen(postId: post.id!),
+                                ),
+                              ).then((_) => _loadData()),
+                              borderRadius: BorderRadius.circular(8),
+                              child: const Padding(
+                                padding: const EdgeInsets.symmetric(vertical: 8.0),
+                                child: Row(
+                                  mainAxisAlignment: MainAxisAlignment.center,
+                                  children: [
+                                    Icon(Icons.comment_outlined, color: AppColors.textSecondary, size: 16),
+                                    const SizedBox(width: 6),
+                                    Text(
+                                      'Bình luận',
+                                      style: TextStyle(
+                                        color: AppColors.textSecondary,
+                                        fontWeight: FontWeight.bold,
+                                        fontSize: 12,
+                                      ),
+                                    ),
+                                  ],
+                                ),
+                              ),
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
-              const SizedBox(width: 10),
-              Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
-                Text(post.adminName,
-                    style: const TextStyle(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w600,
-                        fontSize: 13)),
-                Text(DateFormat('dd/MM/yyyy HH:mm').format(post.createdAt),
-                    style: TextStyle(
-                        color: AppColors.textSecondary, fontSize: 11)),
-              ]),
-            ]),
-            const SizedBox(height: 12),
-            Text(post.title,
-                style: GoogleFonts.outfit(
-                    color: Colors.white,
-                    fontWeight: FontWeight.w700,
-                    fontSize: 15)),
-            const SizedBox(height: 6),
-            Text(post.content,
-                style: TextStyle(
-                    color: AppColors.textSecondary, fontSize: 13, height: 1.5),
-                maxLines: 3,
-                overflow: TextOverflow.ellipsis),
-          ]),
+            ],
+          ),
         ),
-      ]),
+      ),
     );
   }
 

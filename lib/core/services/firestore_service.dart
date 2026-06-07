@@ -292,8 +292,7 @@ class FirestoreService {
     String userId, {
     UserModel? user,
   }) async {
-    final snap =
-        await _db.collection('challenges').where('date', isEqualTo: date).get();
+    final snap = await _db.collection('challenges').get();
 
     final targetUser = user ?? await getUserById(userId);
     if (targetUser == null) return [];
@@ -305,6 +304,14 @@ class FirestoreService {
       data['id'] = doc.id;
 
       final challenge = ChallengeModel.fromMap(data);
+      // Check if target date is between startDate and endDate (lexicographical comparison YYYY-MM-DD)
+      final targetDate = date;
+      final isWithinRange = targetDate.compareTo(challenge.startDate) >= 0 &&
+                            targetDate.compareTo(challenge.endDate) <= 0;
+      if (!isWithinRange) {
+        continue;
+      }
+
       if (!challenge.appliesToUser(targetUser)) {
         continue;
       }
@@ -358,6 +365,12 @@ class FirestoreService {
     await _db.collection('challenges').doc(id).delete();
   }
 
+  Future<void> updateChallenge(ChallengeModel challenge) async {
+    if (challenge.id != null) {
+      await _db.collection('challenges').doc(challenge.id).update(challenge.toMap());
+    }
+  }
+
   // ── Posts ─────────────────────────────────────────────────────────────
 
   Future<void> insertPost(PostModel post) async {
@@ -380,9 +393,46 @@ class FirestoreService {
     await _db.collection('posts').doc(id).delete();
   }
 
+  Future<void> updatePost(PostModel post) async {
+    if (post.id != null) {
+      await _db.collection('posts').doc(post.id).update(post.toMap());
+    }
+  }
+
   Future<void> viewPost(String postId, String userId) async {
     await _db.collection('posts').doc(postId).update({
       'viewedUserIds': FieldValue.arrayUnion([userId])
+    });
+  }
+
+  Future<void> toggleLikePost(String postId, String userId) async {
+    final postDoc = _db.collection('posts').doc(postId);
+    await _db.runTransaction((transaction) async {
+      final snapshot = await transaction.get(postDoc);
+      if (!snapshot.exists) return;
+      final data = snapshot.data()!;
+      final likes = List<String>.from(data['likes'] ?? []);
+      if (likes.contains(userId)) {
+        likes.remove(userId);
+      } else {
+        likes.add(userId);
+      }
+      transaction.update(postDoc, {'likes': likes});
+    });
+  }
+
+  Future<void> addCommentToPost(String postId, CommentModel comment) async {
+    final postDoc = _db.collection('posts').doc(postId);
+    await postDoc.update({
+      'comments': FieldValue.arrayUnion([comment.toMap()])
+    });
+  }
+
+  Stream<PostModel> getPostStream(String postId) {
+    return _db.collection('posts').doc(postId).snapshots().map((doc) {
+      final data = doc.data() ?? {};
+      data['id'] = doc.id;
+      return PostModel.fromMap(data);
     });
   }
 

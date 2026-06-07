@@ -8,7 +8,8 @@ import '../../core/services/auth_service.dart';
 import '../../core/services/firestore_service.dart';
 
 class AdminChallengeScreen extends StatefulWidget {
-  const AdminChallengeScreen({super.key});
+  final ChallengeModel? challenge;
+  const AdminChallengeScreen({super.key, this.challenge});
 
   @override
   State<AdminChallengeScreen> createState() => _AdminChallengeScreenState();
@@ -20,7 +21,8 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
   final _descCtrl = TextEditingController();
   final _pointsCtrl = TextEditingController(text: '50');
 
-  DateTime _selectedDate = DateTime.now();
+  DateTime _startDate = DateTime.now();
+  DateTime _endDate = DateTime.now();
   String _category = 'fitness';
   bool _loading = false;
 
@@ -28,6 +30,31 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
   final List<String> _targetRanks = [];
   final List<String> _targetGenders = [];
   final List<String> _targetBmiLevels = [];
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.challenge != null) {
+      _titleCtrl.text = widget.challenge!.title;
+      _descCtrl.text = widget.challenge!.description;
+      _pointsCtrl.text = widget.challenge!.points.toString();
+      _category = widget.challenge!.category;
+      try {
+        _startDate = DateFormat('yyyy-MM-dd').parse(widget.challenge!.startDate);
+      } catch (e) {
+        _startDate = DateTime.now();
+      }
+      try {
+        _endDate = DateFormat('yyyy-MM-dd').parse(widget.challenge!.endDate);
+      } catch (e) {
+        _endDate = DateTime.now();
+      }
+      _targetCountries.addAll(widget.challenge!.targetCountries);
+      _targetRanks.addAll(widget.challenge!.targetRanks);
+      _targetGenders.addAll(widget.challenge!.targetGenders);
+      _targetBmiLevels.addAll(widget.challenge!.targetBmiLevels);
+    }
+  }
 
   static const List<String> _countries = [
     'Việt Nam',
@@ -73,11 +100,11 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
     super.dispose();
   }
 
-  Future<void> _pickDate() async {
+  Future<void> _pickDate({required bool isStart}) async {
     final picked = await showDatePicker(
       context: context,
-      initialDate: _selectedDate,
-      firstDate: DateTime.now().subtract(const Duration(days: 1)),
+      initialDate: isStart ? _startDate : _endDate,
+      firstDate: DateTime.now().subtract(const Duration(days: 365)),
       lastDate: DateTime.now().add(const Duration(days: 365)),
       builder: (context, child) => Theme(
         data: ThemeData.dark().copyWith(
@@ -91,7 +118,19 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
     );
 
     if (picked != null) {
-      setState(() => _selectedDate = picked);
+      setState(() {
+        if (isStart) {
+          _startDate = picked;
+          if (_startDate.isAfter(_endDate)) {
+            _endDate = _startDate;
+          }
+        } else {
+          _endDate = picked;
+          if (_endDate.isBefore(_startDate)) {
+            _startDate = _endDate;
+          }
+        }
+      });
     }
   }
 
@@ -113,29 +152,36 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
 
     setState(() => _loading = true);
 
+    final isEditing = widget.challenge != null;
     try {
       final challenge = ChallengeModel(
+        id: widget.challenge?.id,
         title: _titleCtrl.text.trim(),
         description: _descCtrl.text.trim(),
         points: int.parse(_pointsCtrl.text.trim()),
         category: _category,
-        date: DateFormat('yyyy-MM-dd').format(_selectedDate),
+        startDate: DateFormat('yyyy-MM-dd').format(_startDate),
+        endDate: DateFormat('yyyy-MM-dd').format(_endDate),
         targetCountries: List<String>.from(_targetCountries),
         targetRanks: List<String>.from(_targetRanks),
         targetGenders: List<String>.from(_targetGenders),
         targetBmiLevels: List<String>.from(_targetBmiLevels),
-        adminId: admin.id,
-        adminName: admin.username,
-        createdAt: DateTime.now(),
+        adminId: widget.challenge?.adminId ?? admin.id,
+        adminName: widget.challenge?.adminName ?? admin.username,
+        createdAt: widget.challenge?.createdAt ?? DateTime.now(),
       );
 
-      await FirestoreService.instance.insertChallenge(challenge);
+      if (isEditing) {
+        await FirestoreService.instance.updateChallenge(challenge);
+      } else {
+        await FirestoreService.instance.insertChallenge(challenge);
+      }
 
       if (!mounted) return;
       Navigator.pop(context, true);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: const Text('✅ Đã tạo thử thách thành công'),
+          content: Text(isEditing ? '✅ Đã cập nhật thử thách thành công' : '✅ Đã tạo thử thách thành công'),
           backgroundColor: AppColors.success,
           behavior: SnackBarBehavior.floating,
           shape:
@@ -146,7 +192,7 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
       if (!mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('Không thể tạo thử thách: $e'),
+          content: Text(isEditing ? 'Không thể cập nhật thử thách: $e' : 'Không thể tạo thử thách: $e'),
           backgroundColor: AppColors.error,
           behavior: SnackBarBehavior.floating,
         ),
@@ -160,12 +206,13 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final isEditing = widget.challenge != null;
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
         backgroundColor: AppColors.surface,
         title: Text(
-          'Tạo thử thách',
+          isEditing ? 'Chỉnh sửa thử thách' : 'Tạo thử thách',
           style: GoogleFonts.outfit(
             color: Colors.white,
             fontWeight: FontWeight.w700,
@@ -179,7 +226,7 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
           TextButton(
             onPressed: _loading ? null : _publishChallenge,
             child: Text(
-              'Lưu',
+              isEditing ? 'Cập nhật' : 'Lưu',
               style: TextStyle(
                 color: _loading ? AppColors.textSecondary : AppColors.primary,
                 fontWeight: FontWeight.w700,
@@ -282,7 +329,9 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
                         )
                       : const Icon(Icons.emoji_events_rounded,
                           color: Colors.white),
-                  label: Text(_loading ? 'Đang lưu...' : 'Tạo thử thách'),
+                  label: Text(_loading
+                      ? 'Đang lưu...'
+                      : (isEditing ? 'Cập nhật thử thách' : 'Tạo thử thách')),
                 ),
               ),
             ],
@@ -408,41 +457,82 @@ class _AdminChallengeScreenState extends State<AdminChallengeScreen> {
   }
 
   Widget _buildDatePicker() {
-    return InkWell(
-      onTap: _pickDate,
-      borderRadius: BorderRadius.circular(12),
-      child: Container(
-        padding: const EdgeInsets.all(14),
-        decoration: BoxDecoration(
-          color: AppColors.surface,
-          borderRadius: BorderRadius.circular(12),
-          border: Border.all(color: AppColors.border),
-        ),
-        child: Row(
-          children: [
-            const Icon(Icons.calendar_today_rounded,
-                color: AppColors.primary, size: 18),
-            const SizedBox(width: 10),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
+    return Row(
+      children: [
+        Expanded(
+          child: InkWell(
+            onTap: () => _pickDate(isStart: true),
+            borderRadius: BorderRadius.circular(12),
+            child: Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: AppColors.surface,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: AppColors.border),
+              ),
+              child: Row(
                 children: [
-                  const Text('Ngày áp dụng',
-                      style: TextStyle(
-                          color: AppColors.textSecondary, fontSize: 12)),
-                  Text(
-                    DateFormat('dd/MM/yyyy').format(_selectedDate),
-                    style: const TextStyle(
-                        color: Colors.white, fontWeight: FontWeight.w600),
+                  const Icon(Icons.calendar_today_rounded,
+                      color: AppColors.primary, size: 18),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text('Từ ngày',
+                            style: TextStyle(
+                                color: AppColors.textSecondary, fontSize: 12)),
+                        Text(
+                          DateFormat('dd/MM/yyyy').format(_startDate),
+                          style: const TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.w600),
+                        ),
+                      ],
+                    ),
                   ),
                 ],
               ),
             ),
-            const Icon(Icons.edit_rounded,
-                color: AppColors.textSecondary, size: 18),
-          ],
+          ),
         ),
-      ),
+        const SizedBox(width: 12),
+        Expanded(
+          child: InkWell(
+            onTap: () => _pickDate(isStart: false),
+            borderRadius: BorderRadius.circular(12),
+            child: Container(
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: AppColors.surface,
+                borderRadius: BorderRadius.circular(12),
+                border: Border.all(color: AppColors.border),
+              ),
+              child: Row(
+                children: [
+                  const Icon(Icons.calendar_today_rounded,
+                      color: AppColors.primary, size: 18),
+                  const SizedBox(width: 10),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        const Text('Đến ngày',
+                            style: TextStyle(
+                                color: AppColors.textSecondary, fontSize: 12)),
+                        Text(
+                          DateFormat('dd/MM/yyyy').format(_endDate),
+                          style: const TextStyle(
+                              color: Colors.white, fontWeight: FontWeight.w600),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ),
+        ),
+      ],
     );
   }
 

@@ -7,7 +7,8 @@ class ChallengeModel {
   final String description;
   final int points;
   final String category; // fitness, nutrition, mindset, productivity
-  final String date; // YYYY-MM-DD
+  final String startDate; // YYYY-MM-DD
+  final String endDate; // YYYY-MM-DD
   final bool isCompleted;
   final String? userId;
   final List<String> targetCountries;
@@ -24,7 +25,8 @@ class ChallengeModel {
     required this.description,
     required this.points,
     required this.category,
-    required this.date,
+    required this.startDate,
+    required this.endDate,
     this.isCompleted = false,
     this.userId,
     this.targetCountries = const [],
@@ -37,13 +39,18 @@ class ChallengeModel {
   });
 
   factory ChallengeModel.fromMap(Map<String, dynamic> map) {
+    final dateVal = map['date'] as String?;
+    final sDate = map['startDate'] as String? ?? dateVal ?? '';
+    final eDate = map['endDate'] as String? ?? dateVal ?? '';
+
     return ChallengeModel(
       id: map['id'] as String?,
       title: map['title'] as String,
       description: map['description'] as String,
       points: map['points'] as int,
       category: map['category'] as String,
-      date: map['date'] as String,
+      startDate: sDate,
+      endDate: eDate,
       isCompleted: map['isCompleted'] == true || map['isCompleted'] == 1,
       userId: map['userId'] as String?,
       targetCountries: _stringList(map['targetCountries']),
@@ -63,7 +70,9 @@ class ChallengeModel {
       'description': description,
       'points': points,
       'category': category,
-      'date': date,
+      'startDate': startDate,
+      'endDate': endDate,
+      'date': startDate, // fallback for legacy queries
       'isCompleted': isCompleted,
       if (userId != null) 'userId': userId,
       'targetCountries': targetCountries,
@@ -124,6 +133,8 @@ class ChallengeModel {
     String? adminId,
     String? adminName,
     DateTime? createdAt,
+    String? startDate,
+    String? endDate,
   }) {
     return ChallengeModel(
       id: id,
@@ -131,7 +142,8 @@ class ChallengeModel {
       description: description,
       points: points,
       category: category,
-      date: date,
+      startDate: startDate ?? this.startDate,
+      endDate: endDate ?? this.endDate,
       isCompleted: isCompleted ?? this.isCompleted,
       userId: userId,
       targetCountries: targetCountries ?? this.targetCountries,

@@ -12,7 +12,8 @@ import '../../core/services/firestore_service.dart';
 import '../../core/models/post_model.dart';
 
 class AdminPostScreen extends StatefulWidget {
-  const AdminPostScreen({super.key});
+  final PostModel? post;
+  const AdminPostScreen({super.key, this.post});
 
   @override
   State<AdminPostScreen> createState() => _AdminPostScreenState();
@@ -31,6 +32,20 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
   final List<String> _targetRanks = [];
   final List<String> _targetGenders = [];
   final List<String> _targetBmiLevels = [];
+
+  @override
+  void initState() {
+    super.initState();
+    if (widget.post != null) {
+      _titleCtrl.text = widget.post!.title;
+      _contentCtrl.text = widget.post!.content;
+      _imgUrlCtrl.text = widget.post!.imageUrl ?? '';
+      _targetCountries.addAll(widget.post!.targetCountries);
+      _targetRanks.addAll(widget.post!.targetRanks);
+      _targetGenders.addAll(widget.post!.targetGenders);
+      _targetBmiLevels.addAll(widget.post!.targetBmiLevels);
+    }
+  }
 
   static const List<String> _countries = [
     'Việt Nam',
@@ -180,26 +195,33 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
       }
     }
 
+    final isEditing = widget.post != null;
     final post = PostModel(
-      adminId: admin.id!,
-      adminName: admin.username,
+      id: widget.post?.id,
+      adminId: widget.post?.adminId ?? admin.id!,
+      adminName: widget.post?.adminName ?? admin.username,
       title: _titleCtrl.text.trim(),
       content: _contentCtrl.text.trim(),
       imageUrl: imageUrl,
-      createdAt: DateTime.now(),
+      createdAt: widget.post?.createdAt ?? DateTime.now(),
       targetCountries: List<String>.from(_targetCountries),
       targetRanks: List<String>.from(_targetRanks),
       targetGenders: List<String>.from(_targetGenders),
       targetBmiLevels: List<String>.from(_targetBmiLevels),
+      viewedUserIds: widget.post?.viewedUserIds ?? const [],
     );
     
-    await FirestoreService.instance.insertPost(post);
+    if (isEditing) {
+      await FirestoreService.instance.updatePost(post);
+    } else {
+      await FirestoreService.instance.insertPost(post);
+    }
     if (mounted) {
       setState(() => _loading = false);
       Navigator.pop(context);
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: const Text('✅ Bài đăng đã được đăng thành công!'),
+          content: Text(isEditing ? '✅ Bài đăng đã được cập nhật thành công!' : '✅ Bài đăng đã được đăng thành công!'),
           backgroundColor: AppColors.success,
           behavior: SnackBarBehavior.floating,
           shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
@@ -210,11 +232,12 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
 
   @override
   Widget build(BuildContext context) {
+    final isEditing = widget.post != null;
     return Scaffold(
       backgroundColor: AppColors.background,
       appBar: AppBar(
         backgroundColor: AppColors.surface,
-        title: Text('Tạo bài đăng', style: GoogleFonts.outfit(color: Colors.white, fontWeight: FontWeight.w700)),
+        title: Text(isEditing ? 'Chỉnh sửa bài đăng' : 'Tạo bài đăng', style: GoogleFonts.outfit(color: Colors.white, fontWeight: FontWeight.w700)),
         leading: IconButton(
           icon: const Icon(Icons.close_rounded, color: Colors.white),
           onPressed: () => Navigator.pop(context),
@@ -222,7 +245,7 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
         actions: [
           TextButton(
             onPressed: _loading ? null : _publish,
-            child: Text('Đăng', style: TextStyle(color: AppColors.primary, fontWeight: FontWeight.w700, fontSize: 16)),
+            child: Text(isEditing ? 'Cập nhật' : 'Đăng', style: TextStyle(color: AppColors.primary, fontWeight: FontWeight.w700, fontSize: 16)),
           ),
         ],
       ),
@@ -302,7 +325,40 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
                   )
                 ],
               )
-            else
+            else ...[
+              if (_imgUrlCtrl.text.trim().isNotEmpty) ...[
+                Stack(
+                  children: [
+                    ClipRRect(
+                      borderRadius: BorderRadius.circular(12),
+                      child: Image.network(
+                        _imgUrlCtrl.text.trim(),
+                        width: double.infinity,
+                        height: 200,
+                        fit: BoxFit.cover,
+                        errorBuilder: (_, __, ___) => Container(
+                          height: 100,
+                          color: AppColors.surfaceVariant,
+                          child: const Center(
+                            child: Icon(Icons.broken_image_rounded, color: AppColors.textSecondary),
+                          ),
+                        ),
+                      ),
+                    ),
+                    Positioned(
+                      top: 8, right: 8,
+                      child: IconButton(
+                        icon: const Icon(Icons.close_rounded, color: Colors.white),
+                        style: IconButton.styleFrom(backgroundColor: Colors.black54),
+                        onPressed: () => setState(() {
+                          _imgUrlCtrl.clear();
+                        }),
+                      ),
+                    )
+                  ],
+                ),
+                const SizedBox(height: 12),
+              ],
               Row(children: [
                 Expanded(
                   child: OutlinedButton.icon(
@@ -317,8 +373,7 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
                   ),
                 ),
               ]),
-            const SizedBox(height: 12),
-            if (_selectedXFile == null) ...[
+              const SizedBox(height: 12),
               const Center(child: Text('Hoặc', style: TextStyle(color: AppColors.textMuted, fontSize: 12))),
               const SizedBox(height: 12),
               TextFormField(
@@ -331,6 +386,9 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
                   focusedBorder: InputBorder.none,
                   prefixIcon: Icon(Icons.link_rounded, color: AppColors.textSecondary),
                 ),
+                onChanged: (_) {
+                  setState(() {});
+                },
               ),
             ],
             
@@ -411,7 +469,7 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
                 child: ElevatedButton.icon(
                   onPressed: _publish,
                   icon: const Icon(Icons.send_rounded, color: Colors.white),
-                  label: const Text('Đăng bài viết'),
+                  label: Text(isEditing ? 'Cập nhật bài viết' : 'Đăng bài viết'),
                 ),
               ),
           ]),

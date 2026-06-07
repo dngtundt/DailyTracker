@@ -77,6 +77,99 @@ class _ChallengesScreenState extends State<ChallengesScreen> {
     }
   }
 
+  void _showChallengeDetails(ChallengeModel challenge) {
+    final style = _getCategoryStyle(challenge.category);
+    final color = style['color'] as Color;
+
+    showDialog(
+      context: context,
+      builder: (ctx) => AlertDialog(
+        backgroundColor: AppColors.surface,
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(20)),
+        title: Row(
+          children: [
+            Container(
+              padding: const EdgeInsets.all(8),
+              decoration: BoxDecoration(
+                color: color.withOpacity(0.15),
+                shape: BoxShape.circle,
+              ),
+              child: Icon(Icons.emoji_events_rounded, color: color, size: 24),
+            ),
+            const SizedBox(width: 12),
+            const Expanded(
+              child: Text(
+                'Chi tiết thử thách',
+                style: TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 18),
+              ),
+            ),
+          ],
+        ),
+        content: Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            Text(
+              challenge.title,
+              style: const TextStyle(color: Colors.white, fontWeight: FontWeight.bold, fontSize: 16),
+            ),
+            const SizedBox(height: 12),
+            Text(
+              challenge.description,
+              style: const TextStyle(color: Colors.white70, fontSize: 14, height: 1.5),
+            ),
+            const SizedBox(height: 20),
+            Row(
+              mainAxisAlignment: MainAxisAlignment.spaceBetween,
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 5),
+                  decoration: BoxDecoration(
+                    color: color.withOpacity(0.12),
+                    borderRadius: BorderRadius.circular(8),
+                  ),
+                  child: Text(
+                    style['label'] as String,
+                    style: TextStyle(color: color, fontWeight: FontWeight.bold, fontSize: 12),
+                  ),
+                ),
+                Text(
+                  'Phần thưởng: +${challenge.points}đ',
+                  style: const TextStyle(color: AppColors.warning, fontWeight: FontWeight.bold, fontSize: 13),
+                ),
+              ],
+            ),
+            const SizedBox(height: 8),
+            Text(
+              challenge.startDate == challenge.endDate
+                  ? 'Ngày áp dụng: ${challenge.startDate}'
+                  : 'Thời gian: từ ${challenge.startDate} đến ${challenge.endDate}',
+              style: const TextStyle(color: AppColors.textSecondary, fontSize: 11),
+            ),
+          ],
+        ),
+        actions: [
+          TextButton(
+            onPressed: () => Navigator.pop(ctx),
+            child: const Text('Đóng', style: TextStyle(color: AppColors.textSecondary)),
+          ),
+          if (!challenge.isCompleted)
+            ElevatedButton(
+              onPressed: () {
+                Navigator.pop(ctx);
+                _completeChallenge(challenge);
+              },
+              style: ElevatedButton.styleFrom(
+                backgroundColor: AppColors.primary,
+                shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(10)),
+              ),
+              child: const Text('Hoàn thành'),
+            ),
+        ],
+      ),
+    );
+  }
+
   Map<String, dynamic> _getCategoryStyle(String category) {
     switch (category) {
       case 'fitness':
@@ -215,7 +308,7 @@ class _ChallengesScreenState extends State<ChallengesScreen> {
     final color = style['color'] as Color;
 
     return GestureDetector(
-      onTap: () => _completeChallenge(challenge),
+      onTap: () => _showChallengeDetails(challenge),
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 300),
         margin: const EdgeInsets.only(bottom: 12),
@@ -234,22 +327,25 @@ class _ChallengesScreenState extends State<ChallengesScreen> {
         ),
         child: Row(children: [
           // Category icon
-          AnimatedContainer(
-            duration: const Duration(milliseconds: 300),
-            width: 48,
-            height: 48,
-            decoration: BoxDecoration(
-              color: challenge.isCompleted
-                  ? AppColors.success.withOpacity(0.15)
-                  : color.withOpacity(0.15),
-              borderRadius: BorderRadius.circular(14),
-            ),
-            child: Icon(
-              challenge.isCompleted
-                  ? Icons.check_circle_rounded
-                  : style['icon'] as IconData,
-              color: challenge.isCompleted ? AppColors.success : color,
-              size: 24,
+          GestureDetector(
+            onTap: () => _completeChallenge(challenge),
+            child: AnimatedContainer(
+              duration: const Duration(milliseconds: 300),
+              width: 48,
+              height: 48,
+              decoration: BoxDecoration(
+                color: challenge.isCompleted
+                    ? AppColors.success.withOpacity(0.15)
+                    : color.withOpacity(0.15),
+                borderRadius: BorderRadius.circular(14),
+              ),
+              child: Icon(
+                challenge.isCompleted
+                    ? Icons.check_circle_rounded
+                    : style['icon'] as IconData,
+                color: challenge.isCompleted ? AppColors.success : color,
+                size: 24,
+              ),
             ),
           ),
           const SizedBox(width: 14),
@@ -296,28 +392,34 @@ class _ChallengesScreenState extends State<ChallengesScreen> {
               ])),
           // Points badge
           const SizedBox(width: 8),
-          Column(mainAxisAlignment: MainAxisAlignment.center, children: [
-            Container(
-              padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
-              decoration: BoxDecoration(
-                gradient: challenge.isCompleted
-                    ? const LinearGradient(
-                        colors: [Color(0xFF10B981), Color(0xFF059669)])
-                    : AppColors.primaryGradient,
-                borderRadius: BorderRadius.circular(10),
-              ),
-              child: Column(children: [
-                Text('+${challenge.points}',
-                    style: GoogleFonts.outfit(
-                        color: Colors.white,
-                        fontWeight: FontWeight.w800,
-                        fontSize: 14)),
-                Text('điểm',
-                    style:
-                        const TextStyle(color: Colors.white70, fontSize: 10)),
-              ]),
+          GestureDetector(
+            onTap: () => _completeChallenge(challenge),
+            child: Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Container(
+                  padding: const EdgeInsets.symmetric(horizontal: 10, vertical: 6),
+                  decoration: BoxDecoration(
+                    gradient: challenge.isCompleted
+                        ? const LinearGradient(
+                            colors: [Color(0xFF10B981), Color(0xFF059669)])
+                        : AppColors.primaryGradient,
+                    borderRadius: BorderRadius.circular(10),
+                  ),
+                  child: Column(children: [
+                    Text('+${challenge.points}',
+                        style: GoogleFonts.outfit(
+                            color: Colors.white,
+                            fontWeight: FontWeight.w800,
+                            fontSize: 14)),
+                    Text('điểm',
+                        style:
+                            const TextStyle(color: Colors.white70, fontSize: 10)),
+                  ]),
+                ),
+              ],
             ),
-          ]),
+          ),
         ]),
       ),
     )

@@ -106,7 +106,8 @@ class _AdminDashboardState extends State<AdminDashboard> {
       final query = _searchQuery.toLowerCase().trim();
       return c.title.toLowerCase().contains(query) ||
           c.description.toLowerCase().contains(query) ||
-          c.date.toLowerCase().contains(query) ||
+          c.startDate.toLowerCase().contains(query) ||
+          c.endDate.toLowerCase().contains(query) ||
           c.category.toLowerCase().contains(query);
     }).toList();
 
@@ -730,9 +731,21 @@ class _AdminDashboardState extends State<AdminDashboard> {
                         ],
                       ),
                     ),
-                    IconButton(
-                      icon: const Icon(Icons.delete_outline_rounded, color: AppColors.error, size: 20),
-                      onPressed: () => _showDeleteDialog(post),
+                    Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          icon: const Icon(Icons.edit_outlined, color: AppColors.primary, size: 20),
+                          onPressed: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => AdminPostScreen(post: post)),
+                          ).then((_) => _loadData()),
+                        ),
+                        IconButton(
+                          icon: const Icon(Icons.delete_outline_rounded, color: AppColors.error, size: 20),
+                          onPressed: () => _showDeleteDialog(post),
+                        ),
+                      ],
                     ),
                   ],
                 ),
@@ -906,7 +919,9 @@ class _AdminDashboardState extends State<AdminDashboard> {
                             runSpacing: 4,
                             children: [
                               Text(
-                                'Áp dụng ngày: ${challenge.date}',
+                                challenge.startDate == challenge.endDate
+                                    ? 'Áp dụng ngày: ${challenge.startDate}'
+                                    : 'Áp dụng: từ ${challenge.startDate} đến ${challenge.endDate}',
                                 style: TextStyle(
                                   color: color.withOpacity(0.8),
                                   fontWeight: FontWeight.w600,
@@ -963,9 +978,21 @@ class _AdminDashboardState extends State<AdminDashboard> {
                         ],
                       ),
                     ),
-                    IconButton(
-                      icon: const Icon(Icons.delete_outline_rounded, color: AppColors.error, size: 20),
-                      onPressed: () => _showDeleteChallengeDialog(challenge),
+                    Row(
+                      mainAxisSize: MainAxisSize.min,
+                      children: [
+                        IconButton(
+                          icon: const Icon(Icons.edit_outlined, color: AppColors.primary, size: 20),
+                          onPressed: () => Navigator.push(
+                            context,
+                            MaterialPageRoute(builder: (_) => AdminChallengeScreen(challenge: challenge)),
+                          ).then((_) => _loadData()),
+                        ),
+                        IconButton(
+                          icon: const Icon(Icons.delete_outline_rounded, color: AppColors.error, size: 20),
+                          onPressed: () => _showDeleteChallengeDialog(challenge),
+                        ),
+                      ],
                     ),
                   ],
                 ),
