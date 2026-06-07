@@ -14,7 +14,7 @@ class DatabaseService {
   DatabaseService._internal();
 
   Database? _db;
-
+  
   Future<void> init() async {
     final dbPath = await getDatabasesPath();
     final path = join(dbPath, 'dailytracker_v5.db');

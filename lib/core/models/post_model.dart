@@ -64,13 +64,29 @@ class PostModel {
   }
 
   bool appliesToUser(UserModel user) {
-    final countryMatch = targetCountries.isEmpty ||
-        (user.country != null && targetCountries.contains(user.country));
-    final rankMatch = targetRanks.isEmpty || targetRanks.contains(user.rank);
-    final genderMatch = targetGenders.isEmpty ||
-        (user.gender != null && targetGenders.contains(user.gender));
-    final bmiMatch =
-        targetBmiLevels.isEmpty || targetBmiLevels.contains(user.bmiLevelKey);
+    bool countryMatch = targetCountries.isEmpty;
+    if (!countryMatch && user.country != null) {
+      final userCountry = user.country!.trim().toLowerCase();
+      countryMatch = targetCountries.any((t) => t.trim().toLowerCase() == userCountry);
+    }
+
+    bool rankMatch = targetRanks.isEmpty;
+    if (!rankMatch) {
+      final userRank = user.rank.trim().toLowerCase();
+      rankMatch = targetRanks.any((t) => t.trim().toLowerCase() == userRank);
+    }
+
+    bool genderMatch = targetGenders.isEmpty;
+    if (!genderMatch && user.gender != null) {
+      final userGender = user.gender!.trim().toLowerCase();
+      genderMatch = targetGenders.any((t) => t.trim().toLowerCase() == userGender);
+    }
+
+    bool bmiMatch = targetBmiLevels.isEmpty;
+    if (!bmiMatch) {
+      final userBmi = user.bmiLevelKey.trim().toLowerCase();
+      bmiMatch = targetBmiLevels.any((t) => t.trim().toLowerCase() == userBmi);
+    }
 
     return countryMatch && rankMatch && genderMatch && bmiMatch;
   }
