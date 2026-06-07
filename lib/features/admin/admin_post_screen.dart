@@ -1,4 +1,5 @@
 import 'dart:io';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
@@ -23,7 +24,7 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
   final _contentCtrl = TextEditingController();
   final _imgUrlCtrl = TextEditingController();
   bool _loading = false;
-  File? _selectedImage;
+  XFile? _selectedXFile;
   final _picker = ImagePicker();
 
   final List<String> _targetCountries = [];
@@ -70,7 +71,7 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
   Future<void> _pickImage() async {
     final picked = await _picker.pickImage(source: ImageSource.gallery);
     if (picked != null) {
-      setState(() => _selectedImage = File(picked.path));
+      setState(() => _selectedXFile = picked);
     }
   }
 
@@ -122,20 +123,36 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
 
     String? imageUrl = _imgUrlCtrl.text.trim().isEmpty ? null : _imgUrlCtrl.text.trim();
     
-    if (_selectedImage != null) {
+    if (_selectedXFile != null) {
       try {
         final ref = FirebaseStorage.instance
             .ref()
             .child('posts')
             .child('${DateTime.now().millisecondsSinceEpoch}.jpg');
-        await ref.putFile(_selectedImage!);
+        
+        if (kIsWeb) {
+          final bytes = await _selectedXFile!.readAsBytes();
+          await ref.putData(bytes);
+        } else {
+          await ref.putFile(File(_selectedXFile!.path));
+        }
         imageUrl = await ref.getDownloadURL();
       } catch (e) {
         // Fallback to catbox.moe if Firebase Storage is not enabled or fails
         try {
           final request = http.MultipartRequest('POST', Uri.parse('https://catbox.moe/user/api.php'));
           request.fields['reqtype'] = 'fileupload';
-          request.files.add(await http.MultipartFile.fromPath('fileToUpload', _selectedImage!.path));
+          
+          if (kIsWeb) {
+            final bytes = await _selectedXFile!.readAsBytes();
+            request.files.add(http.MultipartFile.fromBytes(
+              'fileToUpload',
+              bytes,
+              filename: _selectedXFile!.name,
+            ));
+          } else {
+            request.files.add(await http.MultipartFile.fromPath('fileToUpload', _selectedXFile!.path));
+          }
           
           final response = await request.send();
           if (response.statusCode == 200) {
@@ -266,19 +283,21 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
             const SizedBox(height: 16),
             Text('Hình ảnh đính kèm (Không bắt buộc)', style: TextStyle(color: AppColors.textSecondary, fontSize: 13, fontWeight: FontWeight.w500)),
             const SizedBox(height: 12),
-            if (_selectedImage != null)
+            if (_selectedXFile != null)
               Stack(
                 children: [
                   ClipRRect(
                     borderRadius: BorderRadius.circular(12),
-                    child: Image.file(_selectedImage!, width: double.infinity, height: 200, fit: BoxFit.cover),
+                    child: kIsWeb
+                        ? Image.network(_selectedXFile!.path, width: double.infinity, height: 200, fit: BoxFit.cover)
+                        : Image.file(File(_selectedXFile!.path), width: double.infinity, height: 200, fit: BoxFit.cover),
                   ),
                   Positioned(
                     top: 8, right: 8,
                     child: IconButton(
                       icon: const Icon(Icons.close_rounded, color: Colors.white),
                       style: IconButton.styleFrom(backgroundColor: Colors.black54),
-                      onPressed: () => setState(() => _selectedImage = null),
+                      onPressed: () => setState(() => _selectedXFile = null),
                     ),
                   )
                 ],
@@ -299,7 +318,7 @@ class _AdminPostScreenState extends State<AdminPostScreen> {
                 ),
               ]),
             const SizedBox(height: 12),
-            if (_selectedImage == null) ...[
+            if (_selectedXFile == null) ...[
               const Center(child: Text('Hoặc', style: TextStyle(color: AppColors.textMuted, fontSize: 12))),
               const SizedBox(height: 12),
               TextFormField(
